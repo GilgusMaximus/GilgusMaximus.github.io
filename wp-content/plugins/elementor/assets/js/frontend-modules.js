@@ -1,4 +1,4 @@
-/*! elementor - v2.5.9 - 18-03-2019 */
+/*! elementor - v2.5.5 - 11-03-2019 */
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -581,13 +581,7 @@ module.exports = elementorModules.ViewModule.extend({
 
 		if (this.isEdit && modelCID) {
 			var settings = elementorFrontend.config.elements.data[modelCID],
-			    attributes = settings.attributes;
-
-			var type = attributes.widgetType || attributes.elType;
-
-			if (attributes.isInner) {
-				type = 'inner-' + type;
-			}
+			    type = settings.attributes.widgetType || settings.attributes.elType;
 
 			var settingsKeys = elementorFrontend.config.elements.keys[type];
 
@@ -603,7 +597,7 @@ module.exports = elementorModules.ViewModule.extend({
 
 			jQuery.each(settings.getActiveControls(), function (controlKey) {
 				if (-1 !== settingsKeys.indexOf(controlKey)) {
-					elementSettings[controlKey] = attributes[controlKey];
+					elementSettings[controlKey] = settings.attributes[controlKey];
 				}
 			});
 		} else {
@@ -674,7 +668,7 @@ var Module = function Module() {
 		var instanceSettings = instanceParams[0];
 
 		if (instanceSettings) {
-			$.extend(true, settings, instanceSettings);
+			$.extend(settings, instanceSettings);
 		}
 	};
 

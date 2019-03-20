@@ -1,0 +1,17 @@
+.elementor-119 .elementor-element.elementor-element-68073d34 > .elementor-container {max-width: 1140px;}
+.elementor-119 .elementor-element.elementor-element-68073d34:not(.elementor-motion-effects-element-type-background), .elementor-119 .elementor-element.elementor-element-68073d34 > .elementor-motion-effects-container > .elementor-motion-effects-layer {background-color: #3b9ab0;}
+.elementor-119 .elementor-element.elementor-element-68073d34 > .elementor-background-overlay {background-image: url("http://127.0.0.1/wordpress/wp-content/uploads/2018/09/1-1.png");opacity: .5;transition: background .3s,border-radius .3s,opacity .3s;}
+.elementor-119 .elementor-element.elementor-element-68073d34 {transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;margin-top: 100px;margin-bottom: 100px;padding: 100px 100px 100px 100px;}
+.elementor-119 .elementor-element.elementor-element-2b88a472 > .elementor-element-populated, .elementor-119 .elementor-element.elementor-element-2b88a472 > .elementor-element-populated > .elementor-background-overlay {border-radius: 0px 0px 0px 0px;}
+.elementor-119 .elementor-element.elementor-element-359204ad {text-align: center;}
+.elementor-119 .elementor-element.elementor-element-359204ad.elementor-widget-heading .elementor-heading-title {color: #fff;}
+.elementor-119 .elementor-element.elementor-element-359204ad .elementor-heading-title {font-family: "Vidaloka",Sans-serif;font-size: 41px;font-style: italic;}
+.elementor-119 .elementor-element.elementor-element-312cacf a.elementor-button, .elementor-119 .elementor-element.elementor-element-312cacf .elementor-button {font-family: "Open Sans",Sans-serif;font-size: 17px;text-transform: uppercase;letter-spacing: 3.8px;background-color: #b2a188;border-radius: 50px 50px 50px 50px;}
+.elementor-119 .elementor-element.elementor-element-312cacf a.elementor-button:hover, .elementor-119 .elementor-element.elementor-element-312cacf .elementor-button:hover, .elementor-119 .elementor-element.elementor-element-312cacf a.elementor-button:focus, .elementor-119 .elementor-element.elementor-element-312cacf .elementor-button:focus {color: #b2a188;background-color: #fff;}
+.elementor-119 .elementor-element.elementor-element-312cacf > .elementor-widget-container {padding: 20px 0px 0px 0px;}
+@media (max-width:1024px) {.elementor-119 .elementor-element.elementor-element-68073d34 {padding: 80px 80px 80px 80px;}
+	.elementor-119 .elementor-element.elementor-element-359204ad .elementor-heading-title {line-height: 1.3em;}}
+@media (max-width:767px) {.elementor-119 .elementor-element.elementor-element-68073d34 {margin-top: 0px;margin-bottom: 0px;padding: 70px 50px 70px 50px;}
+	.elementor-119 .elementor-element.elementor-element-2b88a472 > .elementor-element-populated {margin: 0px 0px 0px 0px;padding: 0px 0px 0px 0px;}
+	.elementor-119 .elementor-element.elementor-element-359204ad .elementor-heading-title {font-size: 30px;}
+	.elementor-119 .elementor-element.elementor-element-312cacf a.elementor-button, .elementor-119 .elementor-element.elementor-element-312cacf .elementor-button {font-size: 13px;}}
