@@ -12,6 +12,8 @@
 .elementor-130 .elementor-element.elementor-element-fbea96b:not(.elementor-motion-effects-element-type-background), .elementor-130 .elementor-element.elementor-element-fbea96b > .elementor-motion-effects-container > .elementor-motion-effects-layer {background-color: #191919;}
 .elementor-130 .elementor-element.elementor-element-fbea96b {transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;margin-top: 0px;margin-bottom: 0px;padding: 0px 0px 71px 0px;}
 .elementor-130 .elementor-element.elementor-element-fbea96b > .elementor-background-overlay {transition: background .3s,border-radius .3s,opacity .3s;}
+.elementor-130 .elementor-element.elementor-element-adb2936 .elementor-image img {width: 72%;border-style: solid;border-width: 3px 3px 3px 3px;border-color: #9befef;}
+.elementor-130 .elementor-element.elementor-element-adb2936 > .elementor-widget-container {margin: 0px 0px 0px 0px;padding: 109px 0px 0px 0px;}
 .elementor-130 .elementor-element.elementor-element-4b73fbe .elementor-text-editor {text-align: center;}
 .elementor-130 .elementor-element.elementor-element-4b73fbe {color: #fff;font-size: 24px;}
 .elementor-130 .elementor-element.elementor-element-4b73fbe > .elementor-widget-container {padding: 77px 0px 0px 0px;}
@@ -53,10 +55,10 @@
 .elementor-130 .elementor-element.elementor-element-c4cc397 .elementor-divider {padding-top: 15px;padding-bottom: 15px;}
 .elementor-130 .elementor-element.elementor-element-c4cc397 > .elementor-widget-container {margin: -24px 0px -10px 0px;padding: 0px 0px 0px 0px;}
 .elementor-130 .elementor-element.elementor-element-5b8e0b3 {margin-top: -15px;margin-bottom: 0px;}
-.elementor-130 .elementor-element.elementor-element-7420754 {color: #fff;font-size: 20px;line-height: 1em;letter-spacing: .2px;}
-.elementor-130 .elementor-element.elementor-element-7420754 .elementor-text-editor {column-gap: 0px;}
 .elementor-130 .elementor-element.elementor-element-d0eacdc {color: #fff;font-size: 20px;line-height: 1em;letter-spacing: .2px;}
 .elementor-130 .elementor-element.elementor-element-d0eacdc .elementor-text-editor {column-gap: 0px;}
+.elementor-130 .elementor-element.elementor-element-7420754 {color: #fff;font-size: 20px;line-height: 1em;letter-spacing: .2px;}
+.elementor-130 .elementor-element.elementor-element-7420754 .elementor-text-editor {column-gap: 0px;}
 .elementor-130 .elementor-element.elementor-element-e2c8201 {color: #fff;font-size: 20px;line-height: 1.7em;letter-spacing: .2px;}
 .elementor-130 .elementor-element.elementor-element-e2c8201 .elementor-text-editor {column-gap: 0px;}
 .elementor-130 .elementor-element.elementor-element-e2c8201 > .elementor-widget-container {margin: 0px 0px -19px 0px;padding: 0px 0px 0px 0px;}
@@ -76,7 +78,7 @@
 .elementor-130 .elementor-element.elementor-element-5f8d {text-align: center;}
 .elementor-130 .elementor-element.elementor-element-5f8d.elementor-widget-heading .elementor-heading-title {color: #fff;}
 .elementor-130 .elementor-element.elementor-element-5f8d .elementor-heading-title {font-family: "Roboto",Sans-serif;font-size: 35px;font-weight: 900;text-transform: uppercase;letter-spacing: 2px;}
-.elementor-130 .elementor-element.elementor-element-5f8d > .elementor-widget-container {padding: 0px 0px 65px 0px;}
+.elementor-130 .elementor-element.elementor-element-5f8d > .elementor-widget-container {padding: 0px 0px 33px 0px;}
 .elementor-130 .elementor-element.elementor-element-5542 .elementor-image-carousel-wrapper .slick-slider .slick-prev:before, .elementor-130 .elementor-element.elementor-element-5542 .elementor-image-carousel-wrapper .slick-slider .slick-next:before {font-size: 20px;color: rgba(255,255,255,.32);}
 .elementor-130 .elementor-element.elementor-element-5542 .slick-list {margin-left: -0px;}
 .elementor-130 .elementor-element.elementor-element-5542 .slick-slide .slick-slide-inner {padding-left: 0px;}
