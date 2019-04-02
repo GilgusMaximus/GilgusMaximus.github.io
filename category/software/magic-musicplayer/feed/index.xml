@@ -12,7 +12,7 @@
 	<atom:link href="https://lucahohmann.com/category/software/magic-musicplayer/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lucahohmann.com</link>
 	<description>Software &#38; Game Developer </description>
-	<lastBuildDate>Tue, 02 Apr 2019 18:25:42 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 02 Apr 2019 18:43:33 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -74,7 +74,7 @@
 				<div class="elementor-widget-container">
 					<div class="elementor-text-editor elementor-clearfix">Today we are finally going over a project of mine. My in development music player &#8220;Magic MusicPlayer&#8221;. I’ll start with a short introduction of what it is and what I want to achieve with it. Then I jump right into the development. What works? What is planned? Where can you download it? In the end I’ll talk a bit about why I chose Java and JavaFX, as well as some problems with this decision.
 
-If you do not want to read the website, but rather a nicely formatted pdf, or have to go offline in a bit, you can download one<span style="color: #00ccff;"> <a style="color: #00ccff;"target="_blank"; href="https://lucahohmann.com/wp-content/uploads/2019/04/Blog_Post___Proframming__01.pdf">here</a></span>.</div>
+If you do not want to read the website, but rather a nicely formatted pdf, or have to go offline in a bit, you can download one <span style="color: ##bff2ff;"><a style="color: ##bff2ff;" href="https://lucahohmann.com/wp-content/uploads/2019/04/Blog_Post___Proframming__01.pdf" target="_blank" rel="noopener">here</a></span></div>
 				</div>
 				</div>
 						</div>
@@ -309,7 +309,7 @@ If you do not want to read the website, but rather a nicely formatted pdf, or ha
 					<div class="elementor-widget-wrap">
 				<div class="elementor-element elementor-element-e6ca9cb elementor-widget elementor-widget-text-editor" data-id="e6ca9cb" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p style="text-align: center;"><em>Figure 2.2 Roadmap of the project (Source: <span style="color: #bff2ff;"><a style="color: #bff2ff;" target="_blank"; href="https://lucahohmann.com/magic-musicplayer/">lucahohmann.com</a></span>)</em></p></div>
+					<div class="elementor-text-editor elementor-clearfix"><p style="text-align: center;"><em>Figure 2.2 Roadmap of the project (Source: <span style="color: ##bff2ff;"><a style="color: ##bff2ff;" href="http://lucahohmann.com/magic-musicplayer" target="_blank" rel="noopener">lucahohmann.com</a></span>)</div>
 				</div>
 				</div>
 						</div>
@@ -458,15 +458,15 @@ If you do not want to read the website, but rather a nicely formatted pdf, or ha
 					<div class="elementor-widget-wrap">
 				<div class="elementor-element elementor-element-aa9469f elementor-widget elementor-widget-text-editor" data-id="aa9469f" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix">Now everyone should have a good insight into my current solo project. If you want to take a look at the code or my coding style, you can do so on <span style="color: #bff2ff;"><a style="color: #bff2ff;" target="_blank"; href="https://github.com/gilgusmaximus/">Github</a></span>)
+					<div class="elementor-text-editor elementor-clearfix">Now everyone should have a good insight into my current solo project. If you want to take a look at the code or my coding style, you can do so on <span style="color: ##bff2ff;"><a style="color: ##bff2ff;" href="https://github.com/gilgusmaximus" target="_blank" rel="noopener">Github</a></span>
 
 . Please be aware, that I’m currently restructuring the music manager class, so it is not completely in line with my normal coding and commenting conventions.
 
 Something information regarding the blog. Comments are still not available, as I still have problem with the Staticman API. I’ll post an issue about this on their github site, when I find the time for it. So stay excited for them.
 
-Do not forget to check out my other projects on my website <span style="color: #bff2ff;"><a style="color: #bff2ff;" target="_blank"; href="https://lucahohmann.com/projects/">lucahohmann.com/projects</a></span>)
+Do not forget to check out my other projects on my website <span style="color: ##bff2ff;"><a style="color: ##bff2ff;" href="https:lucahohmann.com/projects" target="_blank" rel="noopener">lucahohmann.com/projects</a></span>
 
-and follow me on Twitter for constant updates, as well as my Substance Alchemist Material challenge, which is currently running. <span style="color: #bff2ff;"><a style="color: #bff2ff;" target="_blank"; href="https://twitter.com/lucahohmann">@lucahohmann</a></span>)
+and follow me on Twitter for constant updates, as well as my Substance Alchemist Material challenge, which is currently running. <span style="color: ##bff2ff;"><a style="color: ##bff2ff;" href="https://twitter.com/lucahohmann" target="_blank" rel="noopener">@lucahohmann</a></span>
 
 And yes, thanks for reading have a good day and See you next time
 Luca =)</div>
