@@ -12,7 +12,7 @@
 	<atom:link href="https://lucahohmann.com/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lucahohmann.com</link>
 	<description>Software &#38; Game Developer </description>
-	<lastBuildDate>Tue, 09 Apr 2019 18:45:49 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 14 Apr 2019 17:22:17 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
@@ -1282,6 +1282,51 @@
 				<div class="elementor-widget-container">
 					<div class="elementor-text-editor elementor-clearfix"><p>Here I just want to acknowledge the brilliant creators behind the source images of the seen materials<br />and give some more information about the blog. All images were taken from the pexels open stock<br />photo library.<br />Jeans stock by<br />https://www.pexels.com/@digitalbuggu<br />Clay stock by<br />https://www.pexels.com/@martinskrastins<br />Brick wall stock by<br />https://www.pexels.com/@fancycrave<br />I also want to remind you, the reader, to subscribe to my RSS feed (lucahohmann.com/feed)in or-<br />der to receive new blog posts. From now on I will try to release it every Tuesday evening at around 7pm.<br />Blog posts about art won’t be that frequent tho, simply because I’m more of a programmer than an<br />artist. But at given times, I will write about what I created, new software I’m using and other things.<br />One that will come up in a few weeks, will be about my art challenge. Currently I’m considering to<br />change my voxel challenge in Magica Voxel into a material challenge in Substance Alchemist. To stay<br />informed, and see the results follow me on twitter @lucahohmann<br />And yes, thanks for reading, and have a good day. See you next time<br />Luca =)</p></div>
 				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-facd534 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="facd534" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-9449b4e elementor-column elementor-col-100 elementor-top-column" data-id="9449b4e" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-ea17033 elementor-widget elementor-widget-html" data-id="ea17033" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<form method="POST" action="https://dev.staticman.net/v3/entry/github/GilgusMaximus/GilgusMaximus.github.io/master">
+  <input name="options[redirect]" type="hidden" value="https://my-site.com/">
+  <!-- e.g. "2016-01-02-this-is-a-post" -->
+  <input name="options[slug]" type="hidden" value="{{ page.slug }}">
+  <label><input name="fields[name]" type="text">Name</label>
+  <label><input name="fields[email]" type="email">E-mail</label>
+  <label><textarea name="fields[message]"></textarea>Message</label>
+  
+  <button type="submit">Go!</button>
+</form>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-8e2f112 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="8e2f112" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-88cee80 elementor-column elementor-col-100 elementor-top-column" data-id="88cee80" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-935b59f elementor-widget elementor-widget-html" data-id="935b59f" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<section class="constrain">
+    <h3>All Comments</h3>
+    {% include reviews.html %}
+    <div data-include="../_includes/include.html"></div>
+</section>		</div>
 				</div>
 						</div>
 			</div>
