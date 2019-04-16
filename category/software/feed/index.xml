@@ -12,12 +12,421 @@
 	<atom:link href="https://lucahohmann.com/category/software/feed/" rel="self" type="application/rss+xml" />
 	<link>https://lucahohmann.com</link>
 	<description>Software &#38; Game Developer </description>
-	<lastBuildDate>Tue, 09 Apr 2019 18:45:49 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 16 Apr 2019 17:12:50 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=4.9.10</generator>
 	<item>
+		<title>Magic Musicplayer &#8211; Development Update #0</title>
+		<link>https://lucahohmann.com/magic-musicplayer-development-update-0/</link>
+		<pubDate>Tue, 16 Apr 2019 17:04:23 +0000</pubDate>
+		<dc:creator><![CDATA[Luca]]></dc:creator>
+				<category><![CDATA[Software]]></category>
+
+		<guid isPermaLink="false">https://lucahohmann.com/?p=969</guid>
+		<description><![CDATA[Figure 0.1  MagicMusicplayer logo 1 Introduction Last week I was undecided on how I will continue with project update blog posts. But after one week of making argument for and against the combination of both projects in one post, I have decided that it is better to keep them separate. So here comes the first [&#8230;]]]></description>
+				<content:encoded><![CDATA[		<div data-elementor-type="post" data-elementor-id="969" class="elementor elementor-969" data-elementor-settings="[]">
+			<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+							<section class="elementor-element elementor-element-8ae449c elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="8ae449c" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-1f66a22 elementor-column elementor-col-100 elementor-top-column" data-id="1f66a22" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-b2ec996 elementor-widget elementor-widget-image" data-id="b2ec996" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="1024" height="576" src="https://lucahohmann.com/wp-content/uploads/2019/03/Magic-Musicplayer-Logo-1024x576.png" class="attachment-large size-large" alt="" srcset="https://lucahohmann.com/wp-content/uploads/2019/03/Magic-Musicplayer-Logo-1024x576.png 1024w, https://lucahohmann.com/wp-content/uploads/2019/03/Magic-Musicplayer-Logo-300x169.png 300w, https://lucahohmann.com/wp-content/uploads/2019/03/Magic-Musicplayer-Logo-768x432.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-37e096f elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="37e096f" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-822f40c elementor-column elementor-col-100 elementor-top-column" data-id="822f40c" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-cd2f8ba elementor-widget elementor-widget-text-editor" data-id="cd2f8ba" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p style="text-align: center;"><em>Figure 0.1  MagicMusicplayer logo<br /></em></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-8033ef5 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="8033ef5" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-e50ce78 elementor-column elementor-col-100 elementor-top-column" data-id="e50ce78" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-edbd77c elementor-widget elementor-widget-heading" data-id="edbd77c" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-large">1 Introduction</h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-ef1e7c1 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="ef1e7c1" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-9f76a95 elementor-column elementor-col-100 elementor-top-column" data-id="9f76a95" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-a85b16d elementor-widget elementor-widget-text-editor" data-id="a85b16d" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Last week I was undecided on how I will continue with project update blog posts. But after one week of making argument for and against the combination of both projects in one post, I have decided that it is better to keep them separate. So here comes the first development update for the Magic Musicplayer.</p><p>If you do not want to read the website, but rather a nicely formatted pdf, or have to go offline in a bit, you can download one <span style="color: ##bff2ff;"><a style="color: ##bff2ff;" href="https://lucahohmann.com/wp-content/uploads/2019/04/Blog_Post___Programming__03.pdf" target="_blank" rel="noopener" data-wplink-url-error="true"><span style="color: #00ccff;">here</span></a></span></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-f7f3455 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="f7f3455" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-69b8743 elementor-column elementor-col-100 elementor-top-column" data-id="69b8743" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-e2eb9af elementor-widget elementor-widget-text-editor" data-id="e2eb9af" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Over the course of the last two week, two very important features found their way into the project. On the one hand the song timeline, which displays the time stamp, the song is currently at, on the other hand, a scrollbar, allowing the user to scroll through the song lists and later album and artist lists, was added. </p><p>Because these two features are absolutely necessary, they should work without any flaws. But here comes in a problem, out of my reach. I’ll go over this and debate the future for the project, after I have shown and explained the two features. It is also the reason, why only were features were added. Before moving on, I want my current features to work properly and without bugs. But let’s get into the features first</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-cec770d elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="cec770d" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-f43bc61 elementor-column elementor-col-100 elementor-top-column" data-id="f43bc61" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-c40b7dc elementor-widget elementor-widget-heading" data-id="c40b7dc" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-large">2 The new features</h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-ac137fc elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="ac137fc" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-5415d35 elementor-column elementor-col-100 elementor-top-column" data-id="5415d35" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-41bba55 elementor-widget elementor-widget-heading" data-id="41bba55" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-medium"><span style="font-size: x-large;"><strong>2.1 Song timeline</strong></span></h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-502cac3 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="502cac3" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-7163480 elementor-column elementor-col-100 elementor-top-column" data-id="7163480" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-4349048 elementor-widget elementor-widget-text-editor" data-id="4349048" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>The song timeline represents one of the core features, every piece of software, which can replay a mediafile, should provide. It displays a relative time value of the media, in relation to the complete length of the media. So if the song is one minute long, at 0:30 seconds, the timeline marker should be at the center of the timeline. Additionally, the user should be able to move the marker around, in order to change the playback position of the media.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-d0af948 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="d0af948" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-568f2c6 elementor-column elementor-col-100 elementor-top-column" data-id="568f2c6" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-c7e2dd3 elementor-widget elementor-widget-image" data-id="c7e2dd3" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="629" height="450" src="https://lucahohmann.com/wp-content/uploads/2019/04/mm_puc1.png" class="attachment-large size-large" alt="" srcset="https://lucahohmann.com/wp-content/uploads/2019/04/mm_puc1.png 629w, https://lucahohmann.com/wp-content/uploads/2019/04/mm_puc1-300x215.png 300w, https://lucahohmann.com/wp-content/uploads/2019/04/mm_puc1-24x17.png 24w, https://lucahohmann.com/wp-content/uploads/2019/04/mm_puc1-36x26.png 36w, https://lucahohmann.com/wp-content/uploads/2019/04/mm_puc1-48x34.png 48w" sizes="(max-width: 629px) 100vw, 629px" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-8e62357 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="8e62357" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-4c780a8 elementor-column elementor-col-100 elementor-top-column" data-id="4c780a8" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-7e16f8a elementor-widget elementor-widget-text-editor" data-id="7e16f8a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p style="text-align: center;"><em>Figure 2.1  Timeline marker is displayed close to the center at minute 1:46, relative to the song length)<br /></em></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-37aa6f4 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="37aa6f4" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-29dfe48 elementor-column elementor-col-100 elementor-top-column" data-id="29dfe48" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-984cd68 elementor-widget elementor-widget-text-editor" data-id="984cd68" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>In order to implement such a feature, 4 things are needed. First, a fitting UI element, which can represent a timeline with a moving timeline marker. Secondly the possibility to get the current time value of the song as well as the complete length. Thirdly a function, which allows to jump to all time values within the song. The last thing needed, is a new thread, which concurrently checks the marker position and playback time of the song, determines whether the marker was moved and then updates the marker as well as the playback time accordingly.</p><p>As UI element, in my opinion a Slider is the best choice. It is simple, provides the possibility to change all values dynamically and already looks like a timeline. In order to get the current time value of the song, JavaFX provides a nice class construct called &#8220;Duration&#8221;. When you want to access or change values related to the song length or playback position, the Mediaplayer class returns requires you to use the Duration class. The advantage of the class is, that it provides functions which return the time values in seconds, milliseconds, hours and minutes, as well as static functions which return a Duration object with these value formats as parameters. Even tho, convert time values from one format into another, is not very hard, these functions offer very good code readability:</p><p style="text-align: center;">mediaPlayer.getCurrentTime().toSeconds();<br />mediaplayer.getMedia().getDuration().toSeconds()<br />mediaPlayer.seek(Duration.seconds(20));</p><p><br />The first function call returns the current time value of the song in seconds. As the function calls suggest, the second function return the length of the song. The last function should move the playback position of the song to second 20 (important for later: should). With these 3 functions everything, that has to be implemented into the external thread, is known. As I said before, the convenience of the Duration class allows to consistently choose a time format, which is suited for the purpose of the application. In this case, I went with seconds, because this format has a unique advantage when it comes to applying all of the values to the UI. So how do we actually use all of these values in the UI?</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-50206ae elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="50206ae" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-888f436 elementor-column elementor-col-100 elementor-top-column" data-id="888f436" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-a83fb48 elementor-widget elementor-widget-image" data-id="a83fb48" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="1024" height="272" src="https://lucahohmann.com/wp-content/uploads/2019/04/mm_puc3-1024x272.png" class="attachment-large size-large" alt="" srcset="https://lucahohmann.com/wp-content/uploads/2019/04/mm_puc3-1024x272.png 1024w, https://lucahohmann.com/wp-content/uploads/2019/04/mm_puc3-300x80.png 300w, https://lucahohmann.com/wp-content/uploads/2019/04/mm_puc3-768x204.png 768w, https://lucahohmann.com/wp-content/uploads/2019/04/mm_puc3-24x6.png 24w, https://lucahohmann.com/wp-content/uploads/2019/04/mm_puc3-36x10.png 36w, https://lucahohmann.com/wp-content/uploads/2019/04/mm_puc3-48x13.png 48w" sizes="(max-width: 1024px) 100vw, 1024px" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-ba15083 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="ba15083" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-64ad1b5 elementor-column elementor-col-100 elementor-top-column" data-id="64ad1b5" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-d50e05f elementor-widget elementor-widget-text-editor" data-id="d50e05f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p style="text-align: center;"><em>Figure 2.2  Example structure of a slider<br /></em></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-4ca1385 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="4ca1385" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-ee53adf elementor-column elementor-col-100 elementor-top-column" data-id="ee53adf" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-cdf2885 elementor-widget elementor-widget-text-editor" data-id="cdf2885" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>As seen in Figure 2.2, the slider’s max value determines how many ticks the slider has. It offers the possibility to allow the marker to be on values between the ticks, or only whole number values. For the musicplayer whole number value are enough, because usually milliseconds are not relevant to a user. To put the values from before into context, the song length goes into the slider’s max value and the current/seek time into the value variable of the slider, which places the marker.</p><p>The remaining part required to connect the mediaplayer with the slider is an external thread. Because JavaFX does not allow a while(true) loop on the main thread, we have to define a special JavaFX thread, called &#8220;Service&#8221;. It acts like a normal thread, but has some special naming conventions, which I do not want to dive into. But lets have a look on what the thread actually does:</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-4a379e8 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="4a379e8" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-7c327e9 elementor-column elementor-col-100 elementor-top-column" data-id="7c327e9" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-f97cbe1 elementor-widget elementor-widget-image" data-id="f97cbe1" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="1024" height="338" src="https://lucahohmann.com/wp-content/uploads/2019/04/Anmerkung-2019-04-16-190328-1024x338.png" class="attachment-large size-large" alt="" srcset="https://lucahohmann.com/wp-content/uploads/2019/04/Anmerkung-2019-04-16-190328-1024x338.png 1024w, https://lucahohmann.com/wp-content/uploads/2019/04/Anmerkung-2019-04-16-190328-300x99.png 300w, https://lucahohmann.com/wp-content/uploads/2019/04/Anmerkung-2019-04-16-190328-768x254.png 768w, https://lucahohmann.com/wp-content/uploads/2019/04/Anmerkung-2019-04-16-190328-24x8.png 24w, https://lucahohmann.com/wp-content/uploads/2019/04/Anmerkung-2019-04-16-190328-36x12.png 36w, https://lucahohmann.com/wp-content/uploads/2019/04/Anmerkung-2019-04-16-190328-48x16.png 48w, https://lucahohmann.com/wp-content/uploads/2019/04/Anmerkung-2019-04-16-190328.png 1271w" sizes="(max-width: 1024px) 100vw, 1024px" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-1750b79 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="1750b79" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-6fc024c elementor-column elementor-col-100 elementor-top-column" data-id="6fc024c" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-1220fb8 elementor-widget elementor-widget-text-editor" data-id="1220fb8" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p style="text-align: center;"><em>Figure 2.3  Pseudo code of the external thread<br /></em></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-b150c73 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="b150c73" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-6bfe9bc elementor-column elementor-col-100 elementor-top-column" data-id="6bfe9bc" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-5994863 elementor-widget elementor-widget-text-editor" data-id="5994863" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>In the pseudo code, only 2 unknown things. First being the mediaplayer status, which is pretty self-explanatory. The second new thing is the slider.gotDragged condition. This variable is set to true, when the user drags the marker of the timeline, and therefore changes the playback time of the song. The sleep call is only needed, because otherwise JavaFX still crashes, even tho it is a separate thread.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-1fb5535 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="1fb5535" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-0c3999c elementor-column elementor-col-100 elementor-top-column" data-id="0c3999c" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-3f25119 elementor-widget elementor-widget-heading" data-id="3f25119" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-medium"><span style="font-size: x-large;"><strong>2.2 Scrollbar</strong></span></h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-2e750d4 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="2e750d4" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-06df43e elementor-column elementor-col-100 elementor-top-column" data-id="06df43e" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-32b0465 elementor-widget elementor-widget-text-editor" data-id="32b0465" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Now that we have seen how the timeline works, the scrollbar (also seen in Figure 2.1), is very easy to explain. It is based on the same idea of a slider, which represents a value, that corresponds to a position in the list. But instead of the playback time, we now change a single index in the UI controller. This value represents the index of the song, which is the highest one, seen in the scrolling UI. According to this value, all song data below is filled. Only preventing out of bounds exceptions, when the slider is at the bottom, had to be implemented additionally. But this is very simple, as the UI is built in a way, that always 6 songs are visible. With this information, we reduce the max value of the slider by 6, and therefore it is not possible to scroll past the last song.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-5d44055 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="5d44055" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-716882b elementor-column elementor-col-100 elementor-top-column" data-id="716882b" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-8157f9a elementor-widget elementor-widget-heading" data-id="8157f9a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-large">3 Problems with this project</h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-ff3c867 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="ff3c867" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-74a8e4c elementor-column elementor-col-100 elementor-top-column" data-id="74a8e4c" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-5319421 elementor-widget elementor-widget-text-editor" data-id="5319421" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>As I have stated at the beginning, there is a major issue with the project, which lies out of my reach. The issue seems to be a bug in JavaFX 8, which is not fully compatible with mp3 files. Mp3 files work as they should, as long as one does not use the seek() function to jump around the audio file. When this function is called, 3 cases can occur. The first one is, that everything works as expected. The second case appears to occur dominantly: When the function is called, the mediaplayer jumps to the time stamp, which was passed via the parameter, but the actual playback time of the song is a few seconds behind. So the function getCurrentTime() returns the correct value, even tho it is completely obvious, that the actual playback is not correct. For example I can jump to the last second before the end of the media file, and the mediaplayer will player multiple seconds before it ends. And the currentTime value will exceed the maximal duration of the audio file, so that you can play 238 of 235 seconds from the song. The third case is even worse, but luckily only appears on a very few files. What happens here is, that while you try to jump withing the first half of the song, the song mediaplayer jumps back to second 0, and start playing from there, but still prints out the original value. And when you jump to a timestamp roughly over 50% of the song, then it jumps to some random point in the first half of the song.</p><p>With these two major bugs in place, the usability of such a musicplayer is questionable and the purpose of pushing the project further not very clear. On the other hand, the new features I would implement, are pretty much independent from these bugs. So overall this is not that an easy situation for me. One thing I will try before deciding on the future of the project is, that I will try to migrate to JavaFX 10 and see whether this might solve the problem.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-b682f57 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="b682f57" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-26bf4fd elementor-column elementor-col-100 elementor-top-column" data-id="26bf4fd" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-32bbaea elementor-widget elementor-widget-heading" data-id="32bbaea" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-large">4 Final words</h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-bc84e5b elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="bc84e5b" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-81a3d0d elementor-column elementor-col-100 elementor-top-column" data-id="81a3d0d" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-e1d1f63 elementor-widget elementor-widget-text-editor" data-id="e1d1f63" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix">So if you want to stay updated on this issue, follow me on Twitter: <span style="color: ##bff2ff;"><a style="color: ##bff2ff;" href="https://twitter.com/lucahohmann" target="_blank" rel="noopener"><span style="color: #ccffff;">@lucahohmann</span></a></span>. You still want to download the current version with both features? Here you can: <span style="color: #ccffff;"><a style="color: #ccffff;" href="https://github.com/GilgusMaximus/MagicMusicplayer/releases" target="_blank" rel="noopener">Github Releases</a></span>. Until I have decided on how to go on, I will shift my focus onto Treasure Cave and put all effort into this project, so that we can launch it in a reasonable time span.
+
+And yes, thanks for reading, have a good day and see you next time
+Luca =)</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+		]]></content:encoded>
+			</item>
+		<item>
 		<title>Treasure Cave &#8211; from Gamejam to Play Store</title>
 		<link>https://lucahohmann.com/treasure-cave-from-gamejam-to-play-store/</link>
 		<pubDate>Tue, 09 Apr 2019 17:06:18 +0000</pubDate>
@@ -825,7 +1234,7 @@
 					<div class="elementor-widget-wrap">
 				<div class="elementor-element elementor-element-aa9469f elementor-widget elementor-widget-text-editor" data-id="aa9469f" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p>Now everyone should have a good insight into my current solo project. If you want to take a look at the code or my coding style, you can do so on <span style="color: #ccffff;"><a style="color: #ccffff;" href="https://github.com/gilgusmaximus" target="_blank" rel="noopener">Github</a></span>. </p><p>Please be aware, that I’m currently restructuring the music manager class, so it is not completely in line with my normal coding and commenting conventions.</p><p>Something information regarding the blog. Comments are still not available, as I still have problem with the Staticman API. I’ll post an issue about this on their github site, when I find the time for it. So stay excited for them.</p><p>Do not forget to check out my other projects on my website <span style="color: ##bff2ff;"><a style="color: ##bff2ff;" href="https:lucahohmann.com/projects" target="_blank" rel="noopener"><span style="color: #ccffff;">lucahohmann.com/projects</span></a></span></p><p>and follow me on Twitter for constant updates, as well as my Substance Alchemist Material challenge, which is currently running. <span style="color: ##bff2ff;"><a style="color: ##bff2ff;" href="https://twitter.com/lucahohmann" target="_blank" rel="noopener"><span style="color: #ccffff;">@lucahohmann</span></a></span></p><p>And yes, thanks for reading have a good day and See you next time<br />Luca =)</p></div>
+					<div class="elementor-text-editor elementor-clearfix"><p>Now everyone should have a good insight into my current solo project. If you want to take a look at the code or my coding style, you can do so on <span style="color: #ccffff;"><a style="color: #ccffff;" href="https://github.com/gilgusmaximus" target="_blank" rel="noopener">Github</a></span>.</p><p>Please be aware, that I’m currently restructuring the music manager class, so it is not completely in line with my normal coding and commenting conventions.</p><p>Something information regarding the blog. Comments are still not available, as I still have problem with the Staticman API. I’ll post an issue about this on their github site, when I find the time for it. So stay excited for them.</p><p>Do not forget to check out my other projects on my website <span style="color: ##bff2ff;"><a style="color: ##bff2ff;" href="https://lucahohmann.com//projects" target="_blank" rel="noopener" data-wplink-url-error="true"><span style="color: #ccffff;">lucahohmann.com/projects</span></a></span></p><p>and follow me on Twitter for constant updates, as well as my Substance Alchemist Material challenge, which is currently running. <span style="color: ##bff2ff;"><a style="color: ##bff2ff;" href="https://twitter.com/lucahohmann" target="_blank" rel="noopener"><span style="color: #ccffff;">@lucahohmann</span></a></span></p><p>And yes, thanks for reading have a good day and See you next time<br />Luca =)</p></div>
 				</div>
 				</div>
 						</div>
