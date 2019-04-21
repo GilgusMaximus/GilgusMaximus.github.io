@@ -9,24 +9,24 @@
 
 <channel>
 	<title>Games &#8211; Luca Hohmann</title>
-	<atom:link href="https://lucahohmann.com/category/games/feed/" rel="self" type="application/rss+xml" />
-	<link>https://lucahohmann.com</link>
+	<atom:link href="/category/games/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
 	<description>Software &#38; Game Developer </description>
-	<lastBuildDate>Fri, 19 Apr 2019 20:59:57 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 21 Apr 2019 11:09:29 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=4.9.10</generator>
 	<item>
 		<title>Treasure Cave &#8211; from Gamejam to Play Store</title>
-		<link>https://lucahohmann.com/treasure-cave-from-gamejam-to-play-store/</link>
+		<link>/treasure-cave-from-gamejam-to-play-store/</link>
 		<pubDate>Tue, 09 Apr 2019 17:06:18 +0000</pubDate>
 		<dc:creator><![CDATA[Luca]]></dc:creator>
 				<category><![CDATA[Art]]></category>
 		<category><![CDATA[Games]]></category>
 		<category><![CDATA[Software]]></category>
 
-		<guid isPermaLink="false">https://lucahohmann.com/?p=952</guid>
+		<guid isPermaLink="false">/?p=952</guid>
 		<description><![CDATA[Figure 0.1  Treasure Cave Gamejam Logo 1 Introduction In toady’s blog, I want to talk about my second in development project: Treasure Cave As always, I will give a quick introduction into the project, then I will go a bit into the details about the gamejam, where my friends and I created this game, and [&#8230;]]]></description>
 				<content:encoded><![CDATA[		<div data-elementor-type="post" data-elementor-id="952" class="elementor elementor-952" data-elementor-settings="[]">
 			<div class="elementor-inner">
@@ -40,7 +40,7 @@
 				<div class="elementor-element elementor-element-ec76d20 elementor-widget elementor-widget-image" data-id="ec76d20" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-image">
-										<img width="834" height="234" src="https://lucahohmann.com/wp-content/uploads/2019/03/Banner.jpg" class="attachment-large size-large" alt="" srcset="https://lucahohmann.com/wp-content/uploads/2019/03/Banner.jpg 834w, https://lucahohmann.com/wp-content/uploads/2019/03/Banner-300x84.jpg 300w, https://lucahohmann.com/wp-content/uploads/2019/03/Banner-768x215.jpg 768w" sizes="(max-width: 834px) 100vw, 834px" />											</div>
+										<img width="834" height="234" src="/wp-content/uploads/2019/03/Banner.jpg" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2019/03/Banner.jpg 834w, /wp-content/uploads/2019/03/Banner-300x84.jpg 300w, /wp-content/uploads/2019/03/Banner-768x215.jpg 768w" sizes="(max-width: 834px) 100vw, 834px" />											</div>
 				</div>
 				</div>
 						</div>
@@ -90,7 +90,7 @@
 					<div class="elementor-widget-wrap">
 				<div class="elementor-element elementor-element-9e5290f elementor-widget elementor-widget-text-editor" data-id="9e5290f" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p>In toady’s blog, I want to talk about my second in development project: Treasure Cave As always, I will give a quick introduction into the project, then I will go a bit into the details about the gamejam, where my friends and I created this game, and then I’ll move over to today’s state of development.</p><p>If you do not want to read the website, but rather a nicely formatted pdf, or have to go offline in a bit, you can download one <span style="color: ##bff2ff;"><a style="color: ##bff2ff;" href="https://lucahohmann.com/wp-content/uploads/2019/04/Blog_Post___Programming__02.pdf" target="_blank" rel="noopener" data-wplink-url-error="true"><span style="color: #00ccff;">here</span></a></span></p></div>
+					<div class="elementor-text-editor elementor-clearfix"><p>In toady’s blog, I want to talk about my second in development project: Treasure Cave As always, I will give a quick introduction into the project, then I will go a bit into the details about the gamejam, where my friends and I created this game, and then I’ll move over to today’s state of development.</p><p>If you do not want to read the website, but rather a nicely formatted pdf, or have to go offline in a bit, you can download one <span style="color: ##bff2ff;"><a style="color: ##bff2ff;" href="/wp-content/uploads/2019/04/Blog_Post___Programming__02.pdf" target="_blank" rel="noopener" data-wplink-url-error="true"><span style="color: #00ccff;">here</span></a></span></p></div>
 				</div>
 				</div>
 						</div>
@@ -223,7 +223,7 @@
 				<div class="elementor-element elementor-element-6ce4b6d elementor-widget elementor-widget-image" data-id="6ce4b6d" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-image">
-										<img width="1024" height="576" src="https://lucahohmann.com/wp-content/uploads/2019/04/blender-tube-1024x576.png" class="attachment-large size-large" alt="" srcset="https://lucahohmann.com/wp-content/uploads/2019/04/blender-tube-1024x576.png 1024w, https://lucahohmann.com/wp-content/uploads/2019/04/blender-tube-300x169.png 300w, https://lucahohmann.com/wp-content/uploads/2019/04/blender-tube-768x432.png 768w, https://lucahohmann.com/wp-content/uploads/2019/04/blender-tube-24x14.png 24w, https://lucahohmann.com/wp-content/uploads/2019/04/blender-tube-36x20.png 36w, https://lucahohmann.com/wp-content/uploads/2019/04/blender-tube-48x27.png 48w, https://lucahohmann.com/wp-content/uploads/2019/04/blender-tube.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />											</div>
+										<img width="1024" height="576" src="/wp-content/uploads/2019/04/blender-tube-1024x576.png" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2019/04/blender-tube-1024x576.png 1024w, /wp-content/uploads/2019/04/blender-tube-300x169.png 300w, /wp-content/uploads/2019/04/blender-tube-768x432.png 768w, /wp-content/uploads/2019/04/blender-tube-24x14.png 24w, /wp-content/uploads/2019/04/blender-tube-36x20.png 36w, /wp-content/uploads/2019/04/blender-tube-48x27.png 48w, /wp-content/uploads/2019/04/blender-tube.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />											</div>
 				</div>
 				</div>
 						</div>

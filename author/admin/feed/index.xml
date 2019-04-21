@@ -9,22 +9,22 @@
 
 <channel>
 	<title>Luca &#8211; Luca Hohmann</title>
-	<atom:link href="https://lucahohmann.com/author/admin/feed/" rel="self" type="application/rss+xml" />
-	<link>https://lucahohmann.com</link>
+	<atom:link href="/author/admin/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
 	<description>Software &#38; Game Developer </description>
-	<lastBuildDate>Fri, 19 Apr 2019 20:59:57 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 21 Apr 2019 11:09:29 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=4.9.10</generator>
 	<item>
 		<title>Magic Musicplayer &#8211; Development Update #0</title>
-		<link>https://lucahohmann.com/magic-musicplayer-development-update-0/</link>
+		<link>/magic-musicplayer-development-update-0/</link>
 		<pubDate>Tue, 16 Apr 2019 17:04:23 +0000</pubDate>
 		<dc:creator><![CDATA[Luca]]></dc:creator>
 				<category><![CDATA[Software]]></category>
 
-		<guid isPermaLink="false">https://lucahohmann.com/?p=969</guid>
+		<guid isPermaLink="false">/?p=969</guid>
 		<description><![CDATA[Figure 0.1  MagicMusicplayer logo 1 Introduction Last week I was undecided on how I will continue with project update blog posts. But after one week of making argument for and against the combination of both projects in one post, I have decided that it is better to keep them separate. So here comes the first [&#8230;]]]></description>
 				<content:encoded><![CDATA[		<div data-elementor-type="post" data-elementor-id="969" class="elementor elementor-969" data-elementor-settings="[]">
 			<div class="elementor-inner">
@@ -38,7 +38,7 @@
 				<div class="elementor-element elementor-element-b2ec996 elementor-widget elementor-widget-image" data-id="b2ec996" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-image">
-										<img width="1024" height="576" src="https://lucahohmann.com/wp-content/uploads/2019/03/Magic-Musicplayer-Logo-1024x576.png" class="attachment-large size-large" alt="" srcset="https://lucahohmann.com/wp-content/uploads/2019/03/Magic-Musicplayer-Logo-1024x576.png 1024w, https://lucahohmann.com/wp-content/uploads/2019/03/Magic-Musicplayer-Logo-300x169.png 300w, https://lucahohmann.com/wp-content/uploads/2019/03/Magic-Musicplayer-Logo-768x432.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" />											</div>
+										<img width="1024" height="576" src="/wp-content/uploads/2019/03/Magic-Musicplayer-Logo-1024x576.png" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2019/03/Magic-Musicplayer-Logo-1024x576.png 1024w, /wp-content/uploads/2019/03/Magic-Musicplayer-Logo-300x169.png 300w, /wp-content/uploads/2019/03/Magic-Musicplayer-Logo-768x432.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" />											</div>
 				</div>
 				</div>
 						</div>
@@ -88,7 +88,7 @@
 					<div class="elementor-widget-wrap">
 				<div class="elementor-element elementor-element-a85b16d elementor-widget elementor-widget-text-editor" data-id="a85b16d" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p>Last week I was undecided on how I will continue with project update blog posts. But after one week of making argument for and against the combination of both projects in one post, I have decided that it is better to keep them separate. So here comes the first development update for the Magic Musicplayer.</p><p>If you do not want to read the website, but rather a nicely formatted pdf, or have to go offline in a bit, you can download one <span style="color: ##bff2ff;"><a style="color: ##bff2ff;" href="https://lucahohmann.com/wp-content/uploads/2019/04/Blog_Post___Programming__03.pdf" target="_blank" rel="noopener" data-wplink-url-error="true"><span style="color: #00ccff;">here</span></a></span></p></div>
+					<div class="elementor-text-editor elementor-clearfix"><p>Last week I was undecided on how I will continue with project update blog posts. But after one week of making argument for and against the combination of both projects in one post, I have decided that it is better to keep them separate. So here comes the first development update for the Magic Musicplayer.</p><p>If you do not want to read the website, but rather a nicely formatted pdf, or have to go offline in a bit, you can download one <span style="color: ##bff2ff;"><a style="color: ##bff2ff;" href="/wp-content/uploads/2019/04/Blog_Post___Programming__03.pdf" target="_blank" rel="noopener" data-wplink-url-error="true"><span style="color: #00ccff;">here</span></a></span></p></div>
 				</div>
 				</div>
 						</div>
@@ -172,7 +172,7 @@
 				<div class="elementor-element elementor-element-c7e2dd3 elementor-widget elementor-widget-image" data-id="c7e2dd3" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-image">
-										<img width="629" height="450" src="https://lucahohmann.com/wp-content/uploads/2019/04/mm_puc1.png" class="attachment-large size-large" alt="" srcset="https://lucahohmann.com/wp-content/uploads/2019/04/mm_puc1.png 629w, https://lucahohmann.com/wp-content/uploads/2019/04/mm_puc1-300x215.png 300w, https://lucahohmann.com/wp-content/uploads/2019/04/mm_puc1-24x17.png 24w, https://lucahohmann.com/wp-content/uploads/2019/04/mm_puc1-36x26.png 36w, https://lucahohmann.com/wp-content/uploads/2019/04/mm_puc1-48x34.png 48w" sizes="(max-width: 629px) 100vw, 629px" />											</div>
+										<img width="629" height="450" src="/wp-content/uploads/2019/04/mm_puc1.png" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2019/04/mm_puc1.png 629w, /wp-content/uploads/2019/04/mm_puc1-300x215.png 300w, /wp-content/uploads/2019/04/mm_puc1-24x17.png 24w, /wp-content/uploads/2019/04/mm_puc1-36x26.png 36w, /wp-content/uploads/2019/04/mm_puc1-48x34.png 48w" sizes="(max-width: 629px) 100vw, 629px" />											</div>
 				</div>
 				</div>
 						</div>
@@ -224,7 +224,7 @@
 				<div class="elementor-element elementor-element-a83fb48 elementor-widget elementor-widget-image" data-id="a83fb48" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-image">
-										<img width="1024" height="272" src="https://lucahohmann.com/wp-content/uploads/2019/04/mm_puc3-1024x272.png" class="attachment-large size-large" alt="" srcset="https://lucahohmann.com/wp-content/uploads/2019/04/mm_puc3-1024x272.png 1024w, https://lucahohmann.com/wp-content/uploads/2019/04/mm_puc3-300x80.png 300w, https://lucahohmann.com/wp-content/uploads/2019/04/mm_puc3-768x204.png 768w, https://lucahohmann.com/wp-content/uploads/2019/04/mm_puc3-24x6.png 24w, https://lucahohmann.com/wp-content/uploads/2019/04/mm_puc3-36x10.png 36w, https://lucahohmann.com/wp-content/uploads/2019/04/mm_puc3-48x13.png 48w" sizes="(max-width: 1024px) 100vw, 1024px" />											</div>
+										<img width="1024" height="272" src="/wp-content/uploads/2019/04/mm_puc3-1024x272.png" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2019/04/mm_puc3-1024x272.png 1024w, /wp-content/uploads/2019/04/mm_puc3-300x80.png 300w, /wp-content/uploads/2019/04/mm_puc3-768x204.png 768w, /wp-content/uploads/2019/04/mm_puc3-24x6.png 24w, /wp-content/uploads/2019/04/mm_puc3-36x10.png 36w, /wp-content/uploads/2019/04/mm_puc3-48x13.png 48w" sizes="(max-width: 1024px) 100vw, 1024px" />											</div>
 				</div>
 				</div>
 						</div>
@@ -276,7 +276,7 @@
 				<div class="elementor-element elementor-element-f97cbe1 elementor-widget elementor-widget-image" data-id="f97cbe1" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-image">
-										<img width="1024" height="338" src="https://lucahohmann.com/wp-content/uploads/2019/04/Anmerkung-2019-04-16-190328-1024x338.png" class="attachment-large size-large" alt="" srcset="https://lucahohmann.com/wp-content/uploads/2019/04/Anmerkung-2019-04-16-190328-1024x338.png 1024w, https://lucahohmann.com/wp-content/uploads/2019/04/Anmerkung-2019-04-16-190328-300x99.png 300w, https://lucahohmann.com/wp-content/uploads/2019/04/Anmerkung-2019-04-16-190328-768x254.png 768w, https://lucahohmann.com/wp-content/uploads/2019/04/Anmerkung-2019-04-16-190328-24x8.png 24w, https://lucahohmann.com/wp-content/uploads/2019/04/Anmerkung-2019-04-16-190328-36x12.png 36w, https://lucahohmann.com/wp-content/uploads/2019/04/Anmerkung-2019-04-16-190328-48x16.png 48w, https://lucahohmann.com/wp-content/uploads/2019/04/Anmerkung-2019-04-16-190328.png 1271w" sizes="(max-width: 1024px) 100vw, 1024px" />											</div>
+										<img width="1024" height="338" src="/wp-content/uploads/2019/04/Anmerkung-2019-04-16-190328-1024x338.png" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2019/04/Anmerkung-2019-04-16-190328-1024x338.png 1024w, /wp-content/uploads/2019/04/Anmerkung-2019-04-16-190328-300x99.png 300w, /wp-content/uploads/2019/04/Anmerkung-2019-04-16-190328-768x254.png 768w, /wp-content/uploads/2019/04/Anmerkung-2019-04-16-190328-24x8.png 24w, /wp-content/uploads/2019/04/Anmerkung-2019-04-16-190328-36x12.png 36w, /wp-content/uploads/2019/04/Anmerkung-2019-04-16-190328-48x16.png 48w, /wp-content/uploads/2019/04/Anmerkung-2019-04-16-190328.png 1271w" sizes="(max-width: 1024px) 100vw, 1024px" />											</div>
 				</div>
 				</div>
 						</div>
@@ -428,14 +428,14 @@ Luca =)</div>
 			</item>
 		<item>
 		<title>Treasure Cave &#8211; from Gamejam to Play Store</title>
-		<link>https://lucahohmann.com/treasure-cave-from-gamejam-to-play-store/</link>
+		<link>/treasure-cave-from-gamejam-to-play-store/</link>
 		<pubDate>Tue, 09 Apr 2019 17:06:18 +0000</pubDate>
 		<dc:creator><![CDATA[Luca]]></dc:creator>
 				<category><![CDATA[Art]]></category>
 		<category><![CDATA[Games]]></category>
 		<category><![CDATA[Software]]></category>
 
-		<guid isPermaLink="false">https://lucahohmann.com/?p=952</guid>
+		<guid isPermaLink="false">/?p=952</guid>
 		<description><![CDATA[Figure 0.1  Treasure Cave Gamejam Logo 1 Introduction In toady’s blog, I want to talk about my second in development project: Treasure Cave As always, I will give a quick introduction into the project, then I will go a bit into the details about the gamejam, where my friends and I created this game, and [&#8230;]]]></description>
 				<content:encoded><![CDATA[		<div data-elementor-type="post" data-elementor-id="952" class="elementor elementor-952" data-elementor-settings="[]">
 			<div class="elementor-inner">
@@ -449,7 +449,7 @@ Luca =)</div>
 				<div class="elementor-element elementor-element-ec76d20 elementor-widget elementor-widget-image" data-id="ec76d20" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-image">
-										<img width="834" height="234" src="https://lucahohmann.com/wp-content/uploads/2019/03/Banner.jpg" class="attachment-large size-large" alt="" srcset="https://lucahohmann.com/wp-content/uploads/2019/03/Banner.jpg 834w, https://lucahohmann.com/wp-content/uploads/2019/03/Banner-300x84.jpg 300w, https://lucahohmann.com/wp-content/uploads/2019/03/Banner-768x215.jpg 768w" sizes="(max-width: 834px) 100vw, 834px" />											</div>
+										<img width="834" height="234" src="/wp-content/uploads/2019/03/Banner.jpg" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2019/03/Banner.jpg 834w, /wp-content/uploads/2019/03/Banner-300x84.jpg 300w, /wp-content/uploads/2019/03/Banner-768x215.jpg 768w" sizes="(max-width: 834px) 100vw, 834px" />											</div>
 				</div>
 				</div>
 						</div>
@@ -499,7 +499,7 @@ Luca =)</div>
 					<div class="elementor-widget-wrap">
 				<div class="elementor-element elementor-element-9e5290f elementor-widget elementor-widget-text-editor" data-id="9e5290f" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p>In toady’s blog, I want to talk about my second in development project: Treasure Cave As always, I will give a quick introduction into the project, then I will go a bit into the details about the gamejam, where my friends and I created this game, and then I’ll move over to today’s state of development.</p><p>If you do not want to read the website, but rather a nicely formatted pdf, or have to go offline in a bit, you can download one <span style="color: ##bff2ff;"><a style="color: ##bff2ff;" href="https://lucahohmann.com/wp-content/uploads/2019/04/Blog_Post___Programming__02.pdf" target="_blank" rel="noopener" data-wplink-url-error="true"><span style="color: #00ccff;">here</span></a></span></p></div>
+					<div class="elementor-text-editor elementor-clearfix"><p>In toady’s blog, I want to talk about my second in development project: Treasure Cave As always, I will give a quick introduction into the project, then I will go a bit into the details about the gamejam, where my friends and I created this game, and then I’ll move over to today’s state of development.</p><p>If you do not want to read the website, but rather a nicely formatted pdf, or have to go offline in a bit, you can download one <span style="color: ##bff2ff;"><a style="color: ##bff2ff;" href="/wp-content/uploads/2019/04/Blog_Post___Programming__02.pdf" target="_blank" rel="noopener" data-wplink-url-error="true"><span style="color: #00ccff;">here</span></a></span></p></div>
 				</div>
 				</div>
 						</div>
@@ -632,7 +632,7 @@ Luca =)</div>
 				<div class="elementor-element elementor-element-6ce4b6d elementor-widget elementor-widget-image" data-id="6ce4b6d" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-image">
-										<img width="1024" height="576" src="https://lucahohmann.com/wp-content/uploads/2019/04/blender-tube-1024x576.png" class="attachment-large size-large" alt="" srcset="https://lucahohmann.com/wp-content/uploads/2019/04/blender-tube-1024x576.png 1024w, https://lucahohmann.com/wp-content/uploads/2019/04/blender-tube-300x169.png 300w, https://lucahohmann.com/wp-content/uploads/2019/04/blender-tube-768x432.png 768w, https://lucahohmann.com/wp-content/uploads/2019/04/blender-tube-24x14.png 24w, https://lucahohmann.com/wp-content/uploads/2019/04/blender-tube-36x20.png 36w, https://lucahohmann.com/wp-content/uploads/2019/04/blender-tube-48x27.png 48w, https://lucahohmann.com/wp-content/uploads/2019/04/blender-tube.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />											</div>
+										<img width="1024" height="576" src="/wp-content/uploads/2019/04/blender-tube-1024x576.png" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2019/04/blender-tube-1024x576.png 1024w, /wp-content/uploads/2019/04/blender-tube-300x169.png 300w, /wp-content/uploads/2019/04/blender-tube-768x432.png 768w, /wp-content/uploads/2019/04/blender-tube-24x14.png 24w, /wp-content/uploads/2019/04/blender-tube-36x20.png 36w, /wp-content/uploads/2019/04/blender-tube-48x27.png 48w, /wp-content/uploads/2019/04/blender-tube.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />											</div>
 				</div>
 				</div>
 						</div>
@@ -797,13 +797,13 @@ Luca =)</div>
 			</item>
 		<item>
 		<title>Magic Musicplayer &#8211; JavaFX in 2019</title>
-		<link>https://lucahohmann.com/magic-musicplayer-javafx-in-2019/</link>
+		<link>/magic-musicplayer-javafx-in-2019/</link>
 		<pubDate>Tue, 02 Apr 2019 18:20:07 +0000</pubDate>
 		<dc:creator><![CDATA[Luca]]></dc:creator>
 				<category><![CDATA[Magic Musicplayer]]></category>
 		<category><![CDATA[Software]]></category>
 
-		<guid isPermaLink="false">https://lucahohmann.com/?p=923</guid>
+		<guid isPermaLink="false">/?p=923</guid>
 		<description><![CDATA[1 Introduction Today we are finally going over a project of mine. My in development music player &#8220;Magic MusicPlayer&#8221;. I’ll start with a short introduction of what it is and what I want to achieve with it. Then I jump right into the development. What works? What is planned? Where can you download it? In [&#8230;]]]></description>
 				<content:encoded><![CDATA[		<div data-elementor-type="post" data-elementor-id="923" class="elementor elementor-923" data-elementor-settings="[]">
 			<div class="elementor-inner">
@@ -817,7 +817,7 @@ Luca =)</div>
 				<div class="elementor-element elementor-element-816f734 elementor-widget elementor-widget-image" data-id="816f734" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-image">
-										<img width="1024" height="576" src="https://lucahohmann.com/wp-content/uploads/2019/03/Magic-Musicplayer-Logo-1024x576.png" class="attachment-large size-large" alt="" srcset="https://lucahohmann.com/wp-content/uploads/2019/03/Magic-Musicplayer-Logo-1024x576.png 1024w, https://lucahohmann.com/wp-content/uploads/2019/03/Magic-Musicplayer-Logo-300x169.png 300w, https://lucahohmann.com/wp-content/uploads/2019/03/Magic-Musicplayer-Logo-768x432.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" />											</div>
+										<img width="1024" height="576" src="/wp-content/uploads/2019/03/Magic-Musicplayer-Logo-1024x576.png" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2019/03/Magic-Musicplayer-Logo-1024x576.png 1024w, /wp-content/uploads/2019/03/Magic-Musicplayer-Logo-300x169.png 300w, /wp-content/uploads/2019/03/Magic-Musicplayer-Logo-768x432.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" />											</div>
 				</div>
 				</div>
 						</div>
@@ -850,7 +850,7 @@ Luca =)</div>
 					<div class="elementor-widget-wrap">
 				<div class="elementor-element elementor-element-980cb6c elementor-widget elementor-widget-text-editor" data-id="980cb6c" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p>Today we are finally going over a project of mine. My in development music player &#8220;Magic MusicPlayer&#8221;. I’ll start with a short introduction of what it is and what I want to achieve with it. Then I jump right into the development. What works? What is planned? Where can you download it? In the end I’ll talk a bit about why I chose Java and JavaFX, as well as some problems with this decision.</p><p>If you do not want to read the website, but rather a nicely formatted pdf, or have to go offline in a bit, you can download one <span style="color: ##bff2ff;"><a style="color: ##bff2ff;" href="https://lucahohmann.com/wp-content/uploads/2019/04/Blog_Post___Proframming__01.pdf" target="_blank" rel="noopener"><span style="color: #00ccff;">here</span></a></span></p></div>
+					<div class="elementor-text-editor elementor-clearfix"><p>Today we are finally going over a project of mine. My in development music player &#8220;Magic MusicPlayer&#8221;. I’ll start with a short introduction of what it is and what I want to achieve with it. Then I jump right into the development. What works? What is planned? Where can you download it? In the end I’ll talk a bit about why I chose Java and JavaFX, as well as some problems with this decision.</p><p>If you do not want to read the website, but rather a nicely formatted pdf, or have to go offline in a bit, you can download one <span style="color: ##bff2ff;"><a style="color: ##bff2ff;" href="/wp-content/uploads/2019/04/Blog_Post___Proframming__01.pdf" target="_blank" rel="noopener"><span style="color: #00ccff;">here</span></a></span></p></div>
 				</div>
 				</div>
 						</div>
@@ -983,7 +983,7 @@ Luca =)</div>
 				<div class="elementor-element elementor-element-8bb505f elementor-widget elementor-widget-image" data-id="8bb505f" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-image">
-										<img width="1024" height="503" src="https://lucahohmann.com/wp-content/uploads/2019/04/diagram-1024x503.jpg" class="attachment-large size-large" alt="" srcset="https://lucahohmann.com/wp-content/uploads/2019/04/diagram-1024x503.jpg 1024w, https://lucahohmann.com/wp-content/uploads/2019/04/diagram-300x147.jpg 300w, https://lucahohmann.com/wp-content/uploads/2019/04/diagram-768x378.jpg 768w, https://lucahohmann.com/wp-content/uploads/2019/04/diagram-24x12.jpg 24w, https://lucahohmann.com/wp-content/uploads/2019/04/diagram-36x18.jpg 36w, https://lucahohmann.com/wp-content/uploads/2019/04/diagram-48x24.jpg 48w" sizes="(max-width: 1024px) 100vw, 1024px" />											</div>
+										<img width="1024" height="503" src="/wp-content/uploads/2019/04/diagram-1024x503.jpg" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2019/04/diagram-1024x503.jpg 1024w, /wp-content/uploads/2019/04/diagram-300x147.jpg 300w, /wp-content/uploads/2019/04/diagram-768x378.jpg 768w, /wp-content/uploads/2019/04/diagram-24x12.jpg 24w, /wp-content/uploads/2019/04/diagram-36x18.jpg 36w, /wp-content/uploads/2019/04/diagram-48x24.jpg 48w" sizes="(max-width: 1024px) 100vw, 1024px" />											</div>
 				</div>
 				</div>
 						</div>
@@ -1068,7 +1068,7 @@ Luca =)</div>
 				<div class="elementor-element elementor-element-424c6c9 elementor-widget elementor-widget-image" data-id="424c6c9" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-image">
-										<img width="487" height="786" src="https://lucahohmann.com/wp-content/uploads/2019/04/Anmerkung-2019-03-31-182113.png" class="attachment-large size-large" alt="" srcset="https://lucahohmann.com/wp-content/uploads/2019/04/Anmerkung-2019-03-31-182113.png 487w, https://lucahohmann.com/wp-content/uploads/2019/04/Anmerkung-2019-03-31-182113-186x300.png 186w, https://lucahohmann.com/wp-content/uploads/2019/04/Anmerkung-2019-03-31-182113-15x24.png 15w, https://lucahohmann.com/wp-content/uploads/2019/04/Anmerkung-2019-03-31-182113-22x36.png 22w, https://lucahohmann.com/wp-content/uploads/2019/04/Anmerkung-2019-03-31-182113-30x48.png 30w" sizes="(max-width: 487px) 100vw, 487px" />											</div>
+										<img width="487" height="786" src="/wp-content/uploads/2019/04/Anmerkung-2019-03-31-182113.png" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2019/04/Anmerkung-2019-03-31-182113.png 487w, /wp-content/uploads/2019/04/Anmerkung-2019-03-31-182113-186x300.png 186w, /wp-content/uploads/2019/04/Anmerkung-2019-03-31-182113-15x24.png 15w, /wp-content/uploads/2019/04/Anmerkung-2019-03-31-182113-22x36.png 22w, /wp-content/uploads/2019/04/Anmerkung-2019-03-31-182113-30x48.png 30w" sizes="(max-width: 487px) 100vw, 487px" />											</div>
 				</div>
 				</div>
 						</div>
@@ -1234,7 +1234,7 @@ Luca =)</div>
 					<div class="elementor-widget-wrap">
 				<div class="elementor-element elementor-element-aa9469f elementor-widget elementor-widget-text-editor" data-id="aa9469f" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p>Now everyone should have a good insight into my current solo project. If you want to take a look at the code or my coding style, you can do so on <span style="color: #ccffff;"><a style="color: #ccffff;" href="https://github.com/gilgusmaximus" target="_blank" rel="noopener">Github</a></span>.</p><p>Please be aware, that I’m currently restructuring the music manager class, so it is not completely in line with my normal coding and commenting conventions.</p><p>Something information regarding the blog. Comments are still not available, as I still have problem with the Staticman API. I’ll post an issue about this on their github site, when I find the time for it. So stay excited for them.</p><p>Do not forget to check out my other projects on my website <span style="color: ##bff2ff;"><a style="color: ##bff2ff;" href="https://lucahohmann.com//projects" target="_blank" rel="noopener" data-wplink-url-error="true"><span style="color: #ccffff;">lucahohmann.com/projects</span></a></span></p><p>and follow me on Twitter for constant updates, as well as my Substance Alchemist Material challenge, which is currently running. <span style="color: ##bff2ff;"><a style="color: ##bff2ff;" href="https://twitter.com/lucahohmann" target="_blank" rel="noopener"><span style="color: #ccffff;">@lucahohmann</span></a></span></p><p>And yes, thanks for reading have a good day and See you next time<br />Luca =)</p></div>
+					<div class="elementor-text-editor elementor-clearfix"><p>Now everyone should have a good insight into my current solo project. If you want to take a look at the code or my coding style, you can do so on <span style="color: #ccffff;"><a style="color: #ccffff;" href="https://github.com/gilgusmaximus" target="_blank" rel="noopener">Github</a></span>.</p><p>Please be aware, that I’m currently restructuring the music manager class, so it is not completely in line with my normal coding and commenting conventions.</p><p>Something information regarding the blog. Comments are still not available, as I still have problem with the Staticman API. I’ll post an issue about this on their github site, when I find the time for it. So stay excited for them.</p><p>Do not forget to check out my other projects on my website <span style="color: ##bff2ff;"><a style="color: ##bff2ff;" href="//projects" target="_blank" rel="noopener" data-wplink-url-error="true"><span style="color: #ccffff;">lucahohmann.com/projects</span></a></span></p><p>and follow me on Twitter for constant updates, as well as my Substance Alchemist Material challenge, which is currently running. <span style="color: ##bff2ff;"><a style="color: ##bff2ff;" href="https://twitter.com/lucahohmann" target="_blank" rel="noopener"><span style="color: #ccffff;">@lucahohmann</span></a></span></p><p>And yes, thanks for reading have a good day and See you next time<br />Luca =)</p></div>
 				</div>
 				</div>
 						</div>
@@ -1250,13 +1250,13 @@ Luca =)</div>
 			</item>
 		<item>
 		<title>Substance Alchemist &#8211; A real game changer</title>
-		<link>https://lucahohmann.com/substance-alchemist-a-real-game-changer/</link>
+		<link>/substance-alchemist-a-real-game-changer/</link>
 		<pubDate>Tue, 26 Mar 2019 19:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[Luca]]></dc:creator>
 				<category><![CDATA[Art]]></category>
 		<category><![CDATA[Software]]></category>
 
-		<guid isPermaLink="false">https://lucahohmann.com/?p=886</guid>
+		<guid isPermaLink="false">/?p=886</guid>
 		<description><![CDATA[Figure 0.1 Jeans material in SA (l), rendered in UE4 (r) 1 Introduction Today, in my first blog post ever, I want to talk about Substance Alchemist. It is a new tool, and over the course of the last days I heard a lot about it, worked with it myself and thought about what it [&#8230;]]]></description>
 				<content:encoded><![CDATA[		<div data-elementor-type="post" data-elementor-id="886" class="elementor elementor-886" data-elementor-settings="[]">
 			<div class="elementor-inner">
@@ -1270,7 +1270,7 @@ Luca =)</div>
 				<div class="elementor-element elementor-element-4d05346 elementor-widget elementor-widget-image" data-id="4d05346" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-image">
-										<img width="1024" height="576" src="https://lucahohmann.com/wp-content/uploads/2019/03/jeans_pdf-1024x576.jpg" class="attachment-large size-large" alt="" srcset="https://lucahohmann.com/wp-content/uploads/2019/03/jeans_pdf-1024x576.jpg 1024w, https://lucahohmann.com/wp-content/uploads/2019/03/jeans_pdf-300x169.jpg 300w, https://lucahohmann.com/wp-content/uploads/2019/03/jeans_pdf-768x432.jpg 768w, https://lucahohmann.com/wp-content/uploads/2019/03/jeans_pdf-24x14.jpg 24w, https://lucahohmann.com/wp-content/uploads/2019/03/jeans_pdf-36x20.jpg 36w, https://lucahohmann.com/wp-content/uploads/2019/03/jeans_pdf-48x27.jpg 48w" sizes="(max-width: 1024px) 100vw, 1024px" />											</div>
+										<img width="1024" height="576" src="/wp-content/uploads/2019/03/jeans_pdf-1024x576.jpg" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2019/03/jeans_pdf-1024x576.jpg 1024w, /wp-content/uploads/2019/03/jeans_pdf-300x169.jpg 300w, /wp-content/uploads/2019/03/jeans_pdf-768x432.jpg 768w, /wp-content/uploads/2019/03/jeans_pdf-24x14.jpg 24w, /wp-content/uploads/2019/03/jeans_pdf-36x20.jpg 36w, /wp-content/uploads/2019/03/jeans_pdf-48x27.jpg 48w" sizes="(max-width: 1024px) 100vw, 1024px" />											</div>
 				</div>
 				</div>
 						</div>
@@ -1320,7 +1320,7 @@ Luca =)</div>
 					<div class="elementor-widget-wrap">
 				<div class="elementor-element elementor-element-161935b elementor-widget elementor-widget-text-editor" data-id="161935b" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p>Today, in my first blog post ever, I want to talk about Substance Alchemist. It is a new tool, and over the course of the last days I heard a lot about it, worked with it myself and thought about what it can provide to indie and student game developers.</p><p>If you do not want to read the website, but rather a nicely formatted pdf, or have to go offline in a bit, you can download one<span style="color: #00ccff;"> <a style="color: #00ccff;" href="https://lucahohmann.com/wp-content/uploads/2019/03/Art-01-Substance-Alchemist-A-Real-game-changer.pdf">here</a></span>.</p></div>
+					<div class="elementor-text-editor elementor-clearfix"><p>Today, in my first blog post ever, I want to talk about Substance Alchemist. It is a new tool, and over the course of the last days I heard a lot about it, worked with it myself and thought about what it can provide to indie and student game developers.</p><p>If you do not want to read the website, but rather a nicely formatted pdf, or have to go offline in a bit, you can download one<span style="color: #00ccff;"> <a style="color: #00ccff;" href="/wp-content/uploads/2019/03/Art-01-Substance-Alchemist-A-Real-game-changer.pdf">here</a></span>.</p></div>
 				</div>
 				</div>
 						</div>
@@ -1387,7 +1387,7 @@ Luca =)</div>
 				<div class="elementor-element elementor-element-23c9e6f elementor-widget elementor-widget-image" data-id="23c9e6f" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-image">
-										<img width="1024" height="576" src="https://lucahohmann.com/wp-content/uploads/2019/03/Alchemist-1024x576.jpg" class="attachment-large size-large" alt="" srcset="https://lucahohmann.com/wp-content/uploads/2019/03/Alchemist-1024x576.jpg 1024w, https://lucahohmann.com/wp-content/uploads/2019/03/Alchemist-300x169.jpg 300w, https://lucahohmann.com/wp-content/uploads/2019/03/Alchemist-768x432.jpg 768w, https://lucahohmann.com/wp-content/uploads/2019/03/Alchemist-24x14.jpg 24w, https://lucahohmann.com/wp-content/uploads/2019/03/Alchemist-36x20.jpg 36w, https://lucahohmann.com/wp-content/uploads/2019/03/Alchemist-48x27.jpg 48w" sizes="(max-width: 1024px) 100vw, 1024px" />											</div>
+										<img width="1024" height="576" src="/wp-content/uploads/2019/03/Alchemist-1024x576.jpg" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2019/03/Alchemist-1024x576.jpg 1024w, /wp-content/uploads/2019/03/Alchemist-300x169.jpg 300w, /wp-content/uploads/2019/03/Alchemist-768x432.jpg 768w, /wp-content/uploads/2019/03/Alchemist-24x14.jpg 24w, /wp-content/uploads/2019/03/Alchemist-36x20.jpg 36w, /wp-content/uploads/2019/03/Alchemist-48x27.jpg 48w" sizes="(max-width: 1024px) 100vw, 1024px" />											</div>
 				</div>
 				</div>
 						</div>
@@ -1488,7 +1488,7 @@ Luca =)</div>
 				<div class="elementor-element elementor-element-aef31c2 elementor-widget elementor-widget-image" data-id="aef31c2" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-image">
-										<img width="1024" height="576" src="https://lucahohmann.com/wp-content/uploads/2019/03/clay_pdf-1024x576.jpg" class="attachment-large size-large" alt="" srcset="https://lucahohmann.com/wp-content/uploads/2019/03/clay_pdf-1024x576.jpg 1024w, https://lucahohmann.com/wp-content/uploads/2019/03/clay_pdf-300x169.jpg 300w, https://lucahohmann.com/wp-content/uploads/2019/03/clay_pdf-768x432.jpg 768w, https://lucahohmann.com/wp-content/uploads/2019/03/clay_pdf-24x14.jpg 24w, https://lucahohmann.com/wp-content/uploads/2019/03/clay_pdf-36x20.jpg 36w, https://lucahohmann.com/wp-content/uploads/2019/03/clay_pdf-48x27.jpg 48w" sizes="(max-width: 1024px) 100vw, 1024px" />											</div>
+										<img width="1024" height="576" src="/wp-content/uploads/2019/03/clay_pdf-1024x576.jpg" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2019/03/clay_pdf-1024x576.jpg 1024w, /wp-content/uploads/2019/03/clay_pdf-300x169.jpg 300w, /wp-content/uploads/2019/03/clay_pdf-768x432.jpg 768w, /wp-content/uploads/2019/03/clay_pdf-24x14.jpg 24w, /wp-content/uploads/2019/03/clay_pdf-36x20.jpg 36w, /wp-content/uploads/2019/03/clay_pdf-48x27.jpg 48w" sizes="(max-width: 1024px) 100vw, 1024px" />											</div>
 				</div>
 				</div>
 						</div>
@@ -1622,7 +1622,7 @@ Luca =)</div>
 				<div class="elementor-element elementor-element-90be4d0 elementor-widget elementor-widget-image" data-id="90be4d0" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-image">
-										<img width="1024" height="576" src="https://lucahohmann.com/wp-content/uploads/2019/03/brickwall_pdf-1024x576.jpg" class="attachment-large size-large" alt="" srcset="https://lucahohmann.com/wp-content/uploads/2019/03/brickwall_pdf-1024x576.jpg 1024w, https://lucahohmann.com/wp-content/uploads/2019/03/brickwall_pdf-300x169.jpg 300w, https://lucahohmann.com/wp-content/uploads/2019/03/brickwall_pdf-768x432.jpg 768w, https://lucahohmann.com/wp-content/uploads/2019/03/brickwall_pdf-24x14.jpg 24w, https://lucahohmann.com/wp-content/uploads/2019/03/brickwall_pdf-36x20.jpg 36w, https://lucahohmann.com/wp-content/uploads/2019/03/brickwall_pdf-48x27.jpg 48w" sizes="(max-width: 1024px) 100vw, 1024px" />											</div>
+										<img width="1024" height="576" src="/wp-content/uploads/2019/03/brickwall_pdf-1024x576.jpg" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2019/03/brickwall_pdf-1024x576.jpg 1024w, /wp-content/uploads/2019/03/brickwall_pdf-300x169.jpg 300w, /wp-content/uploads/2019/03/brickwall_pdf-768x432.jpg 768w, /wp-content/uploads/2019/03/brickwall_pdf-24x14.jpg 24w, /wp-content/uploads/2019/03/brickwall_pdf-36x20.jpg 36w, /wp-content/uploads/2019/03/brickwall_pdf-48x27.jpg 48w" sizes="(max-width: 1024px) 100vw, 1024px" />											</div>
 				</div>
 				</div>
 						</div>

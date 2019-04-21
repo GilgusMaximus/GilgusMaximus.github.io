@@ -17,13 +17,13 @@ font-size:8pt;
 margin:5px 5px 5px 20px;
 }
 ul.cat_show_image > li{
-    background: url('https://lucahohmann.com/wp-content/plugins/category-specific-rss-feed-menu/rss_small_icon.png') no-repeat transparent;
+    background: url('/wp-content/plugins/category-specific-rss-feed-menu/rss_small_icon.png') no-repeat transparent;
     list-style-type: none;
     padding: 0 0 0 24px;
     margin: 0px;
 }
 .cat_show_image ul > li{/* for child category list */
-    background: url('https://lucahohmann.com/wp-content/plugins/category-specific-rss-feed-menu/rss_small_icon.png') no-repeat transparent;
+    background: url('/wp-content/plugins/category-specific-rss-feed-menu/rss_small_icon.png') no-repeat transparent;
     list-style-type: none;
     padding: 0 0 0 24px;
     margin: 0px;
