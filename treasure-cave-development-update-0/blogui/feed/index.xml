@@ -6,11 +6,11 @@
 	
 	>
 <channel>
-	<title>Comments for Luca Hohmann</title>
-	<atom:link href="/comments/feed/" rel="self" type="application/rss+xml" />
-	<link></link>
+	<title>Comments on: blogUI</title>
+	<atom:link href="/treasure-cave-development-update-0/blogui/feed/" rel="self" type="application/rss+xml" />
+	<link>/treasure-cave-development-update-0/blogui/</link>
 	<description>Software &#38; Game Developer </description>
-	<lastBuildDate>Sun, 12 May 2019 16:59:45 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 12 May 2019 17:00:37 +0000</lastBuildDate>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=4.9.10</generator>

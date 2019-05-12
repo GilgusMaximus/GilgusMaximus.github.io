@@ -12,12 +12,441 @@
 	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
 	<link></link>
 	<description>Software &#38; Game Developer </description>
-	<lastBuildDate>Sun, 05 May 2019 18:03:34 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 12 May 2019 16:57:46 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=4.9.10</generator>
 	<item>
+		<title>Treasure Cave &#8211; Development Update #0</title>
+		<link>/treasure-cave-development-update-0/</link>
+		<pubDate>Sun, 12 May 2019 16:43:26 +0000</pubDate>
+		<dc:creator><![CDATA[Luca]]></dc:creator>
+				<category><![CDATA[Games]]></category>
+
+		<guid isPermaLink="false">/?p=1013</guid>
+		<description><![CDATA[Figure 0.1  Logo of Treasure Cave (to be replaced) 1 Introduction 1.1 Abstract In today’s blog, we’re going to take a look into the development of Treasure Cave over the course of the last 2.5 weeks. It is mainly focused around the GUI which is has the main focus at the moment, as well as [&#8230;]]]></description>
+				<content:encoded><![CDATA[		<div data-elementor-type="post" data-elementor-id="1013" class="elementor elementor-1013" data-elementor-settings="[]">
+			<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+							<section class="elementor-element elementor-element-7db7bb0 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="7db7bb0" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-68743be elementor-column elementor-col-100 elementor-top-column" data-id="68743be" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-74fe8ee elementor-widget elementor-widget-image" data-id="74fe8ee" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="834" height="234" src="/wp-content/uploads/2019/03/Banner.jpg" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2019/03/Banner.jpg 834w, /wp-content/uploads/2019/03/Banner-300x84.jpg 300w, /wp-content/uploads/2019/03/Banner-768x215.jpg 768w" sizes="(max-width: 834px) 100vw, 834px" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-7542437 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="7542437" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-63b4dd6 elementor-column elementor-col-100 elementor-top-column" data-id="63b4dd6" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-bab68fc elementor-widget elementor-widget-text-editor" data-id="bab68fc" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p style="text-align: center;"><em>Figure 0.1  Logo of Treasure Cave (to be replaced)<br /></em></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-b25f66b elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="b25f66b" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-d51b982 elementor-column elementor-col-100 elementor-top-column" data-id="d51b982" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-bf029d5 elementor-widget elementor-widget-heading" data-id="bf029d5" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-large">1 Introduction</h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-3ca1926 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="3ca1926" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-3423dc1 elementor-column elementor-col-100 elementor-top-column" data-id="3423dc1" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-501efe2 elementor-widget elementor-widget-heading" data-id="501efe2" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-medium"><span style="font-size: x-large;"><strong>1.1 Abstract</strong></span></h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-cb0b1a1 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="cb0b1a1" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-e8aca29 elementor-column elementor-col-100 elementor-top-column" data-id="e8aca29" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-4f99e77 elementor-widget elementor-widget-text-editor" data-id="4f99e77" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><em>In today’s blog, we’re going to take a look into the development of Treasure Cave over the course of the last 2.5 weeks. It is mainly focused around the GUI which is has the main focus at the moment, as well as UI animations in Unity3D.</em></p><p><em>If you do not want to read the website, but rather a nicely formatted pdf, or have to go offline in a bit, you can download one <span style="color: ##bff2ff;"><a style="color: ##bff2ff;" href="/wp-content/uploads/2019/05/Blog_Post___Programming__04.pdf" target="_blank" rel="noopener" data-wplink-url-error="true"><span style="color: #00ccff;">here</span></a></span></em></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-6d72e3e elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="6d72e3e" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-c7586c6 elementor-column elementor-col-100 elementor-top-column" data-id="c7586c6" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-4b628d5 elementor-widget elementor-widget-heading" data-id="4b628d5" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-medium"><span style="font-size: x-large;"><strong>1.2 Project News</strong></span></h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-12033e9 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="12033e9" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-f22b5ba elementor-column elementor-col-100 elementor-top-column" data-id="f22b5ba" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-7c80e5c elementor-widget elementor-widget-text-editor" data-id="7c80e5c" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>In the last two weeks a few important actions took place. The most important news coming from these is, that we are only developing the game as 2 people. The reason behind this situation is, that the other ones left the project for their own personal reasons. As a result of this, Maarten and I sat down, and agreed on finishing the game in the state it is right now. So we are going to finish the GUI, implement the new level and make some balancing changes. </p><p>Because the GUI has to be finished before we can move on to other parts, I’m focusing on this part as much as possible. When we worked on the project during the course of the lecture &#8220;Interaction methods and Devices&#8221;, I had already created a 3D menu scene, which did not find it’s way into the game yet. But now with the GUI overhaul, I’m creating the GUI for this exact menu background (Figure 1.1).</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-05c43f1 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="05c43f1" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-afa7126 elementor-column elementor-col-100 elementor-top-column" data-id="afa7126" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-bc71f86 elementor-widget elementor-widget-image" data-id="bc71f86" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img src="/wp-content/uploads/elementor/thumbs/blogBackground-o7q00ggvbrar518bks1312lvlmmvbnkp63n02yy060.png" title="blogBackground" alt="blogBackground" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-b82750e elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="b82750e" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-9eae9c5 elementor-column elementor-col-100 elementor-top-column" data-id="9eae9c5" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-729d25c elementor-widget elementor-widget-text-editor" data-id="729d25c" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p style="text-align: center;"><em>Figure 1.1  New </em><em><em>main menu </em>background<br /></em></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-28aa6aa elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="28aa6aa" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-1427cf9 elementor-column elementor-col-100 elementor-top-column" data-id="1427cf9" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-937c035 elementor-widget elementor-widget-heading" data-id="937c035" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-large">2 The new GUI</h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-24eaff2 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="24eaff2" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-fa3d94c elementor-column elementor-col-100 elementor-top-column" data-id="fa3d94c" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-3b75471 elementor-widget elementor-widget-heading" data-id="3b75471" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-medium"><span style="font-size: x-large;"><strong>2.1 The UI Elements</strong></span></h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-338787c elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="338787c" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-6101e20 elementor-column elementor-col-100 elementor-top-column" data-id="6101e20" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-0b8bfe7 elementor-widget elementor-widget-text-editor" data-id="0b8bfe7" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>The first thing for a GUI overhaul is agreeing on a new style for the UI elements. I already had something in mind and after some testing, it turned out to be the best solution for us. Of course, there might be much more beautiful and artistic solutions, but none of us is a 2D graphic designer, so we went for the simple yet fitting design seen in Figure 2.1</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-292570c elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="292570c" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-77b4381 elementor-column elementor-col-100 elementor-top-column" data-id="77b4381" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-dad157f elementor-widget elementor-widget-image-gallery" data-id="dad157f" data-element_type="widget" data-widget_type="image-gallery.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image-gallery">
+			
+<a data-elementor-open-lightbox="" data-elementor-lightbox-slideshow="dad157f" href='/treasure-cave-development-update-0/blogui/'><img width="535" height="951" src="/wp-content/uploads/2019/05/blogUI.png" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2019/05/blogUI.png 535w, /wp-content/uploads/2019/05/blogUI-169x300.png 169w, /wp-content/uploads/2019/05/blogUI-14x24.png 14w, /wp-content/uploads/2019/05/blogUI-20x36.png 20w, /wp-content/uploads/2019/05/blogUI-27x48.png 27w" sizes="(max-width: 535px) 100vw, 535px" /></a>
+<a data-elementor-open-lightbox="" data-elementor-lightbox-slideshow="dad157f" href='/treasure-cave-development-update-0/blogui2/'><img width="531" height="949" src="/wp-content/uploads/2019/05/blogUI2.png" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2019/05/blogUI2.png 531w, /wp-content/uploads/2019/05/blogUI2-168x300.png 168w, /wp-content/uploads/2019/05/blogUI2-13x24.png 13w, /wp-content/uploads/2019/05/blogUI2-20x36.png 20w, /wp-content/uploads/2019/05/blogUI2-27x48.png 27w" sizes="(max-width: 531px) 100vw, 531px" /></a>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-b76095e elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="b76095e" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-8df64fb elementor-column elementor-col-100 elementor-top-column" data-id="8df64fb" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-ca8c772 elementor-widget elementor-widget-text-editor" data-id="ca8c772" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p style="text-align: center;"><em>Figure 2.1  UI style in 2 different sub-menus</em><em><br /></em></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-c8535fb elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="c8535fb" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-d9c9bc9 elementor-column elementor-col-100 elementor-top-column" data-id="d9c9bc9" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-7cd4e8d elementor-widget elementor-widget-text-editor" data-id="7cd4e8d" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>It is always clear what every text says, and the white color is a great contrast to the background. Another theoretical advantage of this design is, that even with changing background colors, the white is still clearly visible or can be changed easily through the corresponding material. </p><p>Because the UI elements are very basic, I only want to point out one special feature in the playmenu. The game will have a level based playmode, so the player should be able to choose between levels. In order to give the player a better understanding of the differences in each level, the level menu displays the 3D model in a rotating motion. As seen in Figure 2.2, the inside of the levels are always visible.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-3e48926 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="3e48926" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-6c768d7 elementor-column elementor-col-100 elementor-top-column" data-id="6c768d7" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-de711df elementor-widget elementor-widget-image-gallery" data-id="de711df" data-element_type="widget" data-widget_type="image-gallery.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image-gallery">
+			
+<a data-elementor-open-lightbox="" data-elementor-lightbox-slideshow="de711df" href='/treasure-cave-development-update-0/blogui3/'><img width="537" height="949" src="/wp-content/uploads/2019/05/blogUI3.png" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2019/05/blogUI3.png 537w, /wp-content/uploads/2019/05/blogUI3-170x300.png 170w, /wp-content/uploads/2019/05/blogUI3-14x24.png 14w, /wp-content/uploads/2019/05/blogUI3-20x36.png 20w, /wp-content/uploads/2019/05/blogUI3-27x48.png 27w" sizes="(max-width: 537px) 100vw, 537px" /></a>
+<a data-elementor-open-lightbox="" data-elementor-lightbox-slideshow="de711df" href='/treasure-cave-development-update-0/blogui4/'><img width="531" height="946" src="/wp-content/uploads/2019/05/blogUI4.png" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2019/05/blogUI4.png 531w, /wp-content/uploads/2019/05/blogUI4-168x300.png 168w, /wp-content/uploads/2019/05/blogUI4-13x24.png 13w, /wp-content/uploads/2019/05/blogUI4-20x36.png 20w, /wp-content/uploads/2019/05/blogUI4-27x48.png 27w" sizes="(max-width: 531px) 100vw, 531px" /></a>
+		</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-2d22e1b elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="2d22e1b" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-07e5e62 elementor-column elementor-col-100 elementor-top-column" data-id="07e5e62" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-b5da43d elementor-widget elementor-widget-text-editor" data-id="b5da43d" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p style="text-align: center;"><em>Figure 2.2  Level menu screen</em><em><br /></em></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-c231af3 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="c231af3" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-3fdd322 elementor-column elementor-col-100 elementor-top-column" data-id="3fdd322" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-e166f87 elementor-widget elementor-widget-text-editor" data-id="e166f87" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>This effect is very easy to achieve in this case. Because all normal vectors face into one direction (inside the tube), Unity does not render the faces which would otherwise block the view.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-285ef91 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="285ef91" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-60a5b2b elementor-column elementor-col-100 elementor-top-column" data-id="60a5b2b" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-b14eed2 elementor-widget elementor-widget-heading" data-id="b14eed2" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-medium"><span style="font-size: x-large;"><strong>2.2 GUI animations</strong></span></h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-5e0c52a elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="5e0c52a" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-7e33252 elementor-column elementor-col-100 elementor-top-column" data-id="7e33252" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-d19c7ad elementor-widget elementor-widget-text-editor" data-id="d19c7ad" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>A very important part of ever GUI system are animations. Without these, applications do not feel very interactive, mainly because then the UI elements just disappear and new ones appear in a blink of an eye. This is usually considered as too fast and instant, which affects the user experience in a negative way. Of course it is important not to create the opposite of an instant UI. A GUI which has very slow animations does not feel interactive as well. As a result, I decided to implement simple animations, which affect only 2 parameters of each element, and therefore are easy to control and change. Every UI element fades and moves in. So only the alpha value as well as the position on one axis (either x or y) is manipulated for each animation. Besides the easy control, this offers a big advantage towards reusability. Every fade in animation can be used as fade out animation, simply by setting the playback rate to -1.</p><p>Every animation sequence uses the same animator state machine seen in Figure 2.3. It starts with an entry waiting state, which is used until the UI element appears the first time. From there on, the FadeIn and FadeOut state contain the animations, while the wait states only have an empty animation. The wait states are used to delay the the animation until the previous UI has faded out. Every time an UI element is touched and new UI elements have to be loaded, the UI manager script fires an event to the corresponding trigger variable for the affected UI elements. The advantage of trigger variables as conditions in the state machine is the automatic reset after the condition has be activated. This eliminates the necessity to implement such a system with coroutines or the use of the Update method. The UI manager works on arrays of animators, which are assigned via the editor drag n drop system. This way, one method for event handling can be reused by simply introducing a parameter each UI element has to provide when activated. With this index the corresponding group of UI elements can be assigned to the working array in the function. This is also possible because the two triggers in all animators are named the same way, so it is always possible to trigger this condition, regardless of the actual animator.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-e0305af elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="e0305af" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-853fe9d elementor-column elementor-col-100 elementor-top-column" data-id="853fe9d" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-270ba70 elementor-widget elementor-widget-image" data-id="270ba70" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="1024" height="680" src="/wp-content/uploads/2019/05/blogUI5-1024x680.png" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2019/05/blogUI5-1024x680.png 1024w, /wp-content/uploads/2019/05/blogUI5-300x199.png 300w, /wp-content/uploads/2019/05/blogUI5-768x510.png 768w, /wp-content/uploads/2019/05/blogUI5-24x16.png 24w, /wp-content/uploads/2019/05/blogUI5-36x24.png 36w, /wp-content/uploads/2019/05/blogUI5-48x32.png 48w, /wp-content/uploads/2019/05/blogUI5.png 1028w" sizes="(max-width: 1024px) 100vw, 1024px" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-d50ae7a elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="d50ae7a" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-889b658 elementor-column elementor-col-100 elementor-top-column" data-id="889b658" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-ecf26f7 elementor-widget elementor-widget-text-editor" data-id="ecf26f7" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p style="text-align: center;"><em>Figure 2.3  Base animator state machine for all UI animations</em><em><br /></em></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-94c9d22 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="94c9d22" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-ba27815 elementor-column elementor-col-100 elementor-top-column" data-id="ba27815" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-3c7126b elementor-widget elementor-widget-heading" data-id="3c7126b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-large">3 Final words</h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-da35ec9 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="da35ec9" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-b72d4c1 elementor-column elementor-col-100 elementor-top-column" data-id="b72d4c1" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-213d584 elementor-widget elementor-widget-text-editor" data-id="213d584" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Because not much happened besides me working on the UI, I’m gonna end this blog here. I hope to finish the UI within a few weeks, simply because university has started again and so a lot of additional work is ahead.</p><p>So if you want to stay updated on the game, follow me on Twitter: <span style="color: #bff2ff;"><a href="https://twitter.com/lucahohmann" target="_blank" rel="noopener"> <span style="color: #ccffff;"> @lucahohmann</span></a></span>.<br />And yes, thanks for reading, have a good day and see you next time<br />Luca =)</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+		]]></content:encoded>
+			</item>
+		<item>
 		<title>Ludum Dare 44 &#8211; A 43 hours project</title>
 		<link>/ludum-dare-44-a-43-hours-project/</link>
 		<pubDate>Sun, 05 May 2019 18:02:14 +0000</pubDate>
