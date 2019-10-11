@@ -34,7 +34,7 @@
     font-size: 32px;
 }
 
-.doubleColumn button{
+.doubleColumn button, .frontImageDiv button{
     background-color: #191919;
     border: none;
     border-radius: 30px;
@@ -52,7 +52,7 @@
     width: 15%;
 }
 
-.doubleColumn button:hover{
+.doubleColumn button:hover , .frontImageDiv button:hover{
     background-color: #101010;
 }
 #blogComponent{
