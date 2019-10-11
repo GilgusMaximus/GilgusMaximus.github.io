@@ -10,10 +10,14 @@ h3{
     margin-top: 80px;
     margin-left: 4%;
 }
+h4{
+    font-size: 22px;
+}
 .row{
     align-items: center;
     display: flex;
     text-align: center;
+    margin: 5% 5%;
 }
 
 .doubleColumn{
@@ -36,5 +40,29 @@ h3{
 }
 .tripleColumn{
     padding-top: 50px;
+    height: 500px;
     flex: 33%;
+}
+.tripleColumn img{
+    height: 50px;
+}
+.tripleColumn p{
+    text-align: left;
+    font-size: 20px;
+    margin-left: 15%;
+}
+.tripleColumn .divider{
+    background-color: white;
+    height: 2px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+    position: relative;
+    top: -5px;
+    border-radius: 2px;
+}
+
+div .row .doubleColumn{
+    font-size: 20px;
+    margin-top: 0;
 }
