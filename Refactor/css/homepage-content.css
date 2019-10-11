@@ -33,7 +33,9 @@
 .doubleColumn p{
     font-size: 32px;
 }
-
+video{
+    height: 90%;
+}
 .doubleColumn button, .frontImageDiv button{
     background-color: #191919;
     border: none;
