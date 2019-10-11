@@ -1,0 +1,40 @@
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+h3{
+
+    font-size: 40px;
+    text-align: left;
+    margin-top: 80px;
+    margin-left: 4%;
+}
+.row{
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.doubleColumn{
+    margin-top: 20px;
+    height: 100%;
+    flex: 50%;
+}
+.doubleColumn img{
+    border-color: #44c5c6;
+    width: 340px;
+    border-image-width: 1px;
+    border-style: solid;
+}
+.doubleColumn p{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 43.2px;
+    font-family: 'Maven Pro', "fantasy";
+    width: 500px;
+}
+.tripleColumn{
+    padding-top: 50px;
+    flex: 33%;
+}
