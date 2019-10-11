@@ -1,28 +1,28 @@
 .frontImageDiv{
-    height: 800px;
-    text-align: center;
     font-family: 'Maven Pro', "fantasy";
     font-weight: 500;
+    height: 800px;
     line-height: 55px;
+    text-align: center;
 }
 .frontImage{
+    height: 30%;
     position: relative;
     top: 40px;
-    height: 30%;
 
 }
 
 .frontImageDiv h1{
-    padding-top: 80px;
-    margin-left: 20%;
-    width: 60%;
     font-weight: 500;
+    margin-left: 20%;
+    padding-top: 80px;
+    width: 60%;
 }
 
 .row{
+    align-items: center;
     display: flex;
     text-align: center;
-    align-items: center;
 }
 
 .doubleColumn{
@@ -34,15 +34,17 @@
 }
 
 .doubleColumn button{
-    line-height: 27px;
-    color: #f0f0f0;
-    text-align: center;
-    font-size: 30px;
     background-color: #191919;
     border: none;
-    padding: 20px 45px 20px 45px;
-    margin-top: 30px;
     border-radius: 30px;
+    color: #f0f0f0;
+
+    cursor: pointer;
+    font-size: 30px;
+    line-height: 27px;
+    margin-top: 30px;
+    padding: 20px 45px 20px 45px;
+    text-align: center;
 }
 
 .icon{
