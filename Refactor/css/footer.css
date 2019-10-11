@@ -1,0 +1,29 @@
+footer{
+    background-color: #101010;
+    height: 35px;
+    text-align: center;
+    align-items: center;
+    font-size: 12px;
+
+}
+span{
+    position: relative;
+    top: 22%;
+    color: #c9c9c9;
+}
+a{
+    position: relative;
+    top: 22%;
+}
+a:link{
+    color: #f0f0f0;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: 'Maven Pro', sans-serif;
+}
+a:hover{
+    color: #1364b0;
+    text-decoration: none;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 400;
+}
