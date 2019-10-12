@@ -1,0 +1,922 @@
+ 
+<!DOCTYPE html>
+<html class="html" lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+	<meta charset="UTF-8">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+
+	<title>Ludum Dare 44 &#8211; A 43 hours project &#8211; Luca Hohmann</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"><link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Luca Hohmann &raquo; Feed" href="/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Luca Hohmann &raquo; Comments Feed" href="/comments/feed/" />
+<link rel='stylesheet' id='menu-image-css'  href='/wp-content/plugins/menu-image/menu-image.css?ver=1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='yarss-style-css'  href='/wp-content/plugins/yarss/css/style.css?ver=4.9.10' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='/wp-content/themes/oceanwp/assets/css/third/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='simple-line-icons-css'  href='/wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css?ver=2.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='magnific-popup-css'  href='/wp-content/themes/oceanwp/assets/css/third/magnific-popup.min.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='slick-css'  href='/wp-content/themes/oceanwp/assets/css/third/slick.min.css?ver=1.6.0' type='text/css' media='all' />
+<link rel='stylesheet' id='oceanwp-style-css'  href='/wp-content/themes/oceanwp/assets/css/style.min.css?ver=1.5.26' type='text/css' media='all' />
+<link rel='stylesheet' id='oceanwp-google-font-maven-pro-css'  href='//fonts.googleapis.com/css?family=Maven+Pro%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100i%2C200i%2C300i%2C400i%2C500i%2C600i%2C700i%2C800i%2C900i&#038;subset=latin&#038;ver=4.9.10' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-css'  href='/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=4.3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-animations-css'  href='/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=2.5.9' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css'  href='/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=2.5.9' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-global-css'  href='/wp-content/uploads/elementor/css/global.css?ver=1556999640' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-999-css'  href='/wp-content/uploads/elementor/css/post-999.css?ver=1557079522' type='text/css' media='all' />
+<link rel='stylesheet' id='oe-widgets-style-css'  href='/wp-content/plugins/ocean-extra/assets/css/widgets.css?ver=4.9.10' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-1-css'  href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;ver=4.9.10' type='text/css' media='all' />
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
+<link rel='prev' title='Magic Musicplayer &#8211; Development Update #0' href='/magic-musicplayer-development-update-0/' />
+<link rel='next' title='Treasure Cave &#8211; Development Update #0' href='/treasure-cave-development-update-0/' />
+<meta name="generator" content="WordPress 4.9.10" />
+<link rel="canonical" href="/ludum-dare-44-a-43-hours-project/" />
+<link rel='shortlink' href='/?p=999' />
+<link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=%2Fludum-dare-44-a-43-hours-project%2F" />
+<link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=%2Fludum-dare-44-a-43-hours-project%2F&#038;format=xml" />
+<link type="text/css" rel="stylesheet" href="/wp-content/plugins/category-specific-rss-feed-menu/wp_cat_rss_style.css" />
+<!-- OceanWP CSS -->
+<style type="text/css">
+.page-header{background-color:#191919}/* General CSS */body,.has-parallax-footer:not(.separate-layout) #main{background-color:#191919}a{color:#ffffff}.page-header .page-header-title,.page-header.background-image-page-header .page-header-title{color:#ffffff}.site-breadcrumbs,.background-image-page-header .site-breadcrumbs{color:#c9c9c9}.site-breadcrumbs a,.background-image-page-header .site-breadcrumbs a{color:#ffffff}label{color:#ffffff}/* Header CSS */#site-logo #site-logo-inner,.oceanwp-social-menu .social-menu-inner,#site-header.full_screen-header .menu-bar-inner,.after-header-content .after-header-content-inner{height:89px}#site-navigation-wrap .dropdown-menu >li >a,.oceanwp-mobile-menu-icon a,.after-header-content-inner >a{line-height:89px}#site-header,.has-transparent-header .is-sticky #site-header,.has-vh-transparent .is-sticky #site-header.vertical-header,#searchform-header-replace{background-color:#0a0a0a}#site-header{border-color:#000000}#site-header.transparent-header{background-color:#141414}#site-header.has-header-media .overlay-header-media{background-color:rgba(0,0,0,0.5)}#site-logo #site-logo-inner a img,#site-header.center-header #site-navigation-wrap .middle-site-logo a img{max-width:82px}@media (max-width:480px){#site-logo #site-logo-inner a img,#site-header.center-header #site-navigation-wrap .middle-site-logo a img{max-width:55px}}#site-header #site-logo #site-logo-inner a img,#site-header.center-header #site-navigation-wrap .middle-site-logo a img{max-height:82px}#site-navigation-wrap .dropdown-menu >li >a,.oceanwp-mobile-menu-icon a,#searchform-header-replace-close{color:#ffffff}#site-navigation-wrap .dropdown-menu >li >a:hover,.oceanwp-mobile-menu-icon a:hover,#searchform-header-replace-close:hover{color:#136ff9}/* Typography CSS */body{font-family:Maven Pro;font-size:17px;color:#d3d3d3}h1{font-size:24px}#site-navigation-wrap .dropdown-menu >li >a,#site-header.full_screen-header .fs-dropdown-menu >li >a,#site-header.top-header #site-navigation-wrap .dropdown-menu >li >a,#site-header.center-header #site-navigation-wrap .dropdown-menu >li >a,#site-header.medium-header #site-navigation-wrap .dropdown-menu >li >a,.oceanwp-mobile-menu-icon a{letter-spacing:1.6px;text-transform:uppercase}.page-header .page-header-title,.page-header.background-image-page-header .page-header-title{font-weight:700;font-style:normal;font-size:50px;text-transform:capitalize}.blog-entry.post .blog-entry-header .entry-title a{font-style:italic;font-size:30px;color:#ffffff}.single-post .entry-title{font-family:Maven Pro;font-style:italic;font-size:36px;color:#ffffff}.sidebar-box .widget-title{font-family:Maven Pro;font-size:14px;color:#dbdbdb}.sidebar-box,.footer-box{color:#dbdbdb}
+</style></head>
+
+<body class="post-template-default single single-post postid-999 single-format-standard wp-custom-logo oceanwp-theme sidebar-mobile has-transparent-header no-header-border default-breakpoint has-sidebar content-right-sidebar post-in-category-software has-breadcrumbs elementor-default elementor-page elementor-page-999">
+
+	
+	<div id="outer-wrap" class="site clr">
+
+		
+		<div id="wrap" class="clr">
+
+			
+				<div id="transparent-header-wrap" class="clr">
+
+<header id="site-header" class="transparent-header center-menu clr" data-height="89" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+
+	
+		
+			
+			<div id="site-header-inner" class="clr container">
+
+				
+				
+
+<div id="site-logo" class="clr" itemscope itemtype="http://schema.org/Brand">
+
+	
+	<div id="site-logo-inner" class="clr">
+
+		<a href="/" class="custom-logo-link" rel="home" itemprop="url"><img width="1076" height="924" src="/wp-content/uploads/2018/09/logodesign1weiss.png" class="custom-logo" alt="Luca Hohmann" itemprop="logo" srcset="/wp-content/uploads/2018/09/logodesign1weiss.png 1076w, /wp-content/uploads/2018/09/logodesign1weiss-300x258.png 300w, /wp-content/uploads/2018/09/logodesign1weiss-768x660.png 768w, /wp-content/uploads/2018/09/logodesign1weiss-1024x879.png 1024w" sizes="(max-width: 1076px) 100vw, 1076px" /></a>
+	</div><!-- #site-logo-inner -->
+
+	
+	
+</div><!-- #site-logo -->
+
+			<div id="site-navigation-wrap" class="clr">
+		
+			
+			
+			<nav id="site-navigation" class="navigation main-navigation clr" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+
+				<ul id="menu-social-media-menu" class="main-menu dropdown-menu sf-menu"><li id="menu-item-880" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-880"><a href="/" class="menu-image-title-after"><span class="text-wrap"><span class="menu-image-title">Home</span></span></a></li><li id="menu-item-876" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-876"><a href="/projects/" class="menu-image-title-after"><span class="text-wrap"><span class="menu-image-title">Projects</span></span></a></li><li id="menu-item-877" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-877"><a href="/blog/" class="menu-image-title-after"><span class="text-wrap"><span class="menu-image-title">Blog</span></span></a></li><li id="menu-item-878" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-878"><a href="/about/" class="menu-image-title-after"><span class="text-wrap"><span class="menu-image-title">About</span></span></a></li><li id="menu-item-879" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-879"><a href="/contact/" class="menu-image-title-after"><span class="text-wrap"><span class="menu-image-title">Contact</span></span></a></li></ul>
+			</nav><!-- #site-navigation -->
+
+			
+			
+					</div><!-- #site-navigation-wrap -->
+		
+		
+	
+				
+	<div class="oceanwp-mobile-menu-icon clr mobile-right">
+
+		
+		
+		
+		<a href="#" class="mobile-menu">
+							<i class="fa fa-bars"></i>
+							<span class="oceanwp-text">Menu</span>
+
+						</a>
+
+		
+		
+		
+	</div><!-- #oceanwp-mobile-menu-navbar -->
+
+
+			</div><!-- #site-header-inner -->
+
+			
+			
+		
+				
+	
+</header><!-- #site-header -->
+
+	</div>
+
+						
+			<main id="main" class="site-main clr" >
+
+				
+
+<header class="page-header">
+
+	
+	<div class="container clr page-header-inner">
+
+		
+			<h1 class="page-header-title clr" itemprop="headline">Blog</h1>
+
+			
+		
+		<nav role="navigation" aria-label="Breadcrumbs" class="site-breadcrumbs clr" itemprop="breadcrumb"><ul class="trail-items" itemscope itemtype="http://schema.org/BreadcrumbList"><meta name="numberOfItems" content="3" /><meta name="itemListOrder" content="Ascending" /><li class="trail-item trail-begin" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="" rel="home"><span itemprop="name"><span class="icon-home"></span><span style="display: none;">Home</span></span></a><meta content="1" itemprop="position" /></li><li class="trail-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="/category/software/"><span itemprop="name">Software</span></a><meta content="2" itemprop="position" /></li><li class="trail-item trail-end" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><span itemprop="name">Ludum Dare 44 &#8211; A 43 hours project</span><meta content="3" itemprop="position" /></li></ul></nav>
+	</div><!-- .page-header-inner -->
+
+	
+	
+</header><!-- .page-header -->
+
+
+	
+	<div id="content-wrap" class="container clr">
+
+		
+		<div id="primary" class="content-area clr">
+
+			
+			<div id="content" class="site-content clr">
+
+				
+				
+<article id="post-999">
+
+	
+
+<header class="entry-header clr">
+	<h2 class="single-post-title entry-title" itemprop="headline">Ludum Dare 44 &#8211; A 43 hours project</h2><!-- .single-post-title -->
+</header><!-- .entry-header -->
+
+
+
+<ul class="meta clr">
+
+	
+					<li class="meta-author" itemprop="name"><i class="icon-user"></i><a href="/author/admin/" title="Posts by Luca" rel="author"  itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">Luca</a></li>
+		
+		
+		
+		
+	
+		
+					<li class="meta-date" itemprop="datePublished"><i class="icon-clock"></i>May 5, 2019</li>
+		
+		
+		
+	
+		
+		
+					<li class="meta-cat"><i class="icon-folder"></i><a href="/category/software/" rel="category tag">Software</a></li>
+		
+		
+	
+		
+		
+		
+		
+		
+</ul>
+
+
+
+<div class="entry-content clr" itemprop="text">
+			<div data-elementor-type="post" data-elementor-id="999" class="elementor elementor-999" data-elementor-settings="[]">
+			<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+							<section class="elementor-element elementor-element-d68216a elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="d68216a" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-cbf7a72 elementor-column elementor-col-100 elementor-top-column" data-id="cbf7a72" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-2829e59 elementor-widget elementor-widget-image" data-id="2829e59" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="976" height="486" src="/wp-content/uploads/2019/05/3.png" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2019/05/3.png 976w, /wp-content/uploads/2019/05/3-300x149.png 300w, /wp-content/uploads/2019/05/3-768x382.png 768w, /wp-content/uploads/2019/05/3-24x12.png 24w, /wp-content/uploads/2019/05/3-36x18.png 36w, /wp-content/uploads/2019/05/3-48x24.png 48w" sizes="(max-width: 976px) 100vw, 976px" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-579adcd elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="579adcd" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-5204c81 elementor-column elementor-col-100 elementor-top-column" data-id="5204c81" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-6678abd elementor-widget elementor-widget-text-editor" data-id="6678abd" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p style="text-align: center;"><em>Figure 0.1  Main menu &#8220;Card of Life&#8221;<br /></em></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-70b1c43 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="70b1c43" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-2492078 elementor-column elementor-col-100 elementor-top-column" data-id="2492078" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-d463878 elementor-widget elementor-widget-heading" data-id="d463878" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-large">1 Introduction</h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-61ec235 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="61ec235" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-75767c0 elementor-column elementor-col-100 elementor-top-column" data-id="75767c0" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-848e7a2 elementor-widget elementor-widget-heading" data-id="848e7a2" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-medium"><span style="font-size: x-large;"><strong>1.1 Abstract</strong></span></h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-624968f elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="624968f" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-9c4e8fc elementor-column elementor-col-100 elementor-top-column" data-id="9c4e8fc" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-bbefba0 elementor-widget elementor-widget-text-editor" data-id="bbefba0" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p><em>As a team of 4, we have participated in the Ludum Dare 44 gamejam on the weekend of the 27th and 28th of April 2019. During the event we have created a rogue like dungeon card game called &#8220;Card of Life&#8221;, which centers around the theme &#8220;Your life is currency&#8221;.</em></p><p><em>If you do not want to read the website, but rather a nicely formatted pdf, or have to go offline in a bit, you can download one <span style="color: ##bff2ff;"><a style="color: ##bff2ff;" href="/wp-content/uploads/2019/05/Blog_Post___Programming__054.pdf" target="_blank" rel="noopener" data-wplink-url-error="true"><span style="color: #00ccff;">here</span></a></span></em></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-659871f elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="659871f" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-548da0f elementor-column elementor-col-100 elementor-top-column" data-id="548da0f" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-ee797b3 elementor-widget elementor-widget-heading" data-id="ee797b3" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-medium"><span style="font-size: x-large;"><strong>1.2 Ludum dare</strong></span></h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-78ce413 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="78ce413" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-f8490cc elementor-column elementor-col-100 elementor-top-column" data-id="f8490cc" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-d2dd062 elementor-widget elementor-widget-text-editor" data-id="d2dd062" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>The Ludum Dare gamejam is one of the biggest global gamejams in the world, with over 2000 submissions in the Jam category alone. The event is split into a normal (Jam) and hardcore (Compo) part. The Compo is limited to 48 hours and requires the participants to create all assets and code themselves and also to work alone. The Jam is more lightweight, because teams of all size can participate in a 72 hour competition. Unlike the Compo, using others assets and code is not prohibited, but the game then has to opt out of the corresponding review categories. After the end of the time frames, the review (or rate) phase starts and the people can play the games and give them a rating with stars as well as a review through a comment. After the phase has ended, the winners in each category are announced and gain honor and glory.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-abc5e91 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="abc5e91" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-00be76b elementor-column elementor-col-100 elementor-top-column" data-id="00be76b" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-bec81b8 elementor-widget elementor-widget-heading" data-id="bec81b8" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-large">2 Our gamejam</h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-9872a2c elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="9872a2c" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-73760ad elementor-column elementor-col-100 elementor-top-column" data-id="73760ad" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-ba8892e elementor-widget elementor-widget-heading" data-id="ba8892e" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-medium"><span style="font-size: x-large;"><strong>2.1 The team</strong></span></h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-a824259 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="a824259" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-6058165 elementor-column elementor-col-100 elementor-top-column" data-id="6058165" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-a8c236e elementor-widget elementor-widget-text-editor" data-id="a8c236e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>As for the last Ludum Dare, Maarten and I formed a team. But this time Joshua joined in, as well as Krysta, a friend of Maarten. So with a doubled team strength, a lot was possible within 48 hours. We only had 48 hours to work on a project, because this time the event did not take place during the semester holidays, so we had to attend the lectures on Monday. During the event, Maarten and I were responsible for most of the code (except the enemies, which Joshua created), while Joshua and Krysta mostly worked on the art.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-d98cdb0 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="d98cdb0" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-b466721 elementor-column elementor-col-100 elementor-top-column" data-id="b466721" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-58d7524 elementor-widget elementor-widget-image" data-id="58d7524" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="926" height="493" src="/wp-content/uploads/2019/05/2.png" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2019/05/2.png 926w, /wp-content/uploads/2019/05/2-300x160.png 300w, /wp-content/uploads/2019/05/2-768x409.png 768w, /wp-content/uploads/2019/05/2-24x13.png 24w, /wp-content/uploads/2019/05/2-36x19.png 36w, /wp-content/uploads/2019/05/2-48x26.png 48w" sizes="(max-width: 926px) 100vw, 926px" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-6fe6c64 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="6fe6c64" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-883c7ac elementor-column elementor-col-100 elementor-top-column" data-id="883c7ac" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-e7692b6 elementor-widget elementor-widget-text-editor" data-id="e7692b6" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p style="text-align: center;"><em>Figure 2.1  In-game screenshot of the main character<br /></em></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-88302b5 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="88302b5" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-a4d5965 elementor-column elementor-col-100 elementor-top-column" data-id="a4d5965" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-44e5061 elementor-widget elementor-widget-heading" data-id="44e5061" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-medium"><span style="font-size: x-large;"><strong>2.2 The idea</strong></span></h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-cd6a83a elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="cd6a83a" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-25d1a70 elementor-column elementor-col-100 elementor-top-column" data-id="25d1a70" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-3fd728d elementor-widget elementor-widget-text-editor" data-id="3fd728d" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Because the event starts at a very humane time (3 am), we decided to meet at 8 am. The theme &#8220;Your life is currency&#8221;, like most themes, has 2 sides of the same coin. On the one hand the theme is very interesting regarding gameplay mechanics, on the other hand it leads to a lot of identical game ideas. Why does this happen? A big factor are the commercial and popular games. Binding of Isaac is probably one of the games a lot of people (including us) had in mind while searching the possible idea space. The games, that stick out of the mass are the ones adding a special touch to the existing game idea. In our case this addition came in form of a card game. The base of our game should be a normal rogue like dungeon game, but instead of fighting all the time, the player can only dodge the enemies, while the card phase is not up. When a timer is up, time freezes and the player can choose one of 3 cards and activate its spell. The spells are either heal, shield or damage spells. After each round the player can trade in the remaining health points into new spells. So the better a player is, the better his deck for the next round becomes.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-ad76ff9 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="ad76ff9" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-03cb1aa elementor-column elementor-col-100 elementor-top-column" data-id="03cb1aa" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-8887e1e elementor-widget elementor-widget-text-editor" data-id="8887e1e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>We actually had a lot of other ideas, which would have fit the theme as well and are not really close to already existing games. But as usual, these ideas are good for longer projects, not a 48 hour gamejam. One idea that I’d like to point out here, is a game in which you play as a vampire who has to bite enemies in order to regain health points. The health points would be consumed by all kinds of actions. This game could become a stealth, rogue like, strategy or completely different game.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-a365323 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="a365323" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-61e4e5b elementor-column elementor-col-100 elementor-top-column" data-id="61e4e5b" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-68c347b elementor-widget elementor-widget-heading" data-id="68c347b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-medium"><span style="font-size: x-large;"><strong>2.3 The development</strong></span> </h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-57a5e14 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="57a5e14" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-d116212 elementor-column elementor-col-100 elementor-top-column" data-id="d116212" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-923b9e5 elementor-widget elementor-widget-text-editor" data-id="923b9e5" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>To create the combination of a card and rogue like game, we had to create the base of card game as well as a fully functional rogue like game. Luckily Maarten created a card game during the last holidays. This way we saved a lot of time, because Maarten ’only’ had to port his multiplayer card game mechanics into a single-player environment. After that he worked on implementing a spell system, which is split into two phases. The first is the drag phase, where an indicator should be displayed at the mouse’s position. The second phase is the actual ability phase, where time is not frozen anymore and the actual effect starts and flies towards the mouse position or is self cast. This abstraction of phases is achieved through the Update method in Unity. In it, a flag is sued to determine which phase the game is currently in, and disable the other behaviour. When time start again, this flag is reversed and activates the spell behaviour.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-7698496 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="7698496" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-09bdc52 elementor-column elementor-col-100 elementor-top-column" data-id="09bdc52" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-c6a8674 elementor-widget elementor-widget-text-editor" data-id="c6a8674" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Joshua sat down and worked on the enemy behaviour script, which had to be very modular as we wanted a few different enemy types in our game. As seen in Figure 2.2, he solved this by creating flags and parameters for behaviour patterns and abilities. If a flag is set to true, the behaviour or spell is added to the enemy. This way every enemy prefab gets it’s own configuration through the same script and even more combinations and therefore derivations of existing enemies are possible. When he finished the enemy script Joshua switched to creating the enemy sprites and spells. This switch was partially voluntary as well as partially forced. Because after some time Unity stopped working and coding was no option anymore.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-24e3a86 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="24e3a86" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-f8e6d4d elementor-column elementor-col-100 elementor-top-column" data-id="f8e6d4d" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-a18910f elementor-widget elementor-widget-image" data-id="a18910f" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="472" height="543" src="/wp-content/uploads/2019/05/cardsOfLife_enemyscript.png" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2019/05/cardsOfLife_enemyscript.png 472w, /wp-content/uploads/2019/05/cardsOfLife_enemyscript-261x300.png 261w, /wp-content/uploads/2019/05/cardsOfLife_enemyscript-21x24.png 21w, /wp-content/uploads/2019/05/cardsOfLife_enemyscript-31x36.png 31w, /wp-content/uploads/2019/05/cardsOfLife_enemyscript-42x48.png 42w" sizes="(max-width: 472px) 100vw, 472px" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-6256be8 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="6256be8" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-4ab0255 elementor-column elementor-col-100 elementor-top-column" data-id="4ab0255" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-a739466 elementor-widget elementor-widget-text-editor" data-id="a739466" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p style="text-align: center;"><em>Figure 2.2  Example of enemy script configuration<br /></em></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-fd53fe3 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="fd53fe3" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-a4445a8 elementor-column elementor-col-100 elementor-top-column" data-id="a4445a8" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-4bbe1ae elementor-widget elementor-widget-text-editor" data-id="4bbe1ae" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Krysta created a few backgrounds and most importantly the main character, a mystical raccoon mage, and some sprite animations for it. Later on she worked on the design for the cards, which came out very unique and detailed.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-695cff8 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="695cff8" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-052a1a1 elementor-column elementor-col-100 elementor-top-column" data-id="052a1a1" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-658cd7a elementor-widget elementor-widget-image" data-id="658cd7a" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="220" height="150" src="/wp-content/uploads/2019/05/2-1.png" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2019/05/2-1.png 220w, /wp-content/uploads/2019/05/2-1-24x16.png 24w, /wp-content/uploads/2019/05/2-1-36x25.png 36w, /wp-content/uploads/2019/05/2-1-48x33.png 48w" sizes="(max-width: 220px) 100vw, 220px" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-4384911 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="4384911" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-16cc4f3 elementor-column elementor-col-100 elementor-top-column" data-id="16cc4f3" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-5b151fb elementor-widget elementor-widget-image" data-id="5b151fb" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="200" height="300" src="/wp-content/uploads/2019/05/fieri.png" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2019/05/fieri.png 200w, /wp-content/uploads/2019/05/fieri-16x24.png 16w, /wp-content/uploads/2019/05/fieri-24x36.png 24w, /wp-content/uploads/2019/05/fieri-32x48.png 32w" sizes="(max-width: 200px) 100vw, 200px" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-2c4728d elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="2c4728d" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-c18b404 elementor-column elementor-col-100 elementor-top-column" data-id="c18b404" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-a6d485a elementor-widget elementor-widget-text-editor" data-id="a6d485a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p style="text-align: center;"><em>Figure 2.3  One of the game&#8217;s background and a basic spell card<br /></em></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-751cce8 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="751cce8" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-56c3cda elementor-column elementor-col-100 elementor-top-column" data-id="56c3cda" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-1b40141 elementor-widget elementor-widget-text-editor" data-id="1b40141" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>At the beginning I worked on the player movement, which has to be on point and responsive for a rogue like dungeon game. The player is able to walk in 8 directions and can perform a dodge roll in the current (or last) direction he is walking in. The main problem was the dodge roll, as the movement can be created with the Unity physics system in a few minutes. The movement works by resetting the rigidbody’s velocity and then summing the vectors of the corresponding keys to the velocity up. This allows the desired canceling of movement, when two keys, representing opposite directions, are pressed. When adding the dodge roll to the movement, I multiply the resulting movement vector with a value. But this can create a visual problem. If the dodge multiplier is too high, it looks like the character has teleported between two points. At the same time, when the multiplier is too small, the dodge roll has no effect. After playing around with multiple implementations, I found, that this method still offers the best result and can be tweaked to look relatively continuous. After that all we needed was the card shop and the combination of all parts. The shop was very easy to implement, as it mainly consists of animations. To our surprise, the combination off all parts went really well and we got a running version within a few hours. We also have a soundtrack, which I created in MuseScore 2 with a basic orchestral setup.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-ce40ae5 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="ce40ae5" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-aeb8a47 elementor-column elementor-col-100 elementor-top-column" data-id="aeb8a47" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-1189edb elementor-widget elementor-widget-heading" data-id="1189edb" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-large">3 A game in 43 hours - a resume</h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-73ed2f3 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="73ed2f3" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-c251255 elementor-column elementor-col-100 elementor-top-column" data-id="c251255" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-2af7756 elementor-widget elementor-widget-text-editor" data-id="2af7756" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Creating a game in 43 hours is definitely not an easy task. But as we have shown, gathering a dedicated and talented team allows for good results. The Ludum Dare gamejam is always a great opportunity to show what everyone is capable of and also what we have learned over the course of the last semester. The important part is, that avoidable problems, such as git merge conflicts and doing the same work at the same time, need to be prevented. 43 hours of game development are a lot, but the time has to be used for creating and not for solving issues, that could have been avoided through communication and attention to the other team members. In the end, I can recommend everyone to participate in gamejams, and especially the Ludum Dare, to improve team and communication skills as well as having fun with friends.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-e2c44eb elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="e2c44eb" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-51ed5b1 elementor-column elementor-col-100 elementor-top-column" data-id="51ed5b1" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-cd04ab6 elementor-widget elementor-widget-heading" data-id="cd04ab6" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-large">4 Final words</h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-4a90a94 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="4a90a94" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-8f85525 elementor-column elementor-col-100 elementor-top-column" data-id="8f85525" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-e10dc13 elementor-widget elementor-widget-text-editor" data-id="e10dc13" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix">Before the acknowledgements, I want to apologize, because I did not post last week. First I forgot to copy my website project onto my notebook and then the gamejam hindered me to finish the blog post. So as I already announced on Twitter, from now on I will post my blog on Sunday, as I need the free time on the weekend to finish the blog posts and integrate them into the website.
+
+You can find the game on the dedicated Ludum Dare site <span style="color: ##bff2ff;"><a style="color: ##bff2ff;" href="https://ldjam.com/events/ludum-dare/44/cards-of-life" target="_blank" rel="noopener"><span style="color: #ccffff;">Cards of Life</span></a></span> or on my <span style="color: ##bff2ff;"><a style="color: ##bff2ff;" href="https://gilgusmaximus.itch.io/cards-of-life" target="_blank" rel="noopener"><span style="color: #ccffff;">itch.io</span></a></span> site as well. But before checking it out, make sure, to take a look at the amazing art Krysta posts on her Instagram <span style="color:#bff2ff"><a href="https://www.instagram.com/krys.rt/" target="_blank" rel="noopener"> <span style="color: #ccffff;"> Krysta.rt</span></a></span>. Also make sure to follow Joshua on Twitter <span style="color:#bff2ff"><a href="https://twitter.com/devploration" target="_blank" rel="noopener"> <span style="color: #ccffff;"> @devploration</span></a></span>, when he’ll post in the future! And if you want to contact Maarten, his e-mail is <a href="mailto:maarten.bussler@gmail.com"><span style="color: #bff2f2;">maarten.bussler@gmail.com</span></a>. If you want to stay updated on my projects, future gamejams or projects, follow me on Twitter: <span style="color:#bff2ff"><a href="https://twitter.com/lucahohmann" target="_blank" rel="noopener"> <span style="color: #ccffff;"> @lucahohmann</span></a></span>.
+
+And yes, that concludes today blog. Have a good day and see you next time
+Luca =)</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+		</div><!-- .entry -->
+
+<div class="post-tags clr">
+	</div>
+
+
+
+	<section id="related-posts" class="clr">
+
+		<h3 class="theme-heading related-posts-title">
+			<span class="text">You Might Also Like</span>
+		</h3>
+
+		<div class="oceanwp-row clr">
+
+			
+			
+				
+				<article class="related-post clr col span_1_of_3 col-1 post-952 post type-post status-publish format-standard hentry category-art category-games category-software entry">
+
+					
+					<h3 class="related-post-title">
+						<a href="/treasure-cave-from-gamejam-to-play-store/" title="Treasure Cave &#8211; from Gamejam to Play Store" rel="bookmark">Treasure Cave &#8211; from Gamejam to Play Store</a>
+					</h3><!-- .related-post-title -->
+									
+					<time class="published" datetime="2019-04-09T17:06:18+00:00"><i class="icon-clock"></i>April 9, 2019</time>
+
+				</article><!-- .related-post -->
+				
+				
+			
+				
+				<article class="related-post clr col span_1_of_3 col-2 post-923 post type-post status-publish format-standard hentry category-magic-musicplayer category-software entry">
+
+					
+					<h3 class="related-post-title">
+						<a href="/magic-musicplayer-javafx-in-2019/" title="Magic Musicplayer &#8211; JavaFX in 2019" rel="bookmark">Magic Musicplayer &#8211; JavaFX in 2019</a>
+					</h3><!-- .related-post-title -->
+									
+					<time class="published" datetime="2019-04-02T18:20:07+00:00"><i class="icon-clock"></i>April 2, 2019</time>
+
+				</article><!-- .related-post -->
+				
+				
+			
+				
+				<article class="related-post clr col span_1_of_3 col-3 post-969 post type-post status-publish format-standard hentry category-software entry">
+
+					
+					<h3 class="related-post-title">
+						<a href="/magic-musicplayer-development-update-0/" title="Magic Musicplayer &#8211; Development Update #0" rel="bookmark">Magic Musicplayer &#8211; Development Update #0</a>
+					</h3><!-- .related-post-title -->
+									
+					<time class="published" datetime="2019-04-16T17:04:23+00:00"><i class="icon-clock"></i>April 16, 2019</time>
+
+				</article><!-- .related-post -->
+				
+				
+			
+		</div><!-- .oceanwp-row -->
+
+	</section><!-- .related-posts -->
+
+
+
+
+</article>
+				
+			</div><!-- #content -->
+
+			
+		</div><!-- #primary -->
+
+		
+		
+
+<aside id="right-sidebar" class="sidebar-container widget-area sidebar-primary" itemscope="itemscope" itemtype="http://schema.org/WPSideBar">
+
+	
+	<div id="right-sidebar-inner" class="clr">
+
+		<div id="search-4" class="sidebar-box widget_search clr"><h4 class="widget-title">Search</h4>
+<form method="get" class="searchform" id="searchform" action="/">
+	<input type="text" class="field" name="s" id="s" placeholder="Search">
+	</form></div><div id="categories-4" class="sidebar-box widget_categories clr"><h4 class="widget-title">Categories</h4>		<ul>
+	<li class="cat-item cat-item-8"><a href="/category/art/" >Art</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="/category/games/" >Games</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="/category/software/magic-musicplayer/" >Magic Musicplayer</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="/category/software/" >Software</a>
+</li>
+		</ul>
+</div><div id="text-3" class="sidebar-box widget_text clr"><h4 class="widget-title">MY RSS Feed</h4>			<div class="textwidget"><p>lucahohmann.com/feed</p>
+</div>
+		</div><div id="text-5" class="sidebar-box widget_text clr"><h4 class="widget-title">Blog</h4>			<div class="textwidget"><p>My blog is all about me sharing and writing about my projects. I&#8217;ll love to hear feedback, critique, and suggestions!</p>
+<p><strong>At the moment comments are not available, due to a waiting list at the staticman commenting service.</strong></p>
+</div>
+		</div><div id="custom_html-3" class="widget_text sidebar-box widget_custom_html clr"><h4 class="widget-title">Follow Me</h4><div class="textwidget custom-html-widget"><a href="https://twitter.com/lucahohmann" target="_blank">
+<img src="/wp-content/uploads/2019/03/Twitter_Logo_Blue.png" 
+		 alt="" style="width:50px;height:50px;"> </a> <a href="https://github.com/gilgusmaximus" target="_blank"><img src="/wp-content/uploads/2019/03/GitHub-Mark-Light-64px-1.png" alt="" style="width:34px;height:34px;"></a></div></div>
+	</div><!-- #sidebar-inner -->
+
+	
+</aside><!-- #right-sidebar -->
+
+
+	</div><!-- #content-wrap -->
+
+	
+
+        </main><!-- #main -->
+
+        
+        
+        
+            
+<footer id="footer" class="site-footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
+
+    
+    <div id="footer-inner" class="clr">
+
+        
+
+<div id="footer-widgets" class="oceanwp-row clr">
+
+	
+	<div class="footer-widgets-inner container">
+
+        			<div class="footer-box span_1_of_4 col col-1">
+							</div><!-- .footer-one-box -->
+
+							<div class="footer-box span_1_of_4 col col-2">
+									</div><!-- .footer-one-box -->
+						
+							<div class="footer-box span_1_of_4 col col-3">
+									</div><!-- .footer-one-box -->
+			
+							<div class="footer-box span_1_of_4 col col-4">
+									</div><!-- .footer-box -->
+			
+		
+	</div><!-- .container -->
+
+	
+</div><!-- #footer-widgets -->
+
+
+
+<div id="footer-bottom" class="clr no-footer-nav">
+
+	
+	<div id="footer-bottom-inner" class="container clr">
+
+		
+		
+			<div id="copyright" class="clr" role="contentinfo">
+				Copyright 2019 - OceanWP Theme by Nick - 
+<a href="/datenschutz/">Datenschutz</a> - <a href="/impressum/">Impressum</a>
+			</div><!-- #copyright -->
+
+		
+	</div><!-- #footer-bottom-inner -->
+
+	
+</div><!-- #footer-bottom -->
+
+        
+    </div><!-- #footer-inner -->
+
+    
+</footer><!-- #footer -->            
+        
+                        
+    </div><!-- #wrap -->
+
+    
+</div><!-- #outer-wrap -->
+
+
+
+<a id="scroll-top" class="scroll-top-right" href="#"><span class="fa fa-angle-up"></span></a>
+
+
+<div id="sidr-close">
+	<a href="#" class="toggle-sidr-close">
+		<i class="icon icon-close"></i><span class="close-text">Close Menu</span>
+	</a>
+</div>
+    
+    
+<div id="mobile-menu-search" class="clr">
+	<form method="get" action="/" class="mobile-searchform">
+		<input type="search" name="s" autocomplete="off" placeholder="Search" />
+		<button type="submit" class="searchform-submit">
+			<i class="icon icon-magnifier"></i>
+		</button>
+			</form>
+</div><!-- .mobile-menu-search -->
+
+<script type='text/javascript' src='/wp-content/plugins/yarss/js/jquery.cycle2.min.js?ver=1.1'></script>
+<script type='text/javascript' src='/wp-content/plugins/yarss/js/jquery.cycle2.carousel.js?ver=1.1'></script>
+<script type='text/javascript' src='/wp-includes/js/imagesloaded.min.js?ver=3.2.0'></script>
+<script type='text/javascript' src='/wp-content/themes/oceanwp/assets/js/third/magnific-popup.min.js?ver=1.5.26'></script>
+<script type='text/javascript' src='/wp-content/themes/oceanwp/assets/js/third/lightbox.min.js?ver=1.5.26'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var oceanwpLocalize = {"isRTL":"","menuSearchStyle":"disabled","sidrSource":"#sidr-close, #site-navigation, #mobile-menu-search","sidrDisplace":"1","sidrSide":"left","sidrDropdownTarget":"icon","verticalHeaderTarget":"icon","customSelects":".woocommerce-ordering .orderby, #dropdown_product_cat, .widget_categories select, .widget_archive select, .single-product .variations_form .variations select","ajax_url":"\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/wp-content/themes/oceanwp/assets/js/main.min.js?ver=1.5.26'></script>
+<!--[if lt IE 9]>
+<script type='text/javascript' src='/wp-content/themes/oceanwp/assets/js//third/html5.min.js?ver=1.5.26'></script>
+<![endif]-->
+<script type='text/javascript' src='/wp-content/plugins/elementor/assets/js/frontend-modules.js?ver=2.5.9'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.7.1'></script>
+<script type='text/javascript' src='/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2'></script>
+<script type='text/javascript' src='/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=4.4.6'></script>
+<script type='text/javascript'>
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"2.5.9","urls":{"assets":"\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"general":{"elementor_global_image_lightbox":"yes","elementor_enable_lightbox_in_editor":"yes"}},"post":{"id":999,"title":"Ludum Dare 44 - A 43 hours project","excerpt":""}};
+</script>
+<script type='text/javascript' src='/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=2.5.9'></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+.frontImageDiv{
+    font-family: 'Maven Pro', "fantasy";
+    font-weight: 500;
+    height: 800px;
+    line-height: 55px;
+    text-align: center;
+}
+.frontImage{
+    height: 30%;
+    position: relative;
+    top: 40px;
+
+}
+
+.frontImageDiv h1{
+    color: #ffffff;
+    font-weight: 500;
+    margin-left: 20%;
+    padding-top: 80px;
+    width: 60%;
+}
+
+.row{
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+
+.doubleColumn{
+    flex: 50%;
+}
+
+.doubleColumn p{
+    font-size: 32px;
+}
+video{
+    height: 90%;
+}
+.doubleColumn button, .frontImageDiv button{
+    background-color: #191919;
+    border: none;
+    border-radius: 30px;
+    color: #f0f0f0;
+
+    cursor: pointer;
+    font-size: 30px;
+    line-height: 27px;
+    margin-top: 30px;
+    padding: 20px 45px 20px 45px;
+    text-align: center;
+}
+
+.icon{
+    width: 15%;
+}
+
+.doubleColumn button:hover , .frontImageDiv button:hover{
+    background-color: #101010;
+}
+#blogComponent{
+    font-size: 24px;
+}
+/*#topText{*/
+/*    position: relative;*/
+/*    opacity: 0;*/
+/*    top: -150px;*/
+/*    transition: opacity 3s*/
+/*}*/
+#topText{
+    animation-duration: 2s;
+    animation-name: slidein;
+    position: relative;
+}
+@keyframes slidein {
+    from{
+        top: -100px;
+        opacity: 0;
+    }
+
+    25%{
+        opacity: 0;
+    }
+    to{
+        top: 0px;
+        opacity: 1;
+    }
+}

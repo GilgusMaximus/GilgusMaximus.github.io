@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Magic Musicplayer &#8211; Luca Hohmann</title>
+	<atom:link href="/category/software/magic-musicplayer/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description>Software &#38; Game Developer </description>
+	<lastBuildDate>Sun, 12 May 2019 16:57:46 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.9.10</generator>
+	<item>
+		<title>Magic Musicplayer &#8211; JavaFX in 2019</title>
+		<link>/magic-musicplayer-javafx-in-2019/</link>
+		<pubDate>Tue, 02 Apr 2019 18:20:07 +0000</pubDate>
+		<dc:creator><![CDATA[Luca]]></dc:creator>
+				<category><![CDATA[Magic Musicplayer]]></category>
+		<category><![CDATA[Software]]></category>
+
+		<guid isPermaLink="false">/?p=923</guid>
+		<description><![CDATA[1 Introduction Today we are finally going over a project of mine. My in development music player &#8220;Magic MusicPlayer&#8221;. I’ll start with a short introduction of what it is and what I want to achieve with it. Then I jump right into the development. What works? What is planned? Where can you download it? In [&#8230;]]]></description>
+				<content:encoded><![CDATA[		<div data-elementor-type="post" data-elementor-id="923" class="elementor elementor-923" data-elementor-settings="[]">
+			<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+							<section class="elementor-element elementor-element-1d9d644 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="1d9d644" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-e9aaf9e elementor-column elementor-col-100 elementor-top-column" data-id="e9aaf9e" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-816f734 elementor-widget elementor-widget-image" data-id="816f734" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="1024" height="576" src="/wp-content/uploads/2019/03/Magic-Musicplayer-Logo-1024x576.png" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2019/03/Magic-Musicplayer-Logo-1024x576.png 1024w, /wp-content/uploads/2019/03/Magic-Musicplayer-Logo-300x169.png 300w, /wp-content/uploads/2019/03/Magic-Musicplayer-Logo-768x432.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-31e6d76 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="31e6d76" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-1efcc1f elementor-column elementor-col-100 elementor-top-column" data-id="1efcc1f" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-b9a1591 elementor-widget elementor-widget-heading" data-id="b9a1591" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-large">1 Introduction</h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-52b0090 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="52b0090" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-4fe3273 elementor-column elementor-col-100 elementor-top-column" data-id="4fe3273" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-980cb6c elementor-widget elementor-widget-text-editor" data-id="980cb6c" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Today we are finally going over a project of mine. My in development music player &#8220;Magic MusicPlayer&#8221;. I’ll start with a short introduction of what it is and what I want to achieve with it. Then I jump right into the development. What works? What is planned? Where can you download it? In the end I’ll talk a bit about why I chose Java and JavaFX, as well as some problems with this decision.</p><p>If you do not want to read the website, but rather a nicely formatted pdf, or have to go offline in a bit, you can download one <span style="color: ##bff2ff;"><a style="color: ##bff2ff;" href="/wp-content/uploads/2019/04/Blog_Post___Proframming__01.pdf" target="_blank" rel="noopener"><span style="color: #00ccff;">here</span></a></span></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-b13f998 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="b13f998" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-2e993b1 elementor-column elementor-col-100 elementor-top-column" data-id="2e993b1" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-c35c86f elementor-widget elementor-widget-heading" data-id="c35c86f" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-medium"><span style="font-size: x-large;"><strong>1.1 What is the Magic Musicplayer?</strong></span></h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-3e4ce67 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="3e4ce67" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-7c2edd5 elementor-column elementor-col-100 elementor-top-column" data-id="7c2edd5" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-f8c15e6 elementor-widget elementor-widget-text-editor" data-id="f8c15e6" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>As the name suggests, it is a music player. At the moment I focus on releasing it on Windows, but anyone who can compile it him/herself, can get it on Linux or MacOS as well. It is completely Open Source, so everyone can contribute, take a look into the code, and just change things he/she dislikes.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-04507c8 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="04507c8" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-eaca224 elementor-column elementor-col-100 elementor-top-column" data-id="eaca224" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-3924cea elementor-widget elementor-widget-heading" data-id="3924cea" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-medium"><span style="font-size: x-large;"><strong>1.2 What is my goal?</strong></span></h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-c03f4ef elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="c03f4ef" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-a55f629 elementor-column elementor-col-100 elementor-top-column" data-id="a55f629" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-67488e8 elementor-widget elementor-widget-text-editor" data-id="67488e8" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>There are different aspects pushing me to program my own musi cplayer application. At the beginning there were 2 reasons for me to do this. The first one being that no music player for local music files does the ordering of artists in the only reasonable way I could think of. And that is, when a song is created by 2 or more artists it should be added to both artist pages rather than creating a new one which is named after the combination of those two artist. I’ll come back to that later in &#8220;The development&#8221;. The second reason I wanted and still want to create such an application is, that at university, we mostly work on weekly projects or projects which last one to three months. In rare cases a project spans over the course of a whole semester. And even then, most of these projects are for learning purposes only, and do not have that much real world usage. And yes this is how university should be. It should educate. But the actual process of sticking longer to a project cannot be taught, just experienced. So here I am.</p><p><br />One of the biggest aspects developed within the last months, as I am becoming more aware of privacy issues with applications. As a result I care more about using safe Open Source alternatives to closed source software of big companies. So as I’m currently not in the position to provide actual functionality to existing projects, because these are often already very big and need functionality, which I’m not capable of, I just provide an application myself</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-6a42b24 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="6a42b24" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-dafc332 elementor-column elementor-col-100 elementor-top-column" data-id="dafc332" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-59aa8de elementor-widget elementor-widget-heading" data-id="59aa8de" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-large">2 The development</h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-3eeec0f elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="3eeec0f" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-fb4fff3 elementor-column elementor-col-100 elementor-top-column" data-id="fb4fff3" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-35d1d63 elementor-widget elementor-widget-heading" data-id="35d1d63" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-medium"><span style="font-size: x-large;"><strong>2.1 What is available today?</strong></span></h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-f5f5673 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="f5f5673" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-a04130d elementor-column elementor-col-100 elementor-top-column" data-id="a04130d" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-4d9f0ae elementor-widget elementor-widget-text-editor" data-id="4d9f0ae" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p style="text-align: left;">At the time of writing, these basic features are already available:</p><p style="text-align: center;">1. Crawling music files<br />2. GUI<br />3. Playback of songs<br />4. Persistent album, artist and song storage<br />5. Display of metadata<br />6. Scrolling through songs<br />7. Association of songs to artists and albums</p><p>All of these features provide basic functionality to any music player. Most of them are rather easy to implement, but need a good foundation, and a clear assignment of tasks to classes. So it took rather long to get to this point of development. The project started during the last semester holidays, besides another project, which is currently on ice. Within the holidays I got the foundation and a basic GUI system working. The GUI system is actually the hardest part of the development, as many things need tricks and tweaking to work. But more on the JavaFX GUI system in &#8220;Java and JavaFX &#8211; a retrospect&#8221;. During the semester I worked very infrequent on it, as I was busy with work from university, my job and events we attended. But how does one organize such a project, which consists of many different areas?</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-6c199bc elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="6c199bc" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-53358f5 elementor-column elementor-col-100 elementor-top-column" data-id="53358f5" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-8bb505f elementor-widget elementor-widget-image" data-id="8bb505f" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="1024" height="503" src="/wp-content/uploads/2019/04/diagram-1024x503.jpg" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2019/04/diagram-1024x503.jpg 1024w, /wp-content/uploads/2019/04/diagram-300x147.jpg 300w, /wp-content/uploads/2019/04/diagram-768x378.jpg 768w, /wp-content/uploads/2019/04/diagram-24x12.jpg 24w, /wp-content/uploads/2019/04/diagram-36x18.jpg 36w, /wp-content/uploads/2019/04/diagram-48x24.jpg 48w" sizes="(max-width: 1024px) 100vw, 1024px" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-558bc98 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="558bc98" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-86de65a elementor-column elementor-col-100 elementor-top-column" data-id="86de65a" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-6822992 elementor-widget elementor-widget-text-editor" data-id="6822992" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p style="text-align: center;"><em>Figure 2.1 Rough visualization of project structure (data flow) &#8211; ^ v represent corresponding directions <br /></em></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-875fbd1 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="875fbd1" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-7b3143a elementor-column elementor-col-100 elementor-top-column" data-id="7b3143a" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-6f999b7 elementor-widget elementor-widget-text-editor" data-id="6f999b7" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Figure 2.1 shows the rough structure of the project with the data flow between task groups. Call wise, the main manager handles most of the classes. It starts all processing and storage threads. The processing classes are responsible for crawling the given directories for music files and cover images. Then all of the found files are processed and put into separate instances of a music file class, which holds all metadata as well as the path to the actual file (part of the Data container classes). Then the single music files are combined into list of their respective albums and artists. These lists are then send to the main manager for usage.<br />While the user scrolls through his/her songs, listens to them and wonders why some things do not work yet (still alpha build ;), the persistent storage classes are getting to work, with the music files, albums and artists. Each of the three get their own file, where all data from the corresponding lists of data containers are saved in a simple, yet effective, format. In my test scenario the only advantage of persistent saving is, that I do not have to wait until it has crawled all my music files again (&gt;1500). The album and artist combinations work so fast, that it is done before I would have the chance to change to the album or artist view (not implemented yet). As mentioned before, I really dislike the fact, that local music players often have one big issue in common. And that is the inability to distinguish multiple artists from the tags of a file. On the one hand this is due to the fact, how multiple artists are mentioned. Some are named in the title, e.g. songtitle (ft. secondartist), others are written into the tags, but then artists are not that easily distinguishable. That comes from the format they are stored in:<br />artist1/artist2/artist4&#8230;<br />This format is also not consistent across all files, and depends on which tags include additional artists and which not. That makes it very hard to automate this process. Let alone the different versions of the mp3 tags that are used. There is Id3v1 and Id3v2, as well as custom formats. Id3v1 should have been deprecated a long time ago, since it is not capable of allowing as many tags as Id3v2. But somehow, there are still music files, which come with this format. So without a database, which provides a lot of artists (like the one Spotify has), it is nearly impossible, to arrange the artists in the way I’d like to. Of course, I could say &#8220;Every song that does not conform to the correct Id3v2 format simply gets a combined artist&#8221;, but even tho this will b my approach, it is still unsatisfying.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-44a760c elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="44a760c" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-528977d elementor-column elementor-col-100 elementor-top-column" data-id="528977d" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-861b4b3 elementor-widget elementor-widget-heading" data-id="861b4b3" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-medium"><span style="font-size: x-large;"><strong>2.2 What is planned?</strong></span></h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-273d915 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="273d915" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-824cd60 elementor-column elementor-col-100 elementor-top-column" data-id="824cd60" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-b0c96c6 elementor-widget elementor-widget-text-editor" data-id="b0c96c6" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>In order to provide a rich experience, and convince user of this application, some more features are planned for the future. Figure 2.2 gives a good overview of what is planned for the different stages and where I currently stand. Of course, not everything is included, and some priorities might change within development. A good example for this is the goal to build the application as executable file. With this feature coming late in development, only a few would attempt to build the application him/herself or use it with the .class files. Therefore this is in development at the moment of writing. When it is implemented completely, the download link will be available on Github as well as the project page. To summarize everything that is currently planned, the features can be categorized:</p><p><b>Support all major file formats; Provide a complete and working GUI; Implement major, as well as modern and interesting functionality</b></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-4e32e1d elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="4e32e1d" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-a325620 elementor-column elementor-col-100 elementor-top-column" data-id="a325620" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-424c6c9 elementor-widget elementor-widget-image" data-id="424c6c9" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="487" height="786" src="/wp-content/uploads/2019/04/Anmerkung-2019-03-31-182113.png" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2019/04/Anmerkung-2019-03-31-182113.png 487w, /wp-content/uploads/2019/04/Anmerkung-2019-03-31-182113-186x300.png 186w, /wp-content/uploads/2019/04/Anmerkung-2019-03-31-182113-15x24.png 15w, /wp-content/uploads/2019/04/Anmerkung-2019-03-31-182113-22x36.png 22w, /wp-content/uploads/2019/04/Anmerkung-2019-03-31-182113-30x48.png 30w" sizes="(max-width: 487px) 100vw, 487px" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-555c79e elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="555c79e" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-4a9258b elementor-column elementor-col-100 elementor-top-column" data-id="4a9258b" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-e6ca9cb elementor-widget elementor-widget-text-editor" data-id="e6ca9cb" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p style="text-align: center;"><em>Figure 2.2 Roadmap of the project (Source: <span style="color: ##bff2ff;"><a style="color: ##bff2ff;" href="http://lucahohmann.com/magic-musicplayer" target="_blank" rel="noopener">lucahohmann.com</a></span>)</em></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-542ed2e elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="542ed2e" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-f985f13 elementor-column elementor-col-100 elementor-top-column" data-id="f985f13" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-413f51d elementor-widget elementor-widget-text-editor" data-id="413f51d" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>The first two categories are self explanatory and definitely reasonable for every music application. The last category however is a very broad one. Every user has his/her own opinion about what should be available. But at this point I have to be very pragmatic and disillusion possible users. Not every feature seen in music players like Spotify, Deezer and all the others, will be available in a local and offline music player. That is simply not possible, especially since I am the only person working on it. Features like song recommendations, mixes, presenting songs, which have not been listened to for a long time and similar are on my list. But at the moment I cannot estimate how much of an obstacle they will be and therefore not make any promises on them. If someone wants to add features, he/she is invited to do so, and add it to the repository after I looked over it. Furthermore, I want to finish this project within this semester, in a best case scenario, within these holidays (so end of april).</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-9ffc9f0 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="9ffc9f0" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-4e9b559 elementor-column elementor-col-100 elementor-top-column" data-id="4e9b559" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-13628a7 elementor-widget elementor-widget-heading" data-id="13628a7" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-large">3 Java and JavaFX - a retrospect</h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-9f7c61d elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="9f7c61d" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-4e35dbe elementor-column elementor-col-100 elementor-top-column" data-id="4e35dbe" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-85460f5 elementor-widget elementor-widget-text-editor" data-id="85460f5" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>At the beginning, I already teased a little bit about JavaFX and Java as a development platform. There are numerous advantages and disadvantages to them, compared to other possible platforms. But I want to go over a few aspects, which have affected me the the most during the development so far.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-52d5a47 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="52d5a47" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-b62b6ea elementor-column elementor-col-100 elementor-top-column" data-id="b62b6ea" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-8c2b6f7 elementor-widget elementor-widget-heading" data-id="8c2b6f7" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-medium"><span style="font-size: x-large;"><strong>3.1 Advantages of JavaFX</strong></span></h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-5af1772 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="5af1772" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-40ef2f8 elementor-column elementor-col-100 elementor-top-column" data-id="40ef2f8" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-4fcd873 elementor-widget elementor-widget-text-editor" data-id="4fcd873" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>The biggest advantage is the simple entrance into JavaFX. If you are familiar with Java or Java-like programming languages, it will be an ease to get a basic window with UI running. The connection between the backend code and the frontend is very simple through FXML. That is, because it is very well documented and a lot of tutorials on JavaFX have been published by different blogs and websites. </p><p>Another good aspect is, that JavaFX provides very good abstractions for media files. No other language I am capable of, provided such an easy way to play a mp3 file, or show a video. You create a media player, register a media view in the GUI, and set the media of the player. That’s it. Everything else is done by Java and as someone, who is not interested in reinventing the wheel on such simple things, it is great.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-194ccd4 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="194ccd4" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-9e79721 elementor-column elementor-col-100 elementor-top-column" data-id="9e79721" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-27e8ac7 elementor-widget elementor-widget-heading" data-id="27e8ac7" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-medium"><span style="font-size: x-large;"><strong>3.2 Disadvantages of JavaFX</strong></span></h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-d3bbdc4 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="d3bbdc4" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-4c73dbb elementor-column elementor-col-100 elementor-top-column" data-id="4c73dbb" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-5810c9a elementor-widget elementor-widget-text-editor" data-id="5810c9a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>On the other hand, the biggest disadvantage of JavaFX, is the very inconsistent UI adjustment. When I tried to get a resizeable window working, everything broke. It took multiple days and restarts to realize, that it is a complete waste of time. So as a consequence I dumped that, and made the window size fixed. The problem is, that a scaling UI is only possible with certain constellations of UI elements and a lot of manual coding to check whether things are still in place and in correct size. It is also very inconsistent, as sometimes said scaling UI elements do not have the intended effects or are completely ignored by the elements put onto them. This leads to state of frustration quite fast. But I have to mention, that this might be due to the fact that I used JavaFX 2 with Java 8, but more on that in the next argument.</p><p>The other bad aspect of JavaFX is the fact, that it is not backwards compatible, in contrast to Java. This reason behind this is, that JavaFX is no longer a project of Oracle, but rather a project of Gluon, the providers of Scenebuilder for JavaFX (which I can 100 percent recommend to use). So the problems with JavaFX, such as performance problems in JavaFX 2 for Java SE 8 (the last version from Oracle), inconsistent UI adjustments are not going to be fixed anymore. But changing to Gluons version is not possible, as some things are not yet implemented. So for example, there are still errors with media views, which prohibit using my implementation to play back music. </p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-60efc45 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="60efc45" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-e239a7b elementor-column elementor-col-100 elementor-top-column" data-id="e239a7b" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-93696a6 elementor-widget elementor-widget-heading" data-id="93696a6" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-large">4 Final words</h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-3822104 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="3822104" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-1c5cbd5 elementor-column elementor-col-100 elementor-top-column" data-id="1c5cbd5" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-aa9469f elementor-widget elementor-widget-text-editor" data-id="aa9469f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Now everyone should have a good insight into my current solo project. If you want to take a look at the code or my coding style, you can do so on <span style="color: #ccffff;"><a style="color: #ccffff;" href="https://github.com/gilgusmaximus" target="_blank" rel="noopener">Github</a></span>.</p><p>Please be aware, that I’m currently restructuring the music manager class, so it is not completely in line with my normal coding and commenting conventions.</p><p>Something information regarding the blog. Comments are still not available, as I still have problem with the Staticman API. I’ll post an issue about this on their github site, when I find the time for it. So stay excited for them.</p><p>Do not forget to check out my other projects on my website <span style="color: ##bff2ff;"><a style="color: ##bff2ff;" href="//projects" target="_blank" rel="noopener" data-wplink-url-error="true"><span style="color: #ccffff;">lucahohmann.com/projects</span></a></span></p><p>and follow me on Twitter for constant updates, as well as my Substance Alchemist Material challenge, which is currently running. <span style="color: ##bff2ff;"><a style="color: ##bff2ff;" href="https://twitter.com/lucahohmann" target="_blank" rel="noopener"><span style="color: #ccffff;">@lucahohmann</span></a></span></p><p>And yes, thanks for reading have a good day and See you next time<br />Luca =)</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+		]]></content:encoded>
+			</item>
+	</channel>
+</rss>

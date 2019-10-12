@@ -1,0 +1,778 @@
+ 
+<!DOCTYPE html>
+<html class="html" lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+	<meta charset="UTF-8">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+
+	<title>Treasure Cave &#8211; from Gamejam to Play Store &#8211; Luca Hohmann</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"><link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Luca Hohmann &raquo; Feed" href="/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Luca Hohmann &raquo; Comments Feed" href="/comments/feed/" />
+<link rel='stylesheet' id='menu-image-css'  href='/wp-content/plugins/menu-image/menu-image.css?ver=1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='yarss-style-css'  href='/wp-content/plugins/yarss/css/style.css?ver=4.9.10' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='/wp-content/themes/oceanwp/assets/css/third/font-awesome.min.css?ver=4.7.0' type='text/css' media='all' />
+<link rel='stylesheet' id='simple-line-icons-css'  href='/wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css?ver=2.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='magnific-popup-css'  href='/wp-content/themes/oceanwp/assets/css/third/magnific-popup.min.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='slick-css'  href='/wp-content/themes/oceanwp/assets/css/third/slick.min.css?ver=1.6.0' type='text/css' media='all' />
+<link rel='stylesheet' id='oceanwp-style-css'  href='/wp-content/themes/oceanwp/assets/css/style.min.css?ver=1.5.26' type='text/css' media='all' />
+<link rel='stylesheet' id='oceanwp-google-font-maven-pro-css'  href='//fonts.googleapis.com/css?family=Maven+Pro%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100i%2C200i%2C300i%2C400i%2C500i%2C600i%2C700i%2C800i%2C900i&#038;subset=latin&#038;ver=4.9.10' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-css'  href='/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=4.3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-animations-css'  href='/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=2.5.9' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css'  href='/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=2.5.9' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-global-css'  href='/wp-content/uploads/elementor/css/global.css?ver=1556999640' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-952-css'  href='/wp-content/uploads/elementor/css/post-952.css?ver=1557079523' type='text/css' media='all' />
+<link rel='stylesheet' id='oe-widgets-style-css'  href='/wp-content/plugins/ocean-extra/assets/css/widgets.css?ver=4.9.10' type='text/css' media='all' />
+<link rel='stylesheet' id='google-fonts-1-css'  href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;ver=4.9.10' type='text/css' media='all' />
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd" />
+<link rel='prev' title='Magic Musicplayer &#8211; JavaFX in 2019' href='/magic-musicplayer-javafx-in-2019/' />
+<link rel='next' title='Magic Musicplayer &#8211; Development Update #0' href='/magic-musicplayer-development-update-0/' />
+<meta name="generator" content="WordPress 4.9.10" />
+<link rel="canonical" href="/treasure-cave-from-gamejam-to-play-store/" />
+<link rel='shortlink' href='/?p=952' />
+<link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=%2Ftreasure-cave-from-gamejam-to-play-store%2F" />
+<link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=%2Ftreasure-cave-from-gamejam-to-play-store%2F&#038;format=xml" />
+<link type="text/css" rel="stylesheet" href="/wp-content/plugins/category-specific-rss-feed-menu/wp_cat_rss_style.css" />
+<!-- OceanWP CSS -->
+<style type="text/css">
+.page-header{background-color:#191919}/* General CSS */body,.has-parallax-footer:not(.separate-layout) #main{background-color:#191919}a{color:#ffffff}.page-header .page-header-title,.page-header.background-image-page-header .page-header-title{color:#ffffff}.site-breadcrumbs,.background-image-page-header .site-breadcrumbs{color:#c9c9c9}.site-breadcrumbs a,.background-image-page-header .site-breadcrumbs a{color:#ffffff}label{color:#ffffff}/* Header CSS */#site-logo #site-logo-inner,.oceanwp-social-menu .social-menu-inner,#site-header.full_screen-header .menu-bar-inner,.after-header-content .after-header-content-inner{height:89px}#site-navigation-wrap .dropdown-menu >li >a,.oceanwp-mobile-menu-icon a,.after-header-content-inner >a{line-height:89px}#site-header,.has-transparent-header .is-sticky #site-header,.has-vh-transparent .is-sticky #site-header.vertical-header,#searchform-header-replace{background-color:#0a0a0a}#site-header{border-color:#000000}#site-header.transparent-header{background-color:#141414}#site-header.has-header-media .overlay-header-media{background-color:rgba(0,0,0,0.5)}#site-logo #site-logo-inner a img,#site-header.center-header #site-navigation-wrap .middle-site-logo a img{max-width:82px}@media (max-width:480px){#site-logo #site-logo-inner a img,#site-header.center-header #site-navigation-wrap .middle-site-logo a img{max-width:55px}}#site-header #site-logo #site-logo-inner a img,#site-header.center-header #site-navigation-wrap .middle-site-logo a img{max-height:82px}#site-navigation-wrap .dropdown-menu >li >a,.oceanwp-mobile-menu-icon a,#searchform-header-replace-close{color:#ffffff}#site-navigation-wrap .dropdown-menu >li >a:hover,.oceanwp-mobile-menu-icon a:hover,#searchform-header-replace-close:hover{color:#136ff9}/* Typography CSS */body{font-family:Maven Pro;font-size:17px;color:#d3d3d3}h1{font-size:24px}#site-navigation-wrap .dropdown-menu >li >a,#site-header.full_screen-header .fs-dropdown-menu >li >a,#site-header.top-header #site-navigation-wrap .dropdown-menu >li >a,#site-header.center-header #site-navigation-wrap .dropdown-menu >li >a,#site-header.medium-header #site-navigation-wrap .dropdown-menu >li >a,.oceanwp-mobile-menu-icon a{letter-spacing:1.6px;text-transform:uppercase}.page-header .page-header-title,.page-header.background-image-page-header .page-header-title{font-weight:700;font-style:normal;font-size:50px;text-transform:capitalize}.blog-entry.post .blog-entry-header .entry-title a{font-style:italic;font-size:30px;color:#ffffff}.single-post .entry-title{font-family:Maven Pro;font-style:italic;font-size:36px;color:#ffffff}.sidebar-box .widget-title{font-family:Maven Pro;font-size:14px;color:#dbdbdb}.sidebar-box,.footer-box{color:#dbdbdb}
+</style></head>
+
+<body class="post-template-default single single-post postid-952 single-format-standard wp-custom-logo oceanwp-theme sidebar-mobile has-transparent-header no-header-border default-breakpoint has-sidebar content-right-sidebar post-in-category-art post-in-category-games post-in-category-software has-breadcrumbs elementor-default elementor-page elementor-page-952">
+
+	
+	<div id="outer-wrap" class="site clr">
+
+		
+		<div id="wrap" class="clr">
+
+			
+				<div id="transparent-header-wrap" class="clr">
+
+<header id="site-header" class="transparent-header center-menu clr" data-height="89" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+
+	
+		
+			
+			<div id="site-header-inner" class="clr container">
+
+				
+				
+
+<div id="site-logo" class="clr" itemscope itemtype="http://schema.org/Brand">
+
+	
+	<div id="site-logo-inner" class="clr">
+
+		<a href="/" class="custom-logo-link" rel="home" itemprop="url"><img width="1076" height="924" src="/wp-content/uploads/2018/09/logodesign1weiss.png" class="custom-logo" alt="Luca Hohmann" itemprop="logo" srcset="/wp-content/uploads/2018/09/logodesign1weiss.png 1076w, /wp-content/uploads/2018/09/logodesign1weiss-300x258.png 300w, /wp-content/uploads/2018/09/logodesign1weiss-768x660.png 768w, /wp-content/uploads/2018/09/logodesign1weiss-1024x879.png 1024w" sizes="(max-width: 1076px) 100vw, 1076px" /></a>
+	</div><!-- #site-logo-inner -->
+
+	
+	
+</div><!-- #site-logo -->
+
+			<div id="site-navigation-wrap" class="clr">
+		
+			
+			
+			<nav id="site-navigation" class="navigation main-navigation clr" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
+
+				<ul id="menu-social-media-menu" class="main-menu dropdown-menu sf-menu"><li id="menu-item-880" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-880"><a href="/" class="menu-image-title-after"><span class="text-wrap"><span class="menu-image-title">Home</span></span></a></li><li id="menu-item-876" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-876"><a href="/projects/" class="menu-image-title-after"><span class="text-wrap"><span class="menu-image-title">Projects</span></span></a></li><li id="menu-item-877" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-877"><a href="/blog/" class="menu-image-title-after"><span class="text-wrap"><span class="menu-image-title">Blog</span></span></a></li><li id="menu-item-878" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-878"><a href="/about/" class="menu-image-title-after"><span class="text-wrap"><span class="menu-image-title">About</span></span></a></li><li id="menu-item-879" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-879"><a href="/contact/" class="menu-image-title-after"><span class="text-wrap"><span class="menu-image-title">Contact</span></span></a></li></ul>
+			</nav><!-- #site-navigation -->
+
+			
+			
+					</div><!-- #site-navigation-wrap -->
+		
+		
+	
+				
+	<div class="oceanwp-mobile-menu-icon clr mobile-right">
+
+		
+		
+		
+		<a href="#" class="mobile-menu">
+							<i class="fa fa-bars"></i>
+							<span class="oceanwp-text">Menu</span>
+
+						</a>
+
+		
+		
+		
+	</div><!-- #oceanwp-mobile-menu-navbar -->
+
+
+			</div><!-- #site-header-inner -->
+
+			
+			
+		
+				
+	
+</header><!-- #site-header -->
+
+	</div>
+
+						
+			<main id="main" class="site-main clr" >
+
+				
+
+<header class="page-header">
+
+	
+	<div class="container clr page-header-inner">
+
+		
+			<h1 class="page-header-title clr" itemprop="headline">Blog</h1>
+
+			
+		
+		<nav role="navigation" aria-label="Breadcrumbs" class="site-breadcrumbs clr" itemprop="breadcrumb"><ul class="trail-items" itemscope itemtype="http://schema.org/BreadcrumbList"><meta name="numberOfItems" content="3" /><meta name="itemListOrder" content="Ascending" /><li class="trail-item trail-begin" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="" rel="home"><span itemprop="name"><span class="icon-home"></span><span style="display: none;">Home</span></span></a><meta content="1" itemprop="position" /></li><li class="trail-item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a href="/category/software/"><span itemprop="name">Software</span></a><meta content="2" itemprop="position" /></li><li class="trail-item trail-end" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><span itemprop="name">Treasure Cave &#8211; from Gamejam to Play Store</span><meta content="3" itemprop="position" /></li></ul></nav>
+	</div><!-- .page-header-inner -->
+
+	
+	
+</header><!-- .page-header -->
+
+
+	
+	<div id="content-wrap" class="container clr">
+
+		
+		<div id="primary" class="content-area clr">
+
+			
+			<div id="content" class="site-content clr">
+
+				
+				
+<article id="post-952">
+
+	
+
+<header class="entry-header clr">
+	<h2 class="single-post-title entry-title" itemprop="headline">Treasure Cave &#8211; from Gamejam to Play Store</h2><!-- .single-post-title -->
+</header><!-- .entry-header -->
+
+
+
+<ul class="meta clr">
+
+	
+					<li class="meta-author" itemprop="name"><i class="icon-user"></i><a href="/author/admin/" title="Posts by Luca" rel="author"  itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person">Luca</a></li>
+		
+		
+		
+		
+	
+		
+					<li class="meta-date" itemprop="datePublished"><i class="icon-clock"></i>April 9, 2019</li>
+		
+		
+		
+	
+		
+		
+					<li class="meta-cat"><i class="icon-folder"></i><a href="/category/art/" rel="category tag">Art</a> / <a href="/category/games/" rel="category tag">Games</a> / <a href="/category/software/" rel="category tag">Software</a></li>
+		
+		
+	
+		
+		
+		
+		
+		
+</ul>
+
+
+
+<div class="entry-content clr" itemprop="text">
+			<div data-elementor-type="post" data-elementor-id="952" class="elementor elementor-952" data-elementor-settings="[]">
+			<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+							<section class="elementor-element elementor-element-72fbc6d elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="72fbc6d" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-c1fdda1 elementor-column elementor-col-100 elementor-top-column" data-id="c1fdda1" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-ec76d20 elementor-widget elementor-widget-image" data-id="ec76d20" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="834" height="234" src="/wp-content/uploads/2019/03/Banner.jpg" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2019/03/Banner.jpg 834w, /wp-content/uploads/2019/03/Banner-300x84.jpg 300w, /wp-content/uploads/2019/03/Banner-768x215.jpg 768w" sizes="(max-width: 834px) 100vw, 834px" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-e37455a elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="e37455a" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-7d09753 elementor-column elementor-col-100 elementor-top-column" data-id="7d09753" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-c3a9f8b elementor-widget elementor-widget-text-editor" data-id="c3a9f8b" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p style="text-align: center;"><em>Figure 0.1  Treasure Cave Gamejam Logo<br /></em></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-756da06 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="756da06" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-a70393d elementor-column elementor-col-100 elementor-top-column" data-id="a70393d" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-6c9faf6 elementor-widget elementor-widget-heading" data-id="6c9faf6" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-large">1 Introduction</h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-429d964 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="429d964" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-0312a8e elementor-column elementor-col-100 elementor-top-column" data-id="0312a8e" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-9e5290f elementor-widget elementor-widget-text-editor" data-id="9e5290f" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>In toady’s blog, I want to talk about my second in development project: Treasure Cave As always, I will give a quick introduction into the project, then I will go a bit into the details about the gamejam, where my friends and I created this game, and then I’ll move over to today’s state of development.</p><p>If you do not want to read the website, but rather a nicely formatted pdf, or have to go offline in a bit, you can download one <span style="color: ##bff2ff;"><a style="color: ##bff2ff;" href="/wp-content/uploads/2019/04/Blog_Post___Programming__02.pdf" target="_blank" rel="noopener" data-wplink-url-error="true"><span style="color: #00ccff;">here</span></a></span></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-beab44b elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="beab44b" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-aa12f8d elementor-column elementor-col-100 elementor-top-column" data-id="aa12f8d" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-0b7b0e5 elementor-widget elementor-widget-heading" data-id="0b7b0e5" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-medium"><span style="font-size: x-large;"><strong>1.1 What is the Treasure Cave?</strong></span></h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-6be4e49 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="6be4e49" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-fef2c09 elementor-column elementor-col-100 elementor-top-column" data-id="fef2c09" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-4ae2575 elementor-widget elementor-widget-text-editor" data-id="4ae2575" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Treasure Cave is a mobile mining game, currently only for Android (simply because we lack apple devices), which uses mixed reality to create an unique playing experience. The usage of hardware features, like the gyroscope or accelomereter provide an intuitive interaction method with the game. The game features two different game modes. The first being a &#8220;Hunt the Highscore&#8221; mode, in which you play against the highscore list of all other global players for a total of one minute. The second mode is level based and offers different unlockable and upgradeable environments to the player . In both modes, the goal is, to scan the surrounding rocks for treasures and mine as much valuables ores and gems as possible, while the trying to avoid the dangers of the mine, like leaking water, left over dynamite and more ! However, the player cannot move around, only rotate around the camera, through rotating his/her phone.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-5b8e5f7 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="5b8e5f7" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-0d69e8e elementor-column elementor-col-100 elementor-top-column" data-id="0d69e8e" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-ee676fc elementor-widget elementor-widget-heading" data-id="ee676fc" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-large">2 The Gamejam</h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-5a7dc8e elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="5a7dc8e" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-2ea2f39 elementor-column elementor-col-100 elementor-top-column" data-id="2ea2f39" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-5961649 elementor-widget elementor-widget-heading" data-id="5961649" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-medium"><span style="font-size: x-large;"><strong>2.1 Gamejam setup</strong></span></h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-ae3fcd0 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="ae3fcd0" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-06eca7a elementor-column elementor-col-100 elementor-top-column" data-id="06eca7a" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-d46c0fb elementor-widget elementor-widget-text-editor" data-id="d46c0fb" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>The base game was created during the TUM Semestergamejam 2018 Winter edition, where the topic was &#8220;Discovery&#8221;. This build only included the highscore mode, and dynamite as only danger. After some brainstorming, we went with a simple, yet interesting mining game, because it looked like a very good idea, that could be developed further after the gamejam. During the gamejam we split the team in two subgroups, an art and a programming group. This was necessary, as last time everything went crazy, because we did not assign clear roles for everyone.</p><p>So David and me were in the artist group, and the Joshua, Maarten and Phillip were responsible for the functionality and gameplay. During the development, I became the visual programmer of the project as well.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-e4d4736 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="e4d4736" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-8d287e7 elementor-column elementor-col-100 elementor-top-column" data-id="8d287e7" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-cd0eaf1 elementor-widget elementor-widget-heading" data-id="cd0eaf1" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-medium"><span style="font-size: x-large;"><strong>2.2 Graphics</strong></span></h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-1f34b81 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="1f34b81" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-e9fa108 elementor-column elementor-col-100 elementor-top-column" data-id="e9fa108" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-ced84ad elementor-widget elementor-widget-text-editor" data-id="ced84ad" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Right at the beginning, the graphical style of the game had to be set, otherwise the game will not have any consistent visuals at the end of the jam. We decided to go for a low poly style, after looking at some visual examples of caves and cliffs. It also allowed a fast modelling process, as the rocks anditems used for the game are very simple, and could be reused a lot. Later on this decision proofed itself to be the only viable way to go. The only model which provided some starting problems was the cave model, which is the model that cannot be interacted with. We had a very clear idea, how it should look like, and tried to come up with a good idea, to create it. After some experimenting, we went for a procedure in blender, which looked like the following:</p><p><br />Create a plane -&gt; subdivide it multiple times -&gt; triangulate the subdivided plane -&gt; subdivide one last<br />time, and add noise in the subdivision effect -&gt; bend the mesh according to a circular spline -&gt; cut off<br />as much overlapping plane as possible -&gt; add 2 planes, which were subdivided in the same way, to the<br />end of the tube, to close it</p><p>A problem which arises with this procedure is, that due to the bending, a lot of vertices overlap and the outer most, can be removed, because they are not visible from within the cave. But some of these vertices also intersect with the innermost faces, therefore it is a Sisyphus task to optimize the mesh. So we did not do that completely, but only cut off the easy to select vertices. During the gameplay tests, no real performance issues occurred with this solution.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-1e80e64 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="1e80e64" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-21bc071 elementor-column elementor-col-100 elementor-top-column" data-id="21bc071" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-6ce4b6d elementor-widget elementor-widget-image" data-id="6ce4b6d" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-image">
+										<img width="1024" height="576" src="/wp-content/uploads/2019/04/blender-tube-1024x576.png" class="attachment-large size-large" alt="" srcset="/wp-content/uploads/2019/04/blender-tube-1024x576.png 1024w, /wp-content/uploads/2019/04/blender-tube-300x169.png 300w, /wp-content/uploads/2019/04/blender-tube-768x432.png 768w, /wp-content/uploads/2019/04/blender-tube-24x14.png 24w, /wp-content/uploads/2019/04/blender-tube-36x20.png 36w, /wp-content/uploads/2019/04/blender-tube-48x27.png 48w, /wp-content/uploads/2019/04/blender-tube.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px" />											</div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-90cbbfd elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="90cbbfd" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-814d74b elementor-column elementor-col-100 elementor-top-column" data-id="814d74b" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-04a6870 elementor-widget elementor-widget-text-editor" data-id="04a6870" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p style="text-align: center;"><em>Figure 2.1  Cave tube after end of the procedure (in blender)<br /></em></p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-6819ca4 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="6819ca4" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-2ed5e78 elementor-column elementor-col-100 elementor-top-column" data-id="2ed5e78" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-fdf30ff elementor-widget elementor-widget-heading" data-id="fdf30ff" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-medium"><span style="font-size: x-large;"><strong>2.3 Game features</strong></span></h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-06bf336 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="06bf336" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-370d0b7 elementor-column elementor-col-100 elementor-top-column" data-id="370d0b7" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-9ee1fec elementor-widget elementor-widget-text-editor" data-id="9ee1fec" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>The core mechanic of the game is the ability to rotate the camera through rotating the device. So this movement has to be accurate and very smooth, in order to provide a good user experience. During the gamejam and even after that, different edge cases caused different problems with the implementations we used. For example: When we tried to smooth the movement of the camera, in order to counter the jittering of the users hand, it could happen that after after some very fast rotations, the camera was off from the correct rotation angle. This caused the game to be unplayable, because most of time, the camera faced straight down, which made it very hard to align the camera with the horizontal axis, let alone look up.</p><p>But after many iterations Maarten got a working solution for the jam, and later on a better one for the current development build.A problem which surprised us a lot, was the fact that apparently a relatively high amount of devices does not have a gyroscope. We came across this problem, when the same version did not work on some older (maybe 2-3 years old) devices, but on newer devices.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-0404704 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="0404704" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-ccba0ce elementor-column elementor-col-100 elementor-top-column" data-id="ccba0ce" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-e557b02 elementor-widget elementor-widget-heading" data-id="e557b02" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-medium"><span style="font-size: x-large;"><strong>2.4 Focus on simplicity</strong></span></h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-b795efb elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="b795efb" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-32f8d29 elementor-column elementor-col-100 elementor-top-column" data-id="32f8d29" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-59a7733 elementor-widget elementor-widget-text-editor" data-id="59a7733" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Before I already mentioned that the low poly graphic style was the only possible way for our game. I’d like to elaborate this a bit more. Because our game had not much difficult functionality (programming wise), the other three got things working quite fast. So with ongoing time, their progress was much faster than ours, and in the case that we would have chosen another art style, this game would not have been finished in the 32 hours of the gamejam. This is not an uncommon occurrence at the gamejams I participated. The reason I see for this is, that gamejam games are usually super simple, functionality wise. But in order to stick out, it has to have a consistent, and good graphics style. So all games of the gamejams we were in, had a very high amount of art assets, compared to the amount of features. And this often leads to the point, that the game functionality itself is ready long before deadline, but the art assets are not, simply because we need a lot of them.</p><p>At the end of the gamejam we actually won the category price &#8220;Engineering&#8221;, because our game<br />was one of the most polished games at the event, and everything worked. We even had a bitcoin level.<br />Why? Because we had the time.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-c0c6323 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="c0c6323" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-394c090 elementor-column elementor-col-100 elementor-top-column" data-id="394c090" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-57b6391 elementor-widget elementor-widget-heading" data-id="57b6391" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-large">3 Into the Play Store</h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-c18b159 elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="c18b159" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-16b61d8 elementor-column elementor-col-100 elementor-top-column" data-id="16b61d8" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-5cdddcf elementor-widget elementor-widget-text-editor" data-id="5cdddcf" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Now that you’ve gotten a good insight on how we created the base of our game, it is now time to go over the current development and our plans until the play store release. Short notice tho: we added a water mechanic and the said level based gamemode into the game in order to hand it in for a lecture. The water acts as new danger, compared to only one danger in the gamejam build. Unlike the dynamite, the water has a counter action, which consists of rotating the phone 90 degree around the forward vector of the phone.</p><p>The game itself offers a lot of potential, which would require a bigger team to fully embrace. There could be dozens of different levels, dangers and challenges, as well as special movement for selected levels and more. But because we are only 5 people, we do not go for that. For further development, we deciced to redo the UI of the game, as it is way too static, and does not look that nice in flat 2D. Therefore a 3D menu is currently in the creation process by me. Gameplay wise, we want to go for a progression system in the level gamemode. The progression system allows the player to unlock new mining places, and also upgrade every mining place, to get more mining positions within one mine. Currently we are aiming for 3 different places. Of course the game will have a tutorial as well, which will introduces new players into the game. Because some people mentioned, that it might look a bit strange to play the game in public, we think about implementing alternative swipe controls to move the camera. </p><p>But most work remaining is creating all assets, animations, UI elements until we reach the Google Play Store. But when we are ready, we want to launch the game into the Google Play store, and if we find a way, to deploy it on the Apple Appstore as well, we would like to do that as well, afetr proper testing of course.</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-9c19d9c elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="9c19d9c" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-2a15219 elementor-column elementor-col-100 elementor-top-column" data-id="2a15219" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-6890485 elementor-widget elementor-widget-heading" data-id="6890485" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-large">4 Final words</h2>		</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+				<section class="elementor-element elementor-element-04863ee elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section elementor-top-section" data-id="04863ee" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+				<div class="elementor-element elementor-element-52a6ab2 elementor-column elementor-col-100 elementor-top-column" data-id="52a6ab2" data-element_type="column">
+			<div class="elementor-column-wrap  elementor-element-populated">
+					<div class="elementor-widget-wrap">
+				<div class="elementor-element elementor-element-b801be1 elementor-widget elementor-widget-text-editor" data-id="b801be1" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>So now that you’ve gotten an insight into our game, you might want to play a round. Luckily, the gamejam version is still available for download. you can find it here: <span style="color: ##bff2ff;"><a style="color: ##bff2ff;" href="https://gilgusmaximus.itch.io/treasure-cave" target="_blank" rel="noopener"><span style="color: #ccffff;">itch.io</span></a></span></p><p>Also here is my team:</p><h2 class="elementor-heading-title elementor-size-medium elementor-inline-editing pen" contenteditable="true" data-elementor-setting-key="title" data-pen-placeholder="Type Here..."><span style="color: #c9c9c9;">Maarten Bussler &#8211; Core programmer</span></h2><p>Contact Maarten here: <a href="mailto:maarten.bussler@gmail.com"><span style="color: #bff2f2;">maarten.bussler@gmail.com</span></a></p><h2><span style="color: #c9c9c9;">David Drothler &#8211; Artist</span></h2><h2><span style="color: #c9c9c9;">Phillip Eckart-Weißbäcker &#8211; Core Programmer</span></h2><h2><span style="color: #c9c9c9;">Joshua Weggartner &#8211; Core Programmer</span></h2><p>Follow Joshua on Twitter: <span style="color: #bff2ff;"> <a style="color: #bff2ff;" href="https://twitter.com/devploration" target="_blank" rel="noopener">twitter.com/devploration</a></span></p><h2 class="elementor-heading-title elementor-size-medium elementor-inline-editing pen" contenteditable="true" data-elementor-setting-key="title" data-pen-placeholder="Type Here..."><span style="color: #c9c9c9;"> </span></h2><p>I’d also like to address the upcoming blog posts. Now that I’ve covered every major topic, the blog posts will become much shorter, as there is not that much super exciting happening in my 2 projects. So I will post update posts on both projects. At the moment of writing, I’m not completely sure, whether I will post updates for both in one post per week, or post once a week, only one update and then switch the next week. But I will decide on that until the next time !</p><p>And yes, thanks for reading have a good day and See you next time<br />Luca =)</p></div>
+				</div>
+				</div>
+						</div>
+			</div>
+		</div>
+						</div>
+			</div>
+		</section>
+						</div>
+			</div>
+		</div>
+		</div><!-- .entry -->
+
+<div class="post-tags clr">
+	</div>
+
+
+
+	<section id="related-posts" class="clr">
+
+		<h3 class="theme-heading related-posts-title">
+			<span class="text">You Might Also Like</span>
+		</h3>
+
+		<div class="oceanwp-row clr">
+
+			
+			
+				
+				<article class="related-post clr col span_1_of_3 col-1 post-1013 post type-post status-publish format-standard hentry category-games entry">
+
+					
+					<h3 class="related-post-title">
+						<a href="/treasure-cave-development-update-0/" title="Treasure Cave &#8211; Development Update #0" rel="bookmark">Treasure Cave &#8211; Development Update #0</a>
+					</h3><!-- .related-post-title -->
+									
+					<time class="published" datetime="2019-05-12T16:43:26+00:00"><i class="icon-clock"></i>May 12, 2019</time>
+
+				</article><!-- .related-post -->
+				
+				
+			
+				
+				<article class="related-post clr col span_1_of_3 col-2 post-999 post type-post status-publish format-standard hentry category-software entry">
+
+					
+					<h3 class="related-post-title">
+						<a href="/ludum-dare-44-a-43-hours-project/" title="Ludum Dare 44 &#8211; A 43 hours project" rel="bookmark">Ludum Dare 44 &#8211; A 43 hours project</a>
+					</h3><!-- .related-post-title -->
+									
+					<time class="published" datetime="2019-05-05T18:02:14+00:00"><i class="icon-clock"></i>May 5, 2019</time>
+
+				</article><!-- .related-post -->
+				
+				
+			
+				
+				<article class="related-post clr col span_1_of_3 col-3 post-923 post type-post status-publish format-standard hentry category-magic-musicplayer category-software entry">
+
+					
+					<h3 class="related-post-title">
+						<a href="/magic-musicplayer-javafx-in-2019/" title="Magic Musicplayer &#8211; JavaFX in 2019" rel="bookmark">Magic Musicplayer &#8211; JavaFX in 2019</a>
+					</h3><!-- .related-post-title -->
+									
+					<time class="published" datetime="2019-04-02T18:20:07+00:00"><i class="icon-clock"></i>April 2, 2019</time>
+
+				</article><!-- .related-post -->
+				
+				
+			
+		</div><!-- .oceanwp-row -->
+
+	</section><!-- .related-posts -->
+
+
+
+
+</article>
+				
+			</div><!-- #content -->
+
+			
+		</div><!-- #primary -->
+
+		
+		
+
+<aside id="right-sidebar" class="sidebar-container widget-area sidebar-primary" itemscope="itemscope" itemtype="http://schema.org/WPSideBar">
+
+	
+	<div id="right-sidebar-inner" class="clr">
+
+		<div id="search-4" class="sidebar-box widget_search clr"><h4 class="widget-title">Search</h4>
+<form method="get" class="searchform" id="searchform" action="/">
+	<input type="text" class="field" name="s" id="s" placeholder="Search">
+	</form></div><div id="categories-4" class="sidebar-box widget_categories clr"><h4 class="widget-title">Categories</h4>		<ul>
+	<li class="cat-item cat-item-8"><a href="/category/art/" >Art</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="/category/games/" >Games</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="/category/software/magic-musicplayer/" >Magic Musicplayer</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="/category/software/" >Software</a>
+</li>
+		</ul>
+</div><div id="text-3" class="sidebar-box widget_text clr"><h4 class="widget-title">MY RSS Feed</h4>			<div class="textwidget"><p>lucahohmann.com/feed</p>
+</div>
+		</div><div id="text-5" class="sidebar-box widget_text clr"><h4 class="widget-title">Blog</h4>			<div class="textwidget"><p>My blog is all about me sharing and writing about my projects. I&#8217;ll love to hear feedback, critique, and suggestions!</p>
+<p><strong>At the moment comments are not available, due to a waiting list at the staticman commenting service.</strong></p>
+</div>
+		</div><div id="custom_html-3" class="widget_text sidebar-box widget_custom_html clr"><h4 class="widget-title">Follow Me</h4><div class="textwidget custom-html-widget"><a href="https://twitter.com/lucahohmann" target="_blank">
+<img src="/wp-content/uploads/2019/03/Twitter_Logo_Blue.png" 
+		 alt="" style="width:50px;height:50px;"> </a> <a href="https://github.com/gilgusmaximus" target="_blank"><img src="/wp-content/uploads/2019/03/GitHub-Mark-Light-64px-1.png" alt="" style="width:34px;height:34px;"></a></div></div>
+	</div><!-- #sidebar-inner -->
+
+	
+</aside><!-- #right-sidebar -->
+
+
+	</div><!-- #content-wrap -->
+
+	
+
+        </main><!-- #main -->
+
+        
+        
+        
+            
+<footer id="footer" class="site-footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter">
+
+    
+    <div id="footer-inner" class="clr">
+
+        
+
+<div id="footer-widgets" class="oceanwp-row clr">
+
+	
+	<div class="footer-widgets-inner container">
+
+        			<div class="footer-box span_1_of_4 col col-1">
+							</div><!-- .footer-one-box -->
+
+							<div class="footer-box span_1_of_4 col col-2">
+									</div><!-- .footer-one-box -->
+						
+							<div class="footer-box span_1_of_4 col col-3">
+									</div><!-- .footer-one-box -->
+			
+							<div class="footer-box span_1_of_4 col col-4">
+									</div><!-- .footer-box -->
+			
+		
+	</div><!-- .container -->
+
+	
+</div><!-- #footer-widgets -->
+
+
+
+<div id="footer-bottom" class="clr no-footer-nav">
+
+	
+	<div id="footer-bottom-inner" class="container clr">
+
+		
+		
+			<div id="copyright" class="clr" role="contentinfo">
+				Copyright 2019 - OceanWP Theme by Nick - 
+<a href="/datenschutz/">Datenschutz</a> - <a href="/impressum/">Impressum</a>
+			</div><!-- #copyright -->
+
+		
+	</div><!-- #footer-bottom-inner -->
+
+	
+</div><!-- #footer-bottom -->
+
+        
+    </div><!-- #footer-inner -->
+
+    
+</footer><!-- #footer -->            
+        
+                        
+    </div><!-- #wrap -->
+
+    
+</div><!-- #outer-wrap -->
+
+
+
+<a id="scroll-top" class="scroll-top-right" href="#"><span class="fa fa-angle-up"></span></a>
+
+
+<div id="sidr-close">
+	<a href="#" class="toggle-sidr-close">
+		<i class="icon icon-close"></i><span class="close-text">Close Menu</span>
+	</a>
+</div>
+    
+    
+<div id="mobile-menu-search" class="clr">
+	<form method="get" action="/" class="mobile-searchform">
+		<input type="search" name="s" autocomplete="off" placeholder="Search" />
+		<button type="submit" class="searchform-submit">
+			<i class="icon icon-magnifier"></i>
+		</button>
+			</form>
+</div><!-- .mobile-menu-search -->
+
+<script type='text/javascript' src='/wp-content/plugins/yarss/js/jquery.cycle2.min.js?ver=1.1'></script>
+<script type='text/javascript' src='/wp-content/plugins/yarss/js/jquery.cycle2.carousel.js?ver=1.1'></script>
+<script type='text/javascript' src='/wp-includes/js/imagesloaded.min.js?ver=3.2.0'></script>
+<script type='text/javascript' src='/wp-content/themes/oceanwp/assets/js/third/magnific-popup.min.js?ver=1.5.26'></script>
+<script type='text/javascript' src='/wp-content/themes/oceanwp/assets/js/third/lightbox.min.js?ver=1.5.26'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var oceanwpLocalize = {"isRTL":"","menuSearchStyle":"disabled","sidrSource":"#sidr-close, #site-navigation, #mobile-menu-search","sidrDisplace":"1","sidrSide":"left","sidrDropdownTarget":"icon","verticalHeaderTarget":"icon","customSelects":".woocommerce-ordering .orderby, #dropdown_product_cat, .widget_categories select, .widget_archive select, .single-product .variations_form .variations select","ajax_url":"\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='/wp-content/themes/oceanwp/assets/js/main.min.js?ver=1.5.26'></script>
+<!--[if lt IE 9]>
+<script type='text/javascript' src='/wp-content/themes/oceanwp/assets/js//third/html5.min.js?ver=1.5.26'></script>
+<![endif]-->
+<script type='text/javascript' src='/wp-content/plugins/elementor/assets/js/frontend-modules.js?ver=2.5.9'></script>
+<script type='text/javascript' src='/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.7.1'></script>
+<script type='text/javascript' src='/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2'></script>
+<script type='text/javascript' src='/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=4.4.6'></script>
+<script type='text/javascript'>
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"2.5.9","urls":{"assets":"\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"general":{"elementor_global_image_lightbox":"yes","elementor_enable_lightbox_in_editor":"yes"}},"post":{"id":952,"title":"Treasure Cave - from Gamejam to Play Store","excerpt":""}};
+</script>
+<script type='text/javascript' src='/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=2.5.9'></script>
+</body>
+</html>
