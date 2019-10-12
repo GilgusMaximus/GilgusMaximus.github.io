@@ -9,6 +9,9 @@ h3{
     text-align: left;
     margin-top: 80px;
     margin-left: 4%;
+    animation-duration: 2s;
+    animation-name: slidein;
+    position: relative;
 }
 .row{
     align-items: center;
@@ -79,4 +82,20 @@ li img:hover{
     border-image-width: 1px;
     border-style: solid;
     width: 90%
+}
+#topText{
+
+}
+@keyframes slidein {
+    from{
+        top: 80px;
+        opacity: 0;
+    }
+    25%{
+        opacity: 0;
+    }
+    to{
+        top: 0px;
+        opacity: 1;
+    }
 }

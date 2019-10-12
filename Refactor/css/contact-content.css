@@ -9,57 +9,38 @@ h3{
     text-align: left;
     margin-top: 80px;
     margin-left: 4%;
+    animation-duration: 2s;
+    animation-name: slidein;
 }
 h4{
     font-size: 22px;
+    animation-duration: 2s;
+    animation-name: slidein;
 }
 .row{
     align-items: center;
     display: flex;
     text-align: center;
     margin: 5% 5%;
-}
 
-.doubleColumn{
-    margin-top: 20px;
-    height: 100%;
-    flex: 50%;
-}
-.doubleColumn img{
-    border-color: #44c5c6;
-    width: 340px;
-    border-image-width: 1px;
-    border-style: solid;
-
-    animation-duration: 2s;
-    animation-name: slidein;
-}
-.doubleColumn p{
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 43.2px;
-    font-family: 'Maven Pro', "fantasy";
-    width: 500px;
-
-    animation-duration: 2s;
-    animation-name: slidein;
 }
 .tripleColumn{
     padding-top: 50px;
-    height: 450px;
-    flex: 33%;
+    height: 500px;
+    width: 450px;
+    outline: 4px solid #bcbcbc;
+    outline-offset: -10px;
+    margin: 0 auto;
 }
 .tripleColumn img{
-    height: 50px;
-
+    height: 80px;
     animation-duration: 2s;
     animation-name: slidein;
     position: relative;
 }
 .tripleColumn p{
-    text-align: left;
-    font-size: 20px;
-    margin-left: 15%;
+    text-align: center;
+    font-size: 28px;
 }
 .tripleColumn .divider{
     background-color: white;
@@ -71,13 +52,36 @@ h4{
     top: -5px;
     border-radius: 2px;
 }
-
-div .row .doubleColumn{
-    font-size: 20px;
-    margin-top: 0;
+.tripleColumn div{
+    text-align: center;
+    font-size: 24px;
+    width: 78%;
+    margin: 0 auto;
+    line-height: 35px;
 }
-.techLogo img{
-    height: 250px;
+.divider{
+    background-color: white;
+    height: 3px;
+    width: 10%;
+    margin: 0 auto;
+    margin-top: 40px;
+    position: relative;
+    top: -5px;
+    border-radius: 2px;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+a{
+    color: #04c4ca;
+}
+#topText{
+    animation-duration: 2s;
+    animation-name: slidein;
+    position: relative;
 }
 
 @keyframes fadein {
@@ -95,7 +99,7 @@ div .row .doubleColumn{
 
 @keyframes slidein {
     from{
-        top: -100px;
+        top: 100px;
         opacity: 0;
     }
 

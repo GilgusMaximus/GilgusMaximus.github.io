@@ -60,3 +60,28 @@ video{
 #blogComponent{
     font-size: 24px;
 }
+/*#topText{*/
+/*    position: relative;*/
+/*    opacity: 0;*/
+/*    top: -150px;*/
+/*    transition: opacity 3s*/
+/*}*/
+#topText{
+    animation-duration: 2s;
+    animation-name: slidein;
+    position: relative;
+}
+@keyframes slidein {
+    from{
+        top: -100px;
+        opacity: 0;
+    }
+
+    25%{
+        opacity: 0;
+    }
+    to{
+        top: 0px;
+        opacity: 1;
+    }
+}
