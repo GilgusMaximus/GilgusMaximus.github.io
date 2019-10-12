@@ -38,6 +38,9 @@ h4{
     animation-name: slidein;
     position: relative;
 }
+.tripleColumn img:hover{
+    opacity: 0.8;
+}
 .tripleColumn p{
     text-align: center;
     font-size: 28px;
@@ -77,6 +80,9 @@ p{
 }
 a{
     color: #04c4ca;
+}
+a:hover{
+    color: #04959b;
 }
 #topText{
     animation-duration: 2s;

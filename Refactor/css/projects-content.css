@@ -13,6 +13,12 @@ h3{
     animation-name: slidein;
     position: relative;
 }
+a{
+    color: #04c4ca;
+}
+a:hover{
+    color: #04a3a9;
+}
 .row{
     align-items: center;
     display: flex;
@@ -32,6 +38,9 @@ h3{
 .doubleRow img{
     width: 60%;
 }
+.doubleRow img:hover{
+    opacity: 0.8;
+}
 .doubleRow p{
     font-size: 17px;
     color: #bcbcbc;
@@ -44,6 +53,9 @@ h3{
 }
 .soloRow img{
     width: 25%;
+}
+.soloRow img:hover{
+    opacity: 0.8;
 }
 .soloRow div{
     margin: 0 auto;
