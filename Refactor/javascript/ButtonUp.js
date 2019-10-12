@@ -1,14 +1,15 @@
 // Set a variable for our button element.
 let scrollToTopButton;
-window.onload = function() {
-    // process DOM elements here
+window.addEventListener('load', doStuff, false);
+function doStuff() {
     scrollToTopButton = document.getElementById('backToTop');
-// When the button is clicked, run our ScrolltoTop function above!
-    scrollToTopButton.onclick = function(e) {
+    window.addEventListener("scroll", scrollFunction);
+    // When the button is clicked, run our ScrolltoTop function above!
+    scrollToTopButton.onclick = function (e) {
         e.preventDefault();
         scrollToTop();
     }
-};
+}
 
 
 /*This function is from https://www.w3schools.com/howto/howto_js_scroll_to_top.asp*/
@@ -16,7 +17,6 @@ window.onload = function() {
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-    console.log("Scrolling", scrollToTopButton);
     if(!scrollToTopButton)
         return;
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
