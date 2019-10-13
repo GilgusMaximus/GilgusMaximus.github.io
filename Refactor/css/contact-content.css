@@ -78,6 +78,9 @@ p{
     animation-duration: 2s;
     animation-name: slidein;
 }
+.invisibleDivider{
+    height: 290px;
+}
 a{
     color: #04c4ca;
 }
@@ -115,5 +118,17 @@ a:hover{
     to{
         top: 0px;
         opacity: 1;
+    }
+}
+@media screen and (max-width: 1000px){
+    .row{
+        display: block;
+    }
+    .tripleColumn{
+        max-width: 100%;
+        height: 450px;
+    }
+    .invisibleDivider{
+        height: 150px;
     }
 }
