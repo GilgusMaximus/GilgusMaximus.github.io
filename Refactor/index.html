@@ -45,14 +45,14 @@
                 <img style="width: 80%; background-color: red" src="./images/home/cellphone-desk-iphone-7100-o50m1cpmnss238zhtluok7qbvt7zt52bdmvvnyn48o.jpg">
             </div>
             <div class="doubleColumn" >
-                <p id="blogComponent"> <span style="font-weight: 700; font-size: 63px">My weekly blog</span><br/> Updates and thoughts on my current project</p>
+                <p id="blogComponent"> <span>My weekly blog</span><br/> Updates and thoughts on my current project</p>
                 <button onclick="window.location.href = './pages/blog.html' ">Join my journey ></button>
             </div>
 
 <!--            Programming projects video-->
         </section>
         <section class="row">
-            <div class="doubleColumn">
+            <div class="doubleColumn mobileView">
                 <img class="icon" src="images/icons/code_icon.png">
                 <p> Software and Game projects</p>
                 <button onclick="window.location.href = './pages/projects.html' ">Take a look ></button>
@@ -65,7 +65,7 @@
         </section>
 
 <!--        Art project video-->
-        <section class="row">
+        <section class="row desktopView">
             <div class="doubleColumn">
                 <video width="100%" height="100%" controls autoplay loop alt="Video of my projects">
                     <source src="videos/Website-Home-Art.mp4" type="video/mp4"/>
@@ -75,6 +75,18 @@
                 <img class="icon" style="width: 15% " src="images/icons/block_icon.png">
                 <p> Art projects</p>
                 <button onclick="window.location.href = './pages/projects.html#art_section' ">To the gallery ></button>
+            </div>
+        </section>
+        <section class="row mobileView">
+            <div class="doubleColumn">
+                <img class="icon" style="width: 15% " src="images/icons/block_icon.png">
+                <p> Art projects</p>
+                <button onclick="window.location.href = './pages/projects.html#art_section' ">To the gallery ></button>
+            </div>
+            <div class="doubleColumn">
+                <video width="100%" height="100%" controls autoplay loop alt="Video of my projects">
+                    <source src="videos/Website-Home-Art.mp4" type="video/mp4"/>
+                </video>
             </div>
         </section>
 

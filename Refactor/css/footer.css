@@ -27,3 +27,8 @@ footer a:hover{
     font-weight: 400;
     text-decoration: none;
 }
+@media screen and (max-width: 450px) {
+    footer{
+        font-size: 10px;
+    }
+}

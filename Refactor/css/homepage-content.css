@@ -60,6 +60,14 @@ video{
 #blogComponent{
     font-size: 24px;
 }
+
+#blogComponent span{
+    font-weight: 700;
+    font-size: 63px;
+}
+.mobileView{
+    display: none;
+}
 /*#topText{*/
 /*    position: relative;*/
 /*    opacity: 0;*/
@@ -83,5 +91,83 @@ video{
     to{
         top: 0px;
         opacity: 1;
+    }
+}
+
+@media screen and (min-width: 230px) and (max-width: 332px){
+    .row{
+        display: block;
+    }
+    #blogComponent{
+        font-size: 20px;
+    }
+    #blogComponent span{
+        font-size: 55px;
+    }
+    .frontImageDiv button{
+        background-color: #101010;
+        font-size: 22px;
+    }
+    .doubleColumn button{
+        padding: 20px 45px 20px 45px;
+        margin-bottom: 80px;
+        background-color: #101010;
+        font-size: 22px;
+    }
+    .frontImageDiv{
+        height: 1000px;
+    }
+    .frontImage{
+        height: 20%;
+    }
+    .mobileView{
+        display: block;
+        margin-top: 100px;
+    }
+    .desktopView{
+        display: none;
+    }
+    #topText{
+        font-size: 25px;
+        line-height: 46px
+    }
+}
+
+@media screen and (min-width: 333px)  and (max-width: 690px){
+    .row{
+        display: block;
+    }
+    #blogComponent{
+        font-size: 20px;
+    }
+    #blogComponent span{
+        font-size: 55px;
+    }
+    .frontImageDiv button{
+        background-color: #101010;
+        font-size: 22px;
+    }
+    .doubleColumn button{
+        padding: 20px 45px 20px 45px;
+        margin-bottom: 80px;
+        background-color: #101010;
+        font-size: 22px;
+    }
+    .frontImageDiv{
+        height: 900px;
+    }
+    .frontImage{
+        height: 20%;
+    }
+    .mobileView{
+        display: block;
+        margin-top: 100px;
+    }
+    .desktopView{
+        display: none;
+    }
+    #topText{
+        font-size: 25px;
+        line-height: 46px
     }
 }
