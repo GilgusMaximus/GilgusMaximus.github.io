@@ -30,7 +30,11 @@ h4{
 
 
 .techLogo img{
-    height: 250px;
+    max-width: 40%;
+}
+.techLogo{
+    flex: 1 1 auto
+
 }
 
 .tripleColumn img{
@@ -85,7 +89,9 @@ div .row .doubleColumn{
     font-size: 20px;
     margin-top: 0;
 }
-
+.images{
+    display: flex;
+}
 /*-----------------------------------------------------*/
 /*                     Animations                      */
 /*-----------------------------------------------------*/
@@ -115,5 +121,90 @@ div .row .doubleColumn{
     to{
         top: 0px;
         opacity: 1;
+    }
+}
+@media screen  and (max-width: 1075px){
+    h3{
+        margin-top: 13%;
+    }
+}
+@media screen  and (max-width: 800px){
+    h3{
+        margin-top: 30%;
+
+        margin-left: 0;
+    }
+    .skillset{
+        display: block;
+    }
+    .doubleColumn img{
+        max-width: 90%;
+    }
+}
+@media screen  and (max-width: 650px){
+    .tripleColumn{
+        height: 400px;
+    }
+    .tripleColumn p{
+
+        margin-right: 15%;
+    }
+    h3{
+        margin-top: 30%;
+        font-size: 35px;
+        margin-left: 0;
+    }
+    .skillset{
+        display: block;
+    }
+    .doubleColumn img{
+        max-width: 100%;
+    }
+    .row{
+        display: block;
+    }
+    .images{
+        display: block;
+    }
+    .techLogo img{
+        width: 100%;
+        height: auto;
+        max-width: none;
+    }
+}
+@media screen  and (max-width: 500px){
+    .tripleColumn{
+        height: 500px;
+    }
+    .tripleColumn p{
+
+        margin-right: 15%;
+    }
+    h3{
+        margin-top: 15%;
+        font-size: 31px;
+        margin-left: 0;
+    }
+    .skillset{
+        display: block;
+    }
+    .doubleColumn img{
+        max-width: 100%;
+    }
+    .row{
+        display: block;
+    }
+    .images{
+        display: block;
+    }
+    .CV{
+        padding-top: 80px;
+        height: 300px;
+    }
+
+    .techLogo img{
+        width: 100%;
+        height: auto;
+        max-width: none;
     }
 }
