@@ -72,7 +72,11 @@ header li a:hover{
     font-weight: 400;
     text-decoration: none;
 }
-
+@media screen and (max-width: 440px) {
+    header nav ul li{
+        margin-right: 5px;
+    }
+}
 @media screen and (max-width: 350px) {
     header nav ul li{
         margin-right: 11px;
