@@ -104,6 +104,10 @@ li img:hover{
 #topText{
 
 }
+a:visited{
+     color: #04c4ca;
+ }
+
 @keyframes slidein {
     from{
         top: 80px;

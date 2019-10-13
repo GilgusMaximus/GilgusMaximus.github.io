@@ -39,6 +39,9 @@ h4{
     border-style: solid;
     border-width: 2px;
 }
+a:visited{
+    color: #04c4ca;
+}
 #text{
     text-align: start;
     font-size: 25px;

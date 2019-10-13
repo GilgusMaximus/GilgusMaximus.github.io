@@ -87,6 +87,9 @@ a{
 a:hover{
     color: #04959b;
 }
+a:visited{
+    color: #04c4ca;
+}
 #topText{
     animation-duration: 2s;
     animation-name: slidein;

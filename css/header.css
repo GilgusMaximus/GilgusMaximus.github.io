@@ -22,7 +22,9 @@ header{
 .row{
     display: flex;
 }
-
+a:visited{
+    color: #f0f0f0;
+}
 header nav{
     width: 100%;
 }
