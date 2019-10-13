@@ -35,7 +35,7 @@ header nav ul{
 }
 header nav ul li{
     display: inline-block;
-    font-size: 20px;
+    font-size: 30px;
     margin-right: 25px;
     padding-left: -15px;
     padding-top: 20px;
@@ -76,6 +76,7 @@ header li a:hover{
     header nav ul li{
         margin-right: 5px;
     }
+
 }
 @media screen and (max-width: 350px) {
     header nav ul li{

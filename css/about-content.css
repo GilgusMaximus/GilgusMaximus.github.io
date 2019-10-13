@@ -28,6 +28,9 @@ h4{
     animation-name: slidein;
 }
 
+.doubleColumn p{
+    font-size: 25px;
+}
 
 .techLogo img{
     max-width: 40%;
@@ -46,7 +49,7 @@ h4{
 }
 .tripleColumn p{
     text-align: left;
-    font-size: 20px;
+    font-size: 25px;
     margin-left: 15%;
 }
 
@@ -70,7 +73,7 @@ h4{
 
 .tripleColumn{
     padding-top: 50px;
-    height: 450px;
+    height: 600px;
     flex: 33%;
 }
 
@@ -127,12 +130,19 @@ div .row .doubleColumn{
     h3{
         margin-top: 13%;
     }
+
+    .tripleColumn{
+        height: 750px;
+    }
 }
 @media screen  and (max-width: 800px){
     h3{
         margin-top: 30%;
 
         margin-left: 0;
+    }
+    .tripleColumn{
+        height: 750px;
     }
     .skillset{
         display: block;
@@ -166,6 +176,9 @@ div .row .doubleColumn{
     .images{
         display: block;
     }
+    .CV{
+        padding-top: 350px;
+    }
     .techLogo img{
         width: 100%;
         height: auto;
@@ -174,7 +187,7 @@ div .row .doubleColumn{
 }
 @media screen  and (max-width: 500px){
     .tripleColumn{
-        height: 500px;
+        height: 600px;
     }
     .tripleColumn p{
 
@@ -199,6 +212,42 @@ div .row .doubleColumn{
     }
     .CV{
         padding-top: 80px;
+        height: 300px;
+    }
+
+    .techLogo img{
+        width: 100%;
+        height: auto;
+        max-width: none;
+    }
+}
+@media screen  and (max-width: 430px){
+    .tripleColumn{
+        height: 600px;
+    }
+    .tripleColumn p{
+
+        margin-right: 15%;
+    }
+    h3{
+        margin-top: 15%;
+        font-size: 31px;
+        margin-left: 0;
+    }
+    .skillset{
+        display: block;
+    }
+    .doubleColumn img{
+        max-width: 100%;
+    }
+    .row{
+        display: block;
+    }
+    .images{
+        display: block;
+    }
+    .CV{
+        padding-top: 160px;
         height: 300px;
     }
 

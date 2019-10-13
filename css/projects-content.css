@@ -13,6 +13,9 @@ h3{
     animation-name: slidein;
     position: relative;
 }
+h2{
+    font-size: 30px;
+}
 a{
     color: #04c4ca;
 }
@@ -42,7 +45,7 @@ a:hover{
     opacity: 0.8;
 }
 .doubleRow p{
-    font-size: 17px;
+    font-size: 25px;
     color: #bcbcbc;
 }
 .soloRow{
@@ -59,6 +62,9 @@ a:hover{
 }
 .soloRow div{
     margin: 0 auto;
+}
+.soloRow p{
+    font-size: 25px;
 }
 ul{
     padding-left: 5%;

@@ -147,6 +147,7 @@ video{
         background-color: #101010;
         font-size: 22px;
     }
+    /*TODO Bei den meisten texten die schriftgröße für mobile erhöhen*/
     .doubleColumn button{
         padding: 20px 45px 20px 45px;
         margin-bottom: 80px;
