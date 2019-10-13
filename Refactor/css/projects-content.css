@@ -111,3 +111,28 @@ li img:hover{
         opacity: 1;
     }
 }
+@media screen and (max-width: 750px){
+    .doubleRow img{
+        width: 80%;
+    }
+    .soloRow img{
+        width: 32%;
+    }
+}
+@media screen and (max-width: 570px){
+    .doubleRow img{
+        width: 80%;
+    }
+    .soloRow img{
+        width: 70%;
+    }
+    .row{
+        display: block;
+    }
+    .listDiv{
+        display: block;
+    }
+    li img{
+        width: 40%;
+    }
+}
