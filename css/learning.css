@@ -1,0 +1,38 @@
+.collapsible {
+    background-color: #777;
+    color: black;
+    cursor: pointer;
+    padding: 50px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+.active, .collapsible:hover {
+    background-color: #555;
+}
+.collapseList{
+    width: 70%;
+    margin: 0 auto;
+}
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #191919;
+}
+#compilers{
+    background-image: url("../images/learning/compilers.jpg");
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-position: right -10px;
+}
+#prof_c{
+    background-image: url("../images/learning/compilers.jpg");
+    background-repeat: no-repeat;
+    background-size: 350px;
+    background-position: right -10px;
+}
