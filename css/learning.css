@@ -27,12 +27,35 @@
 #compilers{
     background-image: url("../images/learning/compilers.jpg");
     background-repeat: no-repeat;
-    background-size: 350px;
+    background-size: 40%;
     background-position: right -10px;
 }
 #prof_c{
     background-image: url("../images/learning/compilers.jpg");
     background-repeat: no-repeat;
-    background-size: 350px;
+    background-size: 40%;
     background-position: right -10px;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+.topText{
+    font-size: 25px;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+#menuButton{
+    height: 60px;
+    width: 60px;
+    border-radius: 15px;
+    background-color: #bcbcbc;
+    border-style: none;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#menuButton:hover{
+    background-color: #cccccc;
 }

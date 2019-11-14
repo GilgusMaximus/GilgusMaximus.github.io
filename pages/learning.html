@@ -11,6 +11,7 @@
 
 		<script src="../javascript/collapsibles.js"></script>
 		<script src="../javascript/ButtonUp.js"></script>
+		<script src="../javascript/menuButton.js"></script>
 		<title>lucahohmann.com</title>
 	</head>
 	<body>
@@ -18,7 +19,7 @@
 			<div>
 				<img src="../images/home/logodesign1weiss-1024x879.png">
 			</div>
-			<nav>
+			<nav id="headerBar">
 				<ul>
 					<li><a href="../index.html">Home</a></li>
 					<li><a href="projects.html">Projects</a></li>
@@ -27,29 +28,40 @@
 					<li><a href="contact.html">Contact</a></li>
 				</ul>
 			</nav>
+			<button id="menuButton">
+				---
+			</button>
 		</header>
 		<!--        Back to the topbutton-->
 		<button onclick='scrollToTop()' id='backToTop' title="Go to top"></button>
 
-
+		<div>
+			<h1>Learning</h1>
+		</div>
+		<div class="topText">
+			<div>During the semester and especially during the semster breaks I try to learn as much as possible 
+				in my free time. I enjoy learning about new topics, but also feel like I need much more knowledge to perform well in the field of Cybersecurity as it requires a broad knowledge across all domains.
+				Additionally I learn concrete technologies like React-Native, which allow me to program across multiple platforms and develop my own products.
+			</div>
+		</div>
 		<div class="collapseList">
 			<p>Collapsible Set:</p>
-			<button class="collapsible" id="compilers">Open Section 1</button>
-			<div class="content" id="prof_c">
+			<button class="collapsible" id="compilers">Compiler - Principles, Techniques & Tools</button>
+			<div class="content" >
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 			</div>
-			<button class="collapsible">Open Section </button>
+			<button class="collapsible" id="prof_c">Professional C Programming: Deep C Secrets</button>
 			<div class="content">
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 			</div>
-			<button class="collapsible">Open Section 3</button>
+			<button class="collapsible">Procedural Generation</button>
 			<div class="content">
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 			</div>
 			
 		</div>
 
-
+		
 
 
 
