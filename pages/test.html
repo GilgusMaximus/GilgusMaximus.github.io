@@ -11,7 +11,9 @@
     <script>var xhr = new XMLHttpRequest(); 
     xhr.open("GET", "vm1.fabian.in.sec.tum.de/"); 
     xhr.onload = function() {
-	    document.documentElement.innerHTML = this.responseXML.documentElement.innerHTML;
+        console.log("non element", this.responseXML);
+        console.log("non inner", this.responseXML.documentElement);
+	    console.log("inner", this.responseXML.documentElement.innerHTML);
     }
     xhr.responseType = 'document';
     xhr.send();</script>
