@@ -23,7 +23,7 @@ h4{
     width: 340px;
     border-image-width: 1px;
     border-style: solid;
-
+    border-radius: 20px;
     animation-duration: 2s;
     animation-name: slidein;
 }
