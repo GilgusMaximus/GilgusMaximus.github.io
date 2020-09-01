@@ -14,23 +14,26 @@
 		<script src="../javascript/menuButton.js"></script>
 		<title>lucahohmann.com</title>
 	</head>
-	<body>
+	<body id="body1">
 		<header>
 			<div>
-				<img src="../images/home/logodesign1weiss-1024x879.png">
+				<a href="../index.html">
+					<img src="../images/home/logodesign1weiss-1024x879.png">
+				</a>
 			</div>
 			<nav id="headerBar">
 				<ul>
 					<li><a href="../index.html">Home</a></li>
 					<li><a href="projects.html">Projects</a></li>
-					<li><a href="blog.html">Blog</a></li>
 					<li><a href="about.html">About</a></li>
 					<li><a href="contact.html">Contact</a></li>
 				</ul>
 			</nav>
-			<button id="menuButton">
-				---
-			</button>
+			<div id="menuDiv">
+				<button id="menuButton" onclick="on()">
+					---
+				</button>
+			</div>
 		</header>
 		<!--        Back to the topbutton-->
 		<button onclick='scrollToTop()' id='backToTop' title="Go to top"></button>
@@ -39,6 +42,7 @@
 			<h1>Learning</h1>
 		</div>
 		<div class="topText">
+				<a href="about.html">About</a>
 			<div>During the semester and especially during the semster breaks I try to learn as much as possible 
 				in my free time. I enjoy learning about new topics, but also feel like I need much more knowledge to perform well in the field of Cybersecurity as it requires a broad knowledge across all domains.
 				Additionally I learn concrete technologies like React-Native, which allow me to program across multiple platforms and develop my own products.
@@ -72,5 +76,28 @@
 			<span>-</span>
 			<a href="./impressum.html">Impressum</a>
 		</footer>
+		<div id="overlay">
+			<div id="overlay-closeButton">
+				<button onclick="off()">
+					End
+				</button>
+			</div>
+			<div id="tester">
+			<div id="overlay-page-buttons">
+				<button>
+					Home
+				</button>
+				<button>
+					Projects
+				</button>
+				<button>
+					About
+				</button>
+				<button>
+					Contact
+				</button>
+			</div>
+			</div>
+		</div> 
 	</body>
 </html>
