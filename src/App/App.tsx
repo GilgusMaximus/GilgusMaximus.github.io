@@ -1,6 +1,7 @@
 import { useState } from 'react'
-import logo from './res/images/logo.png'
+import logo from '../res/images/logo.png'
 import './App.css'
+import TopElement from '../TopElement/TopElement';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,12 +10,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello, this page is currently under construction !</p>
-        <p>
-          <button type="button" onClick={() => setCount((count) => count + 1)}>
-            count is: {count}
-          </button>
-        </p>
+        <p>"All practically relevant problems are theoretically solved. [...]<br/>
+          Nonetheless the practical state of IT-Security is disastrous"<br/>
+          - Linus Neumann, CCC</p>
         <p>
           Edit <code>App.tsx</code> and save to test HMR updates.
         </p>
