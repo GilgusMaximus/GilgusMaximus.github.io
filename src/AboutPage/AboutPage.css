@@ -1,0 +1,53 @@
+.flex-base {
+    height: 100vh;
+    width: 100vw;
+    max-width:100%;
+    background-color: #282c34;
+    display: flex;
+  }
+
+.two-column-container {
+    margin: auto;
+    display: flex;
+    width: 75%;
+}
+
+.about-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.about-list-element {
+    font-size: 29px;
+    padding-top: 15px;
+    text-align: right;
+}
+
+.cv-download {
+    border: 4px;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 8px;
+    color: rgb(60, 177, 255);
+    text-decoration: none;
+}
+
+.cv-download:hover {
+    opacity: 50%;
+}
+
+.right-container {
+    flex: 50%;
+    text-align: right;
+}
+
+.left-container {
+    flex: 50%;
+    
+}
+.profile-image {
+    width: 50%;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 11cm;
+}
