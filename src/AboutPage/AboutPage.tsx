@@ -1,6 +1,8 @@
 import './AboutPage.css'
 import profileImage from '../res/images/profile.png';
 import SectionLine from '../SectionLine/SectionLine';
+import cvPdf from '../res/files/cv.pdf'
+
 function AboutPage() {
     return (
         <>
@@ -17,7 +19,7 @@ function AboutPage() {
                         <li className='about-list-element'>FOSS privacy webtech developer</li>
                         <li className='about-list-element'>Outdoor activity entusiast</li>
                     </ul>
-                    <a className='cv-download' target="_blank" href='../res/files/cv.pdf'>Get my CV !</a>
+                    <a className='cv-download' target="_blank" href={cvPdf}>Get my CV !</a>
                 </div>
             </div>
         </div>

@@ -36,6 +36,10 @@
     opacity: 50%;
 }
 
+.cv-download:active {
+    color: rgb(60, 177, 255);
+}
+
 .right-container {
     flex: 50%;
     text-align: right;

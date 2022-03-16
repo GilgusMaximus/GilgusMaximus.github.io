@@ -1,0 +1,32 @@
+
+
+.paper-download {
+    padding: 0;
+    display: none;
+}
+
+#paper {
+    display: inline;
+}
+
+.two-row-wrapper-project {
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    width: 75%;
+    font-size: smaller;
+}
+
+.two-row-wrapper-project a {
+    padding-top: 20px;
+    display: block;
+    color: rgb(60, 177, 255);
+}
+
+.two-row-wrapper-project a:hover {
+    opacity: 50%;
+}
+
+.two-row-wrapper-project a:active {
+    color: rgb(60, 177, 255);
+}
