@@ -61,3 +61,45 @@
 .twitter-logo {
     height: 50%;
 }
+
+#show-small{
+    display: none;
+}
+
+@media only screen and (max-width: 1230px) {
+    .two-column-container-contact {
+        width: 100%;
+        display: block;
+        height: 100%;
+    }
+    .email-logo {
+        width: 10%;
+    }
+    
+    .linked-logo {
+        width: 10%;
+    }
+    
+    .github-logo {
+        width: 10%;
+    }
+    
+    .twitter-logo {
+        width: 10%;
+    }
+    .github-logo-small {
+        width: 10%;
+        display: inline;
+    }
+.twitter-logo-small {
+    width: 10%;
+    display: inline;
+}
+
+    #show-small {
+        display: inline;
+    }
+    .two-row-wrapper {
+        padding-top: 25px;
+    }
+  }

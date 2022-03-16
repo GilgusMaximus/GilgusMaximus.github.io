@@ -24,6 +24,31 @@
       typing 3.0s steps(40, end),
       blink-caret .75s step-end ;
   }
+
+  .Info-Me-Small {
+    display: none;
+    font-size: larger;
+  }
+
+ .breakh {
+   display: none;
+ }
+
+  @media only screen and (max-width: 1300px) {
+    .Info-Me {
+      font-size: x-large;
+    }
+  }
+
+  @media only screen and (max-width: 980px) {
+    .Info-Me-Small {
+      display: block;
+    }
+    .breakh {
+      display: block;
+    }
+  }
+
   .Pre-Quote {
     padding-top: 75px;
   }
