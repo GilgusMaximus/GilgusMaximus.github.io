@@ -70,7 +70,6 @@
     .two-column-container-contact {
         width: 100%;
         display: block;
-        height: 100%;
     }
     .email-logo {
         width: 10%;
@@ -85,7 +84,7 @@
     }
     
     .twitter-logo {
-        width: 10%;
+        width: 20%;
     }
     .github-logo-small {
         width: 10%;

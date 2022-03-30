@@ -26,18 +26,12 @@ function ContactPage() {
                             <a target="_blank" href='https://de.linkedin.com/in/luca-hohmann'>luca-hohmann</a>
                         </div>
                     </div>
-                    <div className='right-container-contact' id='show-small'>
+                    {/* <div className='right-container-contact' id='show-small'>
                         <div className="two-row-wrapper">
                             <img className="github-logo-small" src={githubLogo}></img>
                             <a target="_blank" href='https://github.com/gilgusmaximus'>GilgusMaximus</a>
                         </div>
-                    </div>
-                    <div className='right-container-contact' id='show-small'>
-                        <div className="two-row-wrapper">
-                            <img className="twitter-logo-small" src={twitterLogo}></img>
-                            <a target="_blank" href='https://twitter.com/lucahohmann'>lucahohmann</a>
-                        </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className='two-column-container-contact'>
                     <div className='left-container-contact'>

@@ -13,7 +13,7 @@ function AboutPage() {
                 </div>
                 <div className='right-container'>
                     <ul className='about-list'>
-                        <li className='about-list-element'>Studying M.Sc. Informatics: Games Engineering @ TUM</li>
+                        <li className='about-list-element'>2nd year M.Sc. Informatics: Games Engineering @ TUM</li>
                         <li className='about-list-element'>Currently on exchange @ Aalto University</li>
                         <li className='about-list-element'>Find me at tech & business events</li>
                         <li className='about-list-element'>FOSS privacy webtech developer</li>
