@@ -31,6 +31,7 @@ export default function LifePage() {
                 <p>- 3 years Bachelor's studies at TUM starting 2017</p>
                 <p>- 1 year Master's exchange to Aalto University, Finland</p>
                 <p>- Finishing up my Master's studies in January 2023</p>
+                <p>- I am especially interested in building and designing secure systems as well as researching new security concepts</p>
               </Card>
             </Grid>
             <Grid xs={8} sx={{height: 0.5}}>
@@ -48,7 +49,7 @@ export default function LifePage() {
                 <p>- FOSS developer since the pandemic in 2020</p>
                 <p>- Worked as student assistant at TUM for 3 years</p>
                 <p>- Whenever possible I can be found at events, such as tech meetings, hackathons...</p>
-                <p>- Why I want to be in Security: <br/>"All practically relevant problems are theoretically solved. [...] Nonetheless the practical state of IT-Security is disastrous" - Linux Neumann, CCC</p>
+                <p>- Why I want to be in Security: <br/>"All practically relevant problems are theoretically solved. [...] Nonetheless the practical state of IT-Security is disastrous" - Linus Neumann, CCC</p>
               </Card>
             </Grid>
             <Grid xs={8} sx={{height: 0.5}}>
