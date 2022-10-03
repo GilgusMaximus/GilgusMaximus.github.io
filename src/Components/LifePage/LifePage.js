@@ -6,6 +6,8 @@ import AssignmentIndOutlinedIcon from '@mui/icons-material/AssignmentIndOutlined
 import profileImage from '../../Files/Images/about/profile2.jpeg'
 import cvFile from '../../Files/Files/Luca_Mario_Hohmann_CV.pdf'
 
+import './LifePage.css'
+
 export default function LifePage() {
   return (
     <Grid container spacing={2} columns={16} sx={{height: '100%'}}>

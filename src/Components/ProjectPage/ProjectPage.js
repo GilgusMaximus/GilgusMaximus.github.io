@@ -2,6 +2,8 @@ import React from 'react'
 import Grid from '@mui/material/Unstable_Grid2';
 import { Card, Box, CardActionArea, Button } from '@mui/material';
 import LaunchOutlinedIcon from '@mui/icons-material/LaunchOutlined';
+import useMediaQuery from '@mui/material/useMediaQuery';
+
 
 import freeTubeLogo from '../../Files/Images/Projects/freetube.00d2002d.png'
 import aaltoLogo from '../../Files/Images/Projects/Aalto_university_school_of_science_and_technology_logo.svg.png'
@@ -12,6 +14,7 @@ import stackOverFlowFile from '../../Files/Files/Seminar_Paper_DataAnalytics_Pol
 import bachelorFile from '../../Files/Files/Bachelor_Thesis.pdf'
 import usecFile from '../../Files/Files/Blog_Post___USEC_Anonymous_Draft.pdf'
 export default function ProjectPage() {
+  const matches = useMediaQuery('(min-width:600px)');
   return (
     <Grid xs={16} sx={{height: 1}}>
           <Grid container spacing={2} columns={16} sx={{height: '100%'}}>
@@ -111,6 +114,7 @@ export default function ProjectPage() {
                 <h3><Button startIcon={<LaunchOutlinedIcon />} href={bachelorFile} target="_blank">Bachelor Thesis: Classification of chronic wounds with machine learning (GRAPHIC)</Button></h3>
                 <p>Thesis which analyzes whether off the shelve image recognition software is able to categorize chronic wound types.</p>
                 <p>Additionally a simple to use, image annotation tool for non-tech users like nurses is built and evaluated.</p>
+                <span>{`(min-width:600px) matches: ${matches}`}</span>;
               </Card>
             </Grid>
             <Grid xs={16/3} sx={{height: 0.5}}>
