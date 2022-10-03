@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bd4c574d.css",
+    "main.js": "/static/js/main.b55d2adb.js",
+    "static/js/787.71e672d5.chunk.js": "/static/js/787.71e672d5.chunk.js",
+    "static/media/Bachelor_Thesis.pdf": "/static/media/Bachelor_Thesis.173dbf6914dfb97b53d4.pdf",
+    "static/media/Luca_Mario_Hohmann_CV.pdf": "/static/media/Luca_Mario_Hohmann_CV.b4dab3b380e7793f447f.pdf",
+    "static/media/Seminar_Paper_DataAnalytics_Polarity_Mining_Of_StackOverflow.pdf": "/static/media/Seminar_Paper_DataAnalytics_Polarity_Mining_Of_StackOverflow.0a938fc01a8a673d7978.pdf",
+    "static/media/Blog_Post___USEC_Anonymous_Draft.pdf": "/static/media/Blog_Post___USEC_Anonymous_Draft.0d99a9c3124a9f606f8c.pdf",
+    "static/media/Industrial_Internet_Final_Project.pdf": "/static/media/Industrial_Internet_Final_Project.50d3e5c924f02d7f9ecc.pdf",
+    "static/media/logodesign1weiss-1024x879.png": "/static/media/logodesign1weiss-1024x879.435627a354fe72dde061.png",
+    "static/media/profile2.jpeg": "/static/media/profile2.77395d2c54aec7ffc18a.jpeg",
+    "static/media/github.aa4c5e97.png": "/static/media/github.aa4c5e97.91b53ee21bceb3bd002f.png",
+    "static/media/mail.ed17cd1d.png": "/static/media/mail.ed17cd1d.af9abe18a1a193379efb.png",
+    "static/media/Aalto_university_school_of_science_and_technology_logo.svg.png": "/static/media/Aalto_university_school_of_science_and_technology_logo.svg.b09eecece3bfdae80669.png",
+    "static/media/linkedin.3d920609.png": "/static/media/linkedin.3d920609.c600f249746ee117910a.png",
+    "static/media/Logo_of_the_Technical_University_of_Munich.svg.png": "/static/media/Logo_of_the_Technical_University_of_Munich.svg.b59ba03031bf91818244.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.bd4c574d.css.map": "/static/css/main.bd4c574d.css.map",
+    "main.b55d2adb.js.map": "/static/js/main.b55d2adb.js.map",
+    "787.71e672d5.chunk.js.map": "/static/js/787.71e672d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd4c574d.css",
+    "static/js/main.b55d2adb.js"
+  ]
+}
