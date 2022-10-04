@@ -18,7 +18,7 @@ export default function HomePage() {
           <Box
         component="img"
         sx={{
-          height: '85%',
+          height: {xs:175, md: '85%'},
           paddingTop: 4
         }}
         alt="White logo of Luca Hohmann"
