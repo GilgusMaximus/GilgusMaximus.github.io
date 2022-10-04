@@ -12,7 +12,7 @@ export default function HomePage() {
   return (
     <Grid container spacing={2} columns={16} sx={{height: '100%'}}>
       <Grid xs={16} sx={{height: '40%'}}>
-        <Card
+        <Box
         sx={{height: '100%'}}
         >
           <Box
@@ -24,7 +24,7 @@ export default function HomePage() {
         alt="White logo of Luca Hohmann"
         src={logoImage}
       />
-        </Card>
+        </Box>
       </Grid>
       <Grid xs={16} sx={{height: 1}}>
         <Card
