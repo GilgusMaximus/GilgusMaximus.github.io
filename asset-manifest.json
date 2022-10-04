@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bd4c574d.css",
-    "main.js": "/static/js/main.b55d2adb.js",
+    "main.css": "/static/css/main.4edb608a.css",
+    "main.js": "/static/js/main.16cb4516.js",
     "static/js/787.71e672d5.chunk.js": "/static/js/787.71e672d5.chunk.js",
     "static/media/Bachelor_Thesis.pdf": "/static/media/Bachelor_Thesis.173dbf6914dfb97b53d4.pdf",
     "static/media/Luca_Mario_Hohmann_CV.pdf": "/static/media/Luca_Mario_Hohmann_CV.b4dab3b380e7793f447f.pdf",
@@ -15,14 +15,13 @@
     "static/media/Aalto_university_school_of_science_and_technology_logo.svg.png": "/static/media/Aalto_university_school_of_science_and_technology_logo.svg.b09eecece3bfdae80669.png",
     "static/media/linkedin.3d920609.png": "/static/media/linkedin.3d920609.c600f249746ee117910a.png",
     "static/media/Logo_of_the_Technical_University_of_Munich.svg.png": "/static/media/Logo_of_the_Technical_University_of_Munich.svg.b59ba03031bf91818244.png",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.bd4c574d.css.map": "/static/css/main.bd4c574d.css.map",
-    "main.b55d2adb.js.map": "/static/js/main.b55d2adb.js.map",
+    "main.4edb608a.css.map": "/static/css/main.4edb608a.css.map",
+    "main.16cb4516.js.map": "/static/js/main.16cb4516.js.map",
     "787.71e672d5.chunk.js.map": "/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd4c574d.css",
-    "static/js/main.b55d2adb.js"
+    "static/css/main.4edb608a.css",
+    "static/js/main.16cb4516.js"
   ]
 }
