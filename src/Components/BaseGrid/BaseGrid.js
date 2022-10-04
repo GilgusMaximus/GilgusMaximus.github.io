@@ -26,7 +26,7 @@ export function BaseGrid() {
         {
             pageStructure.map((element, id) => {
               console.log("Element", element, id);
-              return <Grid xs={16} sx={{height: 1}} key={id}><Item sx={{height: '100vh'}}>{element()}</Item></Grid>
+              return <Grid xs={16} sx={{height: 1}} key={id}><Item sx={{height: {xs: 'fit-content', md: '100vh'}}}>{element()}</Item></Grid>
             })
         }
       </Grid>

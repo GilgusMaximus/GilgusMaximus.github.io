@@ -2,3 +2,7 @@ Avatar {
     width: 150;
     height: 150;
 }
+
+#quote  {
+    font-size: smaller;
+}

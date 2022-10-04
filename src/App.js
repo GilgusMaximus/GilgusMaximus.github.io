@@ -1,28 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
-import { SideNavigation } from './Components/SideNavigation/SideNavigation';
 import { BaseGrid } from './Components/BaseGrid/BaseGrid';
+
+import { CssBaseline, ThemeProvider } from "@mui/material";
+import { appTheme } from './Components/Theme/appTheme'
+
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <BaseGrid> </BaseGrid>
-        {/* <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-          <SideNavigation/>
-        </p>
-        
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a> */}
-      </header>
-    </div>
+    <ThemeProvider theme={appTheme}>
+      <CssBaseline enableColorScheme />
+      <div className="App">
+        <header className="App-header">
+          <BaseGrid> </BaseGrid>
+        </header>
+      </div>
+    </ThemeProvider>
   );
 }
 
