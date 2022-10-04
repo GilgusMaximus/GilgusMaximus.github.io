@@ -18,7 +18,10 @@ export default function ProjectPage() {
   return (
     <Grid xs={16} sx={{height: 1}}>
           <Grid container spacing={2} columns={16} sx={{height: '100%'}}>
-            <Grid xs={16/3} sx={{height: 0.5}}>
+            <Grid xs={16} sx={{height: 0.1, color: '#eceeef'}}>
+              <h2>My projects</h2>
+            </Grid>
+            <Grid xs={16} sm={16/3} sx={{height: 0.4}}>
               <Card sx={{height:1}}>
                 <p>
                 <CardActionArea
@@ -42,7 +45,7 @@ export default function ProjectPage() {
                 <p>Enables anyone to utilize a large amount of feature from YouTube and add-ons in one place without any acoount registration.</p>
               </Card>
             </Grid>
-            <Grid xs={16/3} sx={{height: 0.5}}>
+            <Grid xs={16} sm={16/3} sx={{height: 0.5}}>
             <Card sx={{height:1}}>
                 <p>
                 <CardActionArea
@@ -66,7 +69,7 @@ export default function ProjectPage() {
                 <p>Discusses challenges in industrial internet and Industrie 4.0, about how IoT systems have to be deployed with security first in mind.</p>
               </Card>
             </Grid>
-            <Grid xs={16/3} sx={{height: 0.5}}>
+            <Grid xs={16} sm={16/3} sx={{height: 0.5}}>
             <Card sx={{height:1}}>
                 <p>
                 <CardActionArea
@@ -91,8 +94,8 @@ export default function ProjectPage() {
               </Card>
             </Grid>
             {/* --------------------Split top, bottom--------------- */}
-            <Grid xs={8/3} sx={{height: 0.5}}></Grid>
-            <Grid xs={16/3} sx={{height: 0.5}}>
+            <Grid xs={0} sm={8/3} sx={{height: 0.5}}></Grid>
+            <Grid xs={16} sm={16/3} sx={{height: 0.5}}>
             <Card sx={{height:1}}>
                 <p>
                 <CardActionArea
@@ -116,7 +119,7 @@ export default function ProjectPage() {
                 <p>Additionally a simple to use, image annotation tool for non-tech users like nurses is built and evaluated.</p>
               </Card>
             </Grid>
-            <Grid xs={16/3} sx={{height: 0.5}}>
+            <Grid xs={16} sm={16/3} sx={{height: 0.5}}>
             <Card sx={{height:1}}>
                 <p>
                 <CardActionArea
@@ -140,7 +143,7 @@ export default function ProjectPage() {
                 <p>The paper summarizes a given research paper about serious games in the context of cybersecurity and puts it into perspective</p>
               </Card>
             </Grid>
-            <Grid xs={8/3} sx={{height: 0.5}}></Grid>
+            <Grid xs={0} sm={8/3} sx={{height: 0.5}}></Grid>
           </Grid>
         </Grid>
   )

@@ -12,9 +12,9 @@ export default function ContactPage() {
     <Grid xs={16} sx={{height: 1}}>
     <Grid container spacing={2} columns={16} sx={{height: '100%'}}>
       <Grid xs={16} sx={{height: 0.1, color: '#eceeef'}}>
-        <h2>You can get in contact with me any time via one of the following 3 platforms</h2>
+        <h2>Get in contact</h2>
       </Grid>
-      <Grid xs={16/3} sx={{height: 0.8, fontSize: {xs: 'smaller', sm: 'medium'}}}>
+      <Grid xs={16} sm={16/3} sx={{height: 0.8, fontSize: {xs: 'smaller', sm: 'medium'}}}>
         <Card sx={{height:1}}>
           <p>
           <CardActionArea
@@ -37,7 +37,7 @@ export default function ContactPage() {
           <p>My E-Mail address</p>
         </Card>
       </Grid>
-      <Grid xs={16/3} sx={{height: 0.8, fontSize: {xs: 'smaller', sm: 'medium'}}}>
+      <Grid xs={16} sm={16/3} sx={{height: 0.8}}>
       <Card sx={{height:1}}>
           <p>
           <CardActionArea
@@ -60,7 +60,7 @@ export default function ContactPage() {
           <p>My LinkedIn Profile</p>
         </Card>
         </Grid>
-      <Grid xs={16/3} sx={{height: 0.8, fontSize: {xs: 'smaller', sm: 'medium'}}}>
+      <Grid xs={16} sm={16/3} sx={{height: 0.8}}>
       <Card sx={{height:1}}>
           <p>
           <CardActionArea
@@ -79,7 +79,7 @@ export default function ContactPage() {
             </Box>
             </CardActionArea>
           </p>
-          <h3><Button startIcon={<LaunchOutlinedIcon />} href={"https://github.com/gilgusmaximus"} target="_blank" sx={{fontSize: {xs: 'smaller', sm: 'small'}, overflowWrap: 'anywhere'}}>GilgusMaximus</Button></h3>
+          <h3><Button startIcon={<LaunchOutlinedIcon />} href={"https://github.com/gilgusmaximus"} target="_blank" sx={{ overflowWrap: 'anywhere'}}>GilgusMaximus</Button></h3>
           <p>My Github Profile</p>
         </Card>
       </Grid>
