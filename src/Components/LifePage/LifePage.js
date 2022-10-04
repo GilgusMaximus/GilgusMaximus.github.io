@@ -1,6 +1,6 @@
 import React from 'react'
 import Grid from '@mui/material/Unstable_Grid2';
-import { Accordion, AccordionDetails, AccordionSummary, Avatar, Box, Button, Card, List, ListItem } from '@mui/material';
+import { Avatar, Box, Button, Card } from '@mui/material';
 import AssignmentIndOutlinedIcon from '@mui/icons-material/AssignmentIndOutlined';
 
 import profileImage from '../../Files/Images/about/profile2.jpeg'
@@ -11,7 +11,7 @@ import './LifePage.css'
 export default function LifePage() {
   return (
     <Grid container spacing={2} columns={16} sx={{height: '100%'}}>
-        <Grid xs={8} sx={{height: 1, textAlign: 'center'}}>
+        <Grid xs={16} md={8} sx={{height: 1, textAlign: 'center'}} className='profilePic'>
         <Box
           display="flex"
           justifyContent="center"
@@ -28,7 +28,7 @@ export default function LifePage() {
         <Grid xs={8} sx={{height: 1}}>
           <Grid container spacing={2} columns={16} sx={{height: '100%'}}>
             <Grid xs={8} sx={{height: 0.5}}>
-              <Card sx={{height:1, textAlign: 'left', backgroundColor:'#1A2027', color:'white'}}>
+              <Card sx={{height:1, textAlign: 'left'}}>
                 <h3>Studies</h3>
                 <p>- 3 years Bachelor's studies at TUM starting 2017</p>
                 <p>- 1 year Master's exchange to Aalto University, Finland</p>
@@ -37,7 +37,7 @@ export default function LifePage() {
               </Card>
             </Grid>
             <Grid xs={8} sx={{height: 0.5}}>
-              <Card sx={{height: 1, textAlign: 'left', backgroundColor:'#1A2027', color:'white'}} variant="outlined">
+              <Card sx={{height: 1, textAlign: 'left'}} variant="outlined">
                 <h3>Exchange</h3>
                 <p>- 1 year living and studying in Espoo, Finland</p>
                 <p>- What I learned & improved: Intercultural communication, spontaneous problem solving, approaching problems more calm & relaxed</p>
@@ -46,7 +46,7 @@ export default function LifePage() {
               </Card>
             </Grid>
             <Grid xs={8} sx={{height: 0.5}}>
-              <Card sx={{height: 1, textAlign: 'left', backgroundColor:'#1A2027', color:'white'}}>
+              <Card sx={{height: 1, textAlign: 'left'}}>
               <h3>What and Why am I doing</h3>
                 <p>- FOSS developer since the pandemic in 2020</p>
                 <p>- Worked as student assistant at TUM for 3 years</p>
@@ -55,40 +55,13 @@ export default function LifePage() {
               </Card>
             </Grid>
             <Grid xs={8} sx={{height: 0.5}}>
-              <Card sx={{height: 1, textAlign: 'left', backgroundColor:'#1A2027', color:'white'}}>
+              <Card sx={{height: 1, textAlign: 'left'}}>
                 <h3>More about me</h3>
                 <p>Find my reduced CV below, and also check out my project further down the page</p>
                 <Button variant="outlined" startIcon={<AssignmentIndOutlinedIcon />} href={cvFile} target="_blank">Get my CV</Button>
               </Card>
             </Grid>
           </Grid>
-              {/* <Accordion>
-                <AccordionSummary sx={{fontSize: 'x-large'}}>
-                  2nd year M.Sc. Student Information Security
-                </AccordionSummary>
-                <AccordionDetails>
-                  I studied my 3 years of Bachelor studies at TUM with focus on Information Security and Gamification.
-                  At the moment I am finishing up my Master studies by writing my thesis at the chair of IT Security.
-                </AccordionDetails>
-              </Accordion>
-              <Accordion>
-                <AccordionSummary sx={{fontSize: 'x-large'}}>
-                  Erasmus: 1 year exchange student at Aalto University
-                </AccordionSummary>
-                <AccordionDetails>
-                  After the Covid-19 pandemic finally slowed down in 2021, I was able to take part in a 1 year Erasmus exchange to the Aalto University in Espoo, Finland.
-                  The best time of my life, like for all my fellow students I met there. The most valuable part I learned is the intercultural communication with people from around the world.
-                </AccordionDetails>
-              </Accordion>
-              <Accordion>
-                <AccordionSummary sx={{fontSize: 'x-large'}}>
-                  Open Source: Since Oct 2020 FOSS developer
-                </AccordionSummary>
-                <AccordionDetails>
-                  During the pandemic 2020 and the following delay of the semester, I started contributing to open source projects.
-                  Now I am one of the main developers (currently on hiatus due to thesis) of the FreeTube desktop app, working together with a team of developers around the world.
-                </AccordionDetails>
-              </Accordion> */}
         </Grid>
       </Grid>
   )

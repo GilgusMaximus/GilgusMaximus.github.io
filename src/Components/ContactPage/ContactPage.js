@@ -15,7 +15,7 @@ export default function ContactPage() {
         <h2>You can get in contact with me any time via one of the following 3 platforms</h2>
       </Grid>
       <Grid xs={16/3} sx={{height: 0.8}}>
-        <Card sx={{height:1,  backgroundColor:'#1A2027', color:'white'}}>
+        <Card sx={{height:1, color:'white'}}>
           <p>
           <CardActionArea
           href='mailto:business@lucahohmann.com'
@@ -38,7 +38,7 @@ export default function ContactPage() {
         </Card>
       </Grid>
       <Grid xs={16/3} sx={{height: 0.8}}>
-      <Card sx={{height:1,  backgroundColor:'#1A2027', color:'white'}}>
+      <Card sx={{height:1, color:'white'}}>
           <p>
           <CardActionArea
           href="https://de.linkedin.com/in/luca-hohmann"
@@ -61,7 +61,7 @@ export default function ContactPage() {
         </Card>
         </Grid>
       <Grid xs={16/3} sx={{height: 0.8}}>
-      <Card sx={{height:1,  backgroundColor:'#1A2027', color:'white'}}>
+      <Card sx={{height:1, color:'white'}}>
           <p>
           <CardActionArea
           href={"https://github.com/gilgusmaximus"}
