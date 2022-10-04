@@ -28,7 +28,7 @@ export default function HomePage() {
       </Grid>
       <Grid xs={16} sx={{height: 1}}>
         <Card
-        sx={{height: '60%', fontSize: 'x-large'}}
+        sx={{height: '60%', fontSize: {xs: 'large', sm: 'x-large'}}}
         >
           <h1>Luca Hohmann</h1>
           <h2>M.Sc. Student Information Security, Privacy, Web Technology @TUM</h2>

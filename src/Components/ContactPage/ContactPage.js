@@ -11,11 +11,11 @@ export default function ContactPage() {
   return (
     <Grid xs={16} sx={{height: 1}}>
     <Grid container spacing={2} columns={16} sx={{height: '100%'}}>
-      <Grid xs={16} sx={{height: 0.1, color:'white'}}>
+      <Grid xs={16} sx={{height: 0.1, color: '#eceeef'}}>
         <h2>You can get in contact with me any time via one of the following 3 platforms</h2>
       </Grid>
-      <Grid xs={16/3} sx={{height: 0.8}}>
-        <Card sx={{height:1, color:'white'}}>
+      <Grid xs={16/3} sx={{height: 0.8, fontSize: {xs: 'smaller', sm: 'medium'}}}>
+        <Card sx={{height:1}}>
           <p>
           <CardActionArea
           href='mailto:business@lucahohmann.com'
@@ -33,12 +33,12 @@ export default function ContactPage() {
             </Box>
             </CardActionArea>
           </p>
-          <h3><Button startIcon={<LaunchOutlinedIcon />} href={"mailto:business@lucahohmann.com"} target="_blank">business@lucahohmann.com</Button></h3>
+          <h3><Button startIcon={<LaunchOutlinedIcon />} href={"mailto:business@lucahohmann.com"} target="_blank" sx={{fontSize: {xs: 'smaller', sm: 'small'}, overflowWrap: 'anywhere'}}>business@lucahohmann.com</Button></h3>
           <p>My E-Mail address</p>
         </Card>
       </Grid>
-      <Grid xs={16/3} sx={{height: 0.8}}>
-      <Card sx={{height:1, color:'white'}}>
+      <Grid xs={16/3} sx={{height: 0.8, fontSize: {xs: 'smaller', sm: 'medium'}}}>
+      <Card sx={{height:1}}>
           <p>
           <CardActionArea
           href="https://de.linkedin.com/in/luca-hohmann"
@@ -56,12 +56,12 @@ export default function ContactPage() {
             </Box>
             </CardActionArea>
           </p>
-          <h3><Button startIcon={<LaunchOutlinedIcon />} href={"https://de.linkedin.com/in/luca-hohmann"} target="_blank">luca-hohmann</Button></h3>
+          <h3><Button startIcon={<LaunchOutlinedIcon />} href={"https://de.linkedin.com/in/luca-hohmann"} target="_blank" sx={{fontSize: {xs: 'smaller', sm: 'small'}, overflowWrap: 'anywhere'}}>luca-hohmann</Button></h3>
           <p>My LinkedIn Profile</p>
         </Card>
         </Grid>
-      <Grid xs={16/3} sx={{height: 0.8}}>
-      <Card sx={{height:1, color:'white'}}>
+      <Grid xs={16/3} sx={{height: 0.8, fontSize: {xs: 'smaller', sm: 'medium'}}}>
+      <Card sx={{height:1}}>
           <p>
           <CardActionArea
           href={"https://github.com/gilgusmaximus"}
@@ -79,7 +79,7 @@ export default function ContactPage() {
             </Box>
             </CardActionArea>
           </p>
-          <h3><Button startIcon={<LaunchOutlinedIcon />} href={"https://github.com/gilgusmaximus"} target="_blank">GilgusMaximus</Button></h3>
+          <h3><Button startIcon={<LaunchOutlinedIcon />} href={"https://github.com/gilgusmaximus"} target="_blank" sx={{fontSize: {xs: 'smaller', sm: 'small'}, overflowWrap: 'anywhere'}}>GilgusMaximus</Button></h3>
           <p>My Github Profile</p>
         </Card>
       </Grid>

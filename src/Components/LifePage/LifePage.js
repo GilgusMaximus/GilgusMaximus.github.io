@@ -10,8 +10,8 @@ import './LifePage.css'
 
 export default function LifePage() {
   return (
-    <Grid container spacing={2} columns={16} sx={{height: '100%'}}>
-        <Grid xs={16} md={8} sx={{height: 1, textAlign: 'center'}} className='profilePic'>
+    <Grid container spacing={2} columns={16} sx={{height: {xs: 'fit-content', md: '100%'}}}>
+        <Grid xs={16} md={8} sx={{height: {xs: 0.3, sm: 0.5, md: 1}, textAlign: 'center'}} className='profilePic'>
         <Box
           display="flex"
           justifyContent="center"
@@ -21,14 +21,14 @@ export default function LifePage() {
             <Avatar
             alt="Rounded picture of Luca Hohmann"
             src={profileImage}
-            sx={{height: 350, width: 350, borderRadius: 100, border: 2, borderColor: 'white'}}
+            sx={{height: {xs: 200, sm: 300, md: 350}, width: {xs: 200, sm: 300,  md: 350}, borderRadius: 100, border: 2, borderColor: 'white'}}
             ></Avatar>
         </Box>
         </Grid>
-        <Grid xs={8} sx={{height: 1}}>
-          <Grid container spacing={2} columns={16} sx={{height: '100%'}}>
-            <Grid xs={8} sx={{height: 0.5}}>
-              <Card sx={{height:1, textAlign: 'left'}}>
+        <Grid xs={16} md={8} sx={{height: 1}}>
+          <Grid container spacing={2} columns={16} sx={{height: {xs: 'fit-content', md: '100%'}, fontSize: {xs: 'smaller', md: 'small', lg:'medium'}}}>
+            <Grid xs={8} sx={{height: {xs: 'fit-content', md: 0.5}}}>
+              <Card sx={{height:1, textAlign: 'left' }}>
                 <h3>Studies</h3>
                 <p>- 3 years Bachelor's studies at TUM starting 2017</p>
                 <p>- 1 year Master's exchange to Aalto University, Finland</p>
@@ -36,7 +36,7 @@ export default function LifePage() {
                 <p>- I am especially interested in building and designing secure systems as well as researching new security concepts</p>
               </Card>
             </Grid>
-            <Grid xs={8} sx={{height: 0.5}}>
+            <Grid xs={8} sx={{height: {xs: 'fit-content', md: 0.5}}}>
               <Card sx={{height: 1, textAlign: 'left'}} variant="outlined">
                 <h3>Exchange</h3>
                 <p>- 1 year living and studying in Espoo, Finland</p>
@@ -45,16 +45,16 @@ export default function LifePage() {
                 <p>- Also Sauna is the best</p>
               </Card>
             </Grid>
-            <Grid xs={8} sx={{height: 0.5}}>
+            <Grid xs={8} sx={{height: {xs: 'fit-content', md: 0.5}}}>
               <Card sx={{height: 1, textAlign: 'left'}}>
               <h3>What and Why am I doing</h3>
                 <p>- FOSS developer since the pandemic in 2020</p>
                 <p>- Worked as student assistant at TUM for 3 years</p>
                 <p>- Whenever possible I can be found at events, such as tech meetings, hackathons...</p>
-                <p>- Why I want to be in Security: <br/>"All practically relevant problems are theoretically solved. [...] Nonetheless the practical state of IT-Security is disastrous" - Linus Neumann, CCC</p>
+                <p>- Why I want to be in Security: <br/><span id='quote'>"All practically relevant problems are theoretically solved. [...] Nonetheless the practical state of IT-Security is disastrous" - Linus Neumann, CCC</span></p>
               </Card>
             </Grid>
-            <Grid xs={8} sx={{height: 0.5}}>
+            <Grid xs={8} sx={{height: {xs: 'fit-content', md: 0.5}}}>
               <Card sx={{height: 1, textAlign: 'left'}}>
                 <h3>More about me</h3>
                 <p>Find my reduced CV below, and also check out my project further down the page</p>
