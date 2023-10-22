@@ -9,7 +9,7 @@ import aaltoLogo from '../../Files/Images/Projects/Aalto_university_school_of_sc
 import tumLogo from '../../Files/Images/Projects/Logo_of_the_Technical_University_of_Munich.svg.png'
 
 import industrialInternetFile from '../../Files/Files/Industrial_Internet_Final_Project.pdf'
-import stackOverFlowFile from '../../Files/Files/Seminar_Paper_DataAnalytics_Polarity_Mining_Of_StackOverflow.pdf'
+import masterThesisFile from '../../Files/Files/Master_Thesis_Abstract.pdf'
 
 
 export default function ProjectPage() {
@@ -71,13 +71,13 @@ export default function ProjectPage() {
             <Card sx={{height:1}}>
                 <p>
                 <CardActionArea
-                href={stackOverFlowFile}
+                href={masterThesisFile}
                 target='_blank'
                 >
                   <Box
                     component="img"
                     sx={{
-                      height: '20%',
+                      height: '100%',
                       width: '20%'
                     }}
                     alt="Technical University Munich university logo"
@@ -86,9 +86,9 @@ export default function ProjectPage() {
                   </Box>
                   </CardActionArea>
                 </p>
-                <h3><Button startIcon={<LaunchOutlinedIcon />} href={stackOverFlowFile} target="_blank">Master's Thesis: Remote Runtime Attestation Of An User Access Engine</Button></h3>
+                <h3><Button startIcon={<LaunchOutlinedIcon />} href={masterThesisFile} target="_blank">Master's Thesis: Remote Runtime Attestation Of An User Access Engine</Button></h3>
                 <p>Development of 3 new concepts for remote runtime attestation of a user management system in AMD-SEV cloud.</p>
-                <p>Proposal of protocols and mechanisms with follow up performance and security analysis of concepts.</p>
+                <p>Proposal of protocols and mechanisms with follow up performance and security analysis of concepts. (Only abstract can be provided)</p>
               </Card>
             </Grid>
             {/* --------------------Split top, bottom--------------- */}

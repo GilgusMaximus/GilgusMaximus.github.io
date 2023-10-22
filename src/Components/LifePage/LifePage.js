@@ -4,7 +4,7 @@ import { Avatar, Box, Button, Card } from '@mui/material';
 import AssignmentIndOutlinedIcon from '@mui/icons-material/AssignmentIndOutlined';
 
 import profileImage from '../../Files/Images/about/profile2.jpeg'
-import cvFile from '../../Files/Files/Luca_Mario_Hohmann_CV.pdf'
+import cvFile from '../../Files/Files/Luca_Hohmann_CV.pdf'
 
 import './LifePage.css'
 
@@ -29,30 +29,31 @@ export default function LifePage() {
           {/* Elements go from left to right, top to bottom */}
           {/* Top row */}
           <Grid container spacing={10} columns={16} sx={{height: {xs: 'fit-content', md: '100%'}, fontSize: {xs: 'smaller', md: 'small', lg:'medium'}, width: 0.75}}>
-            <Grid xs={8} sx={{height: {xs: 'fit-content', md: 0.5}}}>
-              <Card sx={{height:1, textAlign: 'left' }}>
-                <h3>Education</h3>
-                <p>- 2 years Master's studies at TUM, graduation February 2023</p>
-                <p>- 1 year Master's exchange to Aalto University, Finland</p>
-                <p>- 3 years Bachelor's studies at TUM starting 2017</p>
-              </Card>
-            </Grid>
-            <Grid xs={8} sx={{height: {xs: 'fit-content', md: 0.5}}}>
-              <Card sx={{height: 1, textAlign: 'left'}} variant="outlined">
-                <h3>Skills</h3>
-                <p>- Business grade Java development with SpringBoot and Reactor</p>
-                <p>- Security topics: security evaluation, secure system design, security domain knowledge</p>
-                <p>- Interpersonal skills, such as team leadership, project planning and negotiations</p>
-                <p>- Good stamina when going to sauna</p>
-              </Card>
-            </Grid>
-            {/* Bottom Row */}
-            <Grid xs={8} sx={{height: {xs: 'fit-content', md: 0.5}}}>
+          <Grid xs={8} sx={{height: {xs: 'fit-content', md: 0.5}}}>
               <Card sx={{height: 1, textAlign: 'left'}}>
               <h3>Experience</h3>
                 <p><b>05/23-Now</b> Jr. SW Developer at Giesecke+Devrient in digital payments solutions</p>
                 <p><b>10/20-09/21</b> Student assistant in field of E-Government and online platforms</p>
                 <p><b>10/18-09/20</b> Student assistant in field of medical research with ML and AR</p>
+              </Card>
+            </Grid>
+            <Grid xs={8} sx={{height: {xs: 'fit-content', md: 0.5}}}>
+              <Card sx={{height: 1, textAlign: 'left'}} variant="outlined">
+                <h3>Skills</h3>
+                <p>Development with SpringBoot and Reactor in Java & NodeJS + Vue/React & Python backend</p>
+                <p>Fundamental cloud experience with Azure AZ-900 certified and Firebase</p>
+                <p>Security topics: security evaluation, secure system design, security domain knowledge</p>
+                <p>Interpersonal skills, such as team leadership, project planning and negotiations</p>
+                <p>Good stamina when going to sauna</p>
+              </Card>
+            </Grid>
+            {/* Bottom Row */}
+            <Grid xs={8} sx={{height: {xs: 'fit-content', md: 0.5}}}>
+              <Card sx={{height:1, textAlign: 'left' }}>
+                <h3>Education</h3>
+                <p>2 years Master's studies at TUM, graduation February 2023</p>
+                <p>1 year Master's exchange to Aalto University, Finland</p>
+                <p>3 years Bachelor's studies at TUM starting 2017</p>
               </Card>
             </Grid>
             <Grid xs={8} sx={{height: {xs: 'fit-content', md: 0.5}}}>
