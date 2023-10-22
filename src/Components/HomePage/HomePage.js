@@ -31,8 +31,9 @@ export default function HomePage() {
         sx={{height: '60%', fontSize: {xs: 'large', sm: 'x-large'}}}
         >
           <h1>Luca Hohmann</h1>
-          <h2>M.Sc. Student Information Security, Privacy, Web Technology @TUM</h2>
-          <p><LocationOnOutlinedIcon></LocationOnOutlinedIcon> Located in Munich, Germany</p>
+          <h2>Jr. Software Developer at Giesecke+Devrient</h2>
+          <h3>M.Sc. Information Security, Privacy, Web Technology @TUM</h3>
+          <p><LocationOnOutlinedIcon></LocationOnOutlinedIcon> Located in Helsinki, Finland</p>
         </Card>
       </Grid>
     </Grid>
