@@ -28,16 +28,16 @@ export default function LifePage() {
         <Grid xs={16} md={8} sx={{height: 1}}>
           {/* Elements go from left to right, top to bottom */}
           {/* Top row */}
-          <Grid container spacing={2} columns={16} sx={{height: {xs: 'fit-content', md: '100%'}, fontSize: {xs: 'smaller', md: 'small', lg:'medium'}}}>
-            <Grid xs={8} sx={{height: {xs: 'fit-content', md: 0.5}, fontSize: '11pt'}}>
+          <Grid container spacing={10} columns={16} sx={{height: {xs: 'fit-content', md: '100%'}, fontSize: {xs: 'smaller', md: 'small', lg:'medium'}, width: 0.75}}>
+            <Grid xs={8} sx={{height: {xs: 'fit-content', md: 0.5}}}>
               <Card sx={{height:1, textAlign: 'left' }}>
                 <h3>Education</h3>
-                <p>- 3 years Bachelor's studies at TUM starting 2017</p>
-                <p>- 1 year Master's exchange to Aalto University, Finland</p>
                 <p>- 2 years Master's studies at TUM, graduation February 2023</p>
+                <p>- 1 year Master's exchange to Aalto University, Finland</p>
+                <p>- 3 years Bachelor's studies at TUM starting 2017</p>
               </Card>
             </Grid>
-            <Grid xs={8} sx={{height: {xs: 'fit-content', md: 0.5}, fontSize: '11pt'}}>
+            <Grid xs={8} sx={{height: {xs: 'fit-content', md: 0.5}}}>
               <Card sx={{height: 1, textAlign: 'left'}} variant="outlined">
                 <h3>Skills</h3>
                 <p>- Business grade Java development with SpringBoot and Reactor</p>
@@ -47,7 +47,7 @@ export default function LifePage() {
               </Card>
             </Grid>
             {/* Bottom Row */}
-            <Grid xs={8} sx={{height: {xs: 'fit-content', md: 0.5}, fontSize: '11pt'}}>
+            <Grid xs={8} sx={{height: {xs: 'fit-content', md: 0.5}}}>
               <Card sx={{height: 1, textAlign: 'left'}}>
               <h3>Experience</h3>
                 <p><b>05/23-Now</b> Jr. SW Developer at Giesecke+Devrient in digital payments solutions</p>
@@ -56,7 +56,7 @@ export default function LifePage() {
               </Card>
             </Grid>
             <Grid xs={8} sx={{height: {xs: 'fit-content', md: 0.5}}}>
-              <Card sx={{height: 1, textAlign: 'left', fontSize: '11pt'}}>
+              <Card sx={{height: 1, textAlign: 'left'}}>
                 <h3>More about me</h3>
                 <p>Find my CV below, and also check out my projects further down the page</p>
                 <Button variant="outlined" startIcon={<AssignmentIndOutlinedIcon />} href={cvFile} target="_blank">Get my CV</Button>

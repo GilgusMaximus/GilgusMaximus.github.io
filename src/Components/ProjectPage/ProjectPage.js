@@ -14,12 +14,12 @@ import stackOverFlowFile from '../../Files/Files/Seminar_Paper_DataAnalytics_Pol
 
 export default function ProjectPage() {
   return (
-    <Grid xs={16} sx={{height: 1}}>
+    <Grid xs={16} sx={{height: 1, width: 1, alignContent: "center"}}>
           <Grid container spacing={2} columns={16} sx={{height: '100%'}}>
             <Grid xs={16} sx={{height: 0.1, color: '#eceeef'}}>
               <h2>My projects</h2>
             </Grid>
-            <Grid xs={16} sm={16/3} sx={{height: 0.4}}>
+            <Grid xs={16} sm={16/3} sx={{height: 0.5}}>
               <Card sx={{height:1}}>
                 <p>
                 <CardActionArea

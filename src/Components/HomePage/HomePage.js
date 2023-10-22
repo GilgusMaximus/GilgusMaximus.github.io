@@ -10,7 +10,7 @@ import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 export default function HomePage() {
   console.log("Helo")
   return (
-    <Grid container spacing={2} columns={16} sx={{height: '100%'}}>
+    <Grid container spacing={2} columns={16} sx={{height: '100%', width: 1}}>
       <Grid xs={16} sx={{height: '40%'}}>
         <Box
         sx={{height: '100%'}}
