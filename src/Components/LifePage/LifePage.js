@@ -25,10 +25,10 @@ export default function LifePage() {
             ></Avatar>
         </Box>
         </Grid>
-        <Grid xs={16} md={8} sx={{height: 1}}>
+        <Grid xs={16} md={8} sx={{height: 1, width: 1}}>
           {/* Elements go from left to right, top to bottom */}
           {/* Top row */}
-          <Grid container spacing={10} columns={16} sx={{height: {xs: 'fit-content', md: '100%'}, fontSize: {xs: 'smaller', md: 'small', lg:'medium'}, width: 0.75}}>
+          <Grid container spacing={5} columns={16} sx={{height: {xs: '100%', lg: '100%'}, fontSize: {sm: 'smaller', md: 'small', lg:'11pt', xl: "medium"}, width: {md: 1, lg: 0.75}}}>
           <Grid xs={8} sx={{height: {xs: 'fit-content', md: 0.5}}}>
               <Card sx={{height: 1, textAlign: 'left'}}>
               <h3>Experience</h3>
@@ -41,7 +41,7 @@ export default function LifePage() {
               <Card sx={{height: 1, textAlign: 'left'}} variant="outlined">
                 <h3>Skills</h3>
                 <p>Development with SpringBoot and Reactor in Java & NodeJS + Vue/React & Python backend</p>
-                <p>Fundamental cloud experience with Azure AZ-900 certified and Firebase</p>
+                <p>Cloud experience with Azure AZ-900 certified and Firebase</p>
                 <p>Security topics: security evaluation, secure system design, security domain knowledge</p>
                 <p>Interpersonal skills, such as team leadership, project planning and negotiations</p>
                 <p>Good stamina when going to sauna</p>

@@ -22,11 +22,11 @@ export function BaseGrid() {
   console.log("Being", pageStructure)
   return (
     <Box sx={{ flexGrow: 1, width: 1}}>
-      <Grid container spacing={2} columns={16} sx={{height: '100%', width: 1}}>
+      <Grid container spacing={2} columns={16} sx={{height: '100%', width: "101%"}}>
         {
             pageStructure.map((element, id) => {
               console.log("Element", element, id);
-              return <Grid xs={16} sx={{height: 1}} key={id}><Item sx={{height: {xs: 'fit-content', md: '75vh'}}}>{element()}</Item></Grid>
+              return <Grid xs={16} sx={{height: 1}} key={id}><Item sx={{height: {xs: 'fit-content', md: '75vh'}, width: 1}}>{element()}</Item></Grid>
             })
         }
       </Grid>
