@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.94ec4afd.css",
-    "main.js": "/static/js/main.b8e5b627.js",
+    "main.js": "/static/js/main.91b90648.js",
     "static/js/787.71e672d5.chunk.js": "/static/js/787.71e672d5.chunk.js",
     "static/media/Luca_Hohmann_CV.pdf": "/static/media/Luca_Hohmann_CV.ff352e02a922745c0395.pdf",
     "static/media/Industrial_Internet_Final_Project.pdf": "/static/media/Industrial_Internet_Final_Project.50d3e5c924f02d7f9ecc.pdf",
@@ -15,11 +15,11 @@
     "static/media/Logo_of_the_Technical_University_of_Munich.svg.png": "/static/media/Logo_of_the_Technical_University_of_Munich.svg.b59ba03031bf91818244.png",
     "index.html": "/index.html",
     "main.94ec4afd.css.map": "/static/css/main.94ec4afd.css.map",
-    "main.b8e5b627.js.map": "/static/js/main.b8e5b627.js.map",
+    "main.91b90648.js.map": "/static/js/main.91b90648.js.map",
     "787.71e672d5.chunk.js.map": "/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.94ec4afd.css",
-    "static/js/main.b8e5b627.js"
+    "static/js/main.91b90648.js"
   ]
 }
