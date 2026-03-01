@@ -10,11 +10,11 @@ const content: Record<Tab, { title: string; items: Entry[] }> = {
   experience: {
     title: 'Experience',
     items: [
-      { date: '05/25–Now 🇫🇮', text: 'IT Architect at Boston Consulting Group (BCG) Platinion' },
-      { date: '10/24–Now 🇫🇮', text: 'Software Engineer at Netcetera in digital payments solutions' },
-      { date: '05/23–10/24 🇫🇮', text: 'Junior Software Developer at Giesecke+Devrient in digital payments solutions' },
-      { date: '10/20–09/21 🇩🇪', text: 'Student assistant in E-Government and online platforms' },
-      { date: '10/18–09/20 🇩🇪', text: 'Student assistant in medical research with ML and AR' },
+      { date: '05/25–Now 🇫🇮 @ Boston Consulting Group (BCG) Platinion', text: 'IT Architect focusing on digital transformation and cloud solutions' },
+      { date: '10/24–Now 🇫🇮 @ Netcetera', text: 'Software Engineer at Netcetera in digital payments solutions' },
+      { date: '05/23–10/24 🇫🇮 @ Giesecke+Devrient', text: 'Junior Software Developer in digital payments solutions' },
+      { date: '10/20–09/21 🇩🇪 @ TUM', text: 'Student assistant in E-Government and online platforms' },
+      { date: '10/18–09/20 🇩🇪 @ TUM', text: 'Student assistant in medical research with ML and AR' },
     ],
   },
   education: {

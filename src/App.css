@@ -113,7 +113,7 @@
   position: absolute;
   left: -1.5rem;
   /* start inside the padding and calculate height so it never pokes above/below */
-  top: 3.1rem;
+  top: 3.2rem;
   height: calc(95% - 5rem);
   width: 6px;
   background: #fff;
