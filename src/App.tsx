@@ -21,17 +21,17 @@ const content: Record<Tab, { title: string; items: Entry[] }> = {
     title: 'Education',
     items: [
       { date: "2022–2023", text: "M.Sc in Informatics: Games Engineering @ Technical University of Munich 🇩🇪" },
-      { date: "2021–2022", text: "Master's computer science exchange to Aalto University, Finland 🇫🇮" },
+      { date: "2021–2022", text: "M.Sc. Computer Science exchange to Aalto University, Finland 🇫🇮" },
       { date: "2017–2020", text: "B.Sc in Informatics: Games Engineering @ Technical University of Munich 🇩🇪" },
     ],
   },
   skills: {
     title: 'Skills',
     items: [
+      { date: '', text: 'IT strategy:Planning and alignment of IT and business goals' },
       { date: '', text: 'Cloud architecture design and review' },
-      { date: '', text: 'Strategic planning and alignment of IT to business goals' },
       { date: '', text: 'Hands-on experience with Azure, Kubernetes, Java in enterprise environments' },
-      { date: '', text: 'IT Security expertise, regarding authentication, PCIDSS and cryptography' },
+      { date: '', text: 'IT Security expertise around secure authentication, PCIDSS and cryptography' },
     ],
   },
 }
@@ -70,12 +70,6 @@ function App() {
                   <path d="M4.98 3.5C4.98 4.6 4.13 5.5 2.99 5.5 1.85 5.5 1 4.6 1 3.5 1 2.4 1.85 1.5 2.99 1.5 4.13 1.5 4.98 2.4 4.98 3.5zM.5 8.98h3v12.02h-3V8.98zM8.5 8.98h2.88v1.64h.04c.4-.76 1.38-1.56 2.86-1.56 3.06 0 3.63 2.01 3.63 4.62v6.32h-3V14.3c0-1.45-.03-3.33-2.03-3.33-2.03 0-2.34 1.58-2.34 3.21v6.03h-3V8.98z"/>
                 </svg>
                 LinkedIn
-              </a>
-              <a href="#" className="link" target="_blank" rel="noopener noreferrer">
-                <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
-                  <path d="M14 2H6a2 2 0 0 0-2 2v16l4-2 4 2 4-2 4 2V6a4 4 0 0 0-4-4h-2z" />
-                </svg>
-                CV
               </a>
               <a href="https://github.com/GilgusMaximus" className="link" target="_blank" rel="noopener noreferrer">
                 <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden>
