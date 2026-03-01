@@ -20,17 +20,18 @@ const content: Record<Tab, { title: string; items: Entry[] }> = {
   education: {
     title: 'Education',
     items: [
-      { date: "2022–2023", text: "M.Sc in Informatics: Games Engineering @ Technical University of Munich" },
+      { date: "2022–2023", text: "M.Sc in Informatics: Games Engineering @ Technical University of Munich 🇩🇪" },
       { date: "2021–2022", text: "Master's computer science exchange to Aalto University, Finland 🇫🇮" },
-      { date: "2017–2020", text: "B.Sc in Informatics: Games Engineering @ Technical University of Munich" },
+      { date: "2017–2020", text: "B.Sc in Informatics: Games Engineering @ Technical University of Munich 🇩🇪" },
     ],
   },
   skills: {
     title: 'Skills',
     items: [
-      { date: '', text: 'Development with SpringBoot and Reactor in Java & NodeJS + Vue/React & Python backend' },
-      { date: '', text: 'Cloud experience with Azure AZ-900 and Firebase' },
-      { date: '', text: 'Security topics: security evaluation, secure system design' },
+      { date: '', text: 'Cloud architecture design and review' },
+      { date: '', text: 'Strategic planning and alignment of IT to business goals' },
+      { date: '', text: 'Hands-on experience with Azure, Kubernetes, Java in enterprise environments' },
+      { date: '', text: 'IT Security expertise, regarding authentication, PCIDSS and cryptography' },
     ],
   },
 }

@@ -88,6 +88,11 @@
 .links { display:flex; gap:0.5rem; flex-wrap:nowrap; }
 .link { display:inline-flex; gap:0.5rem; align-items:center; padding:0.45rem 0.6rem; border-radius:6px; background:rgba(255,255,255,0.02); color:var(--text); text-decoration:none; font-size:0.95rem; border:1px solid rgba(255,255,255,0.02); }
 .link svg { opacity:0.9 }
+
+/* larger icons when screen is narrow */
+@media (max-width: 920px) {
+  .link svg { width: 23px; height: 21px; }
+}
 .link:hover { border-color: rgba(7, 173, 146, 0.753); box-shadow:0 4px 14px rgba(1, 105, 53, 0.774); color: rgba(11, 184, 97, 0.774);}
 
 .right { display: flex; justify-content: flex-start; align-items: stretch; padding: 2rem; }
